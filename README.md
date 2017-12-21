@@ -1,6 +1,6 @@
 # mist-vble-ios-sdk
 
-#Releases
+# Releases
 - 12/21/17 - Released MistSDK 1.2.0
 - 11/20/17 - Released MistSDK 1.1.2
 - 10/10/17 - Released MistSDK 1.1.1
@@ -31,7 +31,7 @@
 ##  Integrating Mist SDK
 •    If using pod use can use  `pod 'MistSDK'`
 Or
-•    if using .framework, Download Mist SDK framework from [here](https://github.com/mistsys/mist-ios/tree/master/Frameworks)
+•    if using .framework, Download Mist SDK framework from here
 
 **Adding Framework in project**
 
