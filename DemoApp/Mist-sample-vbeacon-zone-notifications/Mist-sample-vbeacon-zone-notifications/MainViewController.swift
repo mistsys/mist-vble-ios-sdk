@@ -20,7 +20,6 @@ class MainViewController: UIViewController{
     override func viewDidLoad() {
         
         if(isTesting){
-            currentKey = "P7sAHsHucjlFrFrKJC6qjd7rS0tO6TWg"
             mainTextField.text = currentKey
         }
         
