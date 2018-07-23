@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D268E3D20EE9DA8000F3597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D268E3C20EE9DA8000F3597 /* AppDelegate.swift */; };
+		4D268E4720EE9DA9000F3597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D268E4520EE9DA9000F3597 /* LaunchScreen.storyboard */; };
+		4D8F0F3A20EE9EBA00D95691 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F0F3620EE9EBA00D95691 /* MainViewController.swift */; };
+		4D8F0F3B20EE9EBA00D95691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8F0F3720EE9EBA00D95691 /* Assets.xcassets */; };
+		4D8F0F3C20EE9EBA00D95691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8F0F3820EE9EBA00D95691 /* Main.storyboard */; };
+		4D8F0F3D20EE9EBA00D95691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F0F3920EE9EBA00D95691 /* ViewController.swift */; };
+		8EC4ECAA8FD7725AE43E8326 /* Pods_Mist_sample_vbeacon_zone_notifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3339BFEF35F2B70326B8CA /* Pods_Mist_sample_vbeacon_zone_notifications.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C3339BFEF35F2B70326B8CA /* Pods_Mist_sample_vbeacon_zone_notifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mist_sample_vbeacon_zone_notifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D268E3920EE9DA8000F3597 /* Mist-sample-vbeacon-zone-notifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mist-sample-vbeacon-zone-notifications.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D268E3C20EE9DA8000F3597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D268E4620EE9DA9000F3597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D268E4820EE9DA9000F3597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8F0F3620EE9EBA00D95691 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4D8F0F3720EE9EBA00D95691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D8F0F3820EE9EBA00D95691 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4D8F0F3920EE9EBA00D95691 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBBA5044976EFDF3E86CBAEE /* Pods-Mist-sample-vbeacon-zone-notifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mist-sample-vbeacon-zone-notifications.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mist-sample-vbeacon-zone-notifications/Pods-Mist-sample-vbeacon-zone-notifications.debug.xcconfig"; sourceTree = "<group>"; };
+		C21F00574A2297128A120B04 /* Pods-Mist-sample-vbeacon-zone-notifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mist-sample-vbeacon-zone-notifications.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mist-sample-vbeacon-zone-notifications/Pods-Mist-sample-vbeacon-zone-notifications.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D268E3620EE9DA8000F3597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC4ECAA8FD7725AE43E8326 /* Pods_Mist_sample_vbeacon_zone_notifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D268E3020EE9DA8000F3597 = {
+			isa = PBXGroup;
+			children = (
+				4D268E3B20EE9DA8000F3597 /* Mist-sample-vbeacon-zone-notifications */,
+				4D268E3A20EE9DA8000F3597 /* Products */,
+				4EB05959634F365757945506 /* Pods */,
+				69E2F1FF32D6C8CF9367716F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D268E3A20EE9DA8000F3597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D268E3920EE9DA8000F3597 /* Mist-sample-vbeacon-zone-notifications.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D268E3B20EE9DA8000F3597 /* Mist-sample-vbeacon-zone-notifications */ = {
+			isa = PBXGroup;
+			children = (
+				4D8F0F3720EE9EBA00D95691 /* Assets.xcassets */,
+				4D8F0F3820EE9EBA00D95691 /* Main.storyboard */,
+				4D8F0F3620EE9EBA00D95691 /* MainViewController.swift */,
+				4D8F0F3920EE9EBA00D95691 /* ViewController.swift */,
+				4D268E3C20EE9DA8000F3597 /* AppDelegate.swift */,
+				4D268E4520EE9DA9000F3597 /* LaunchScreen.storyboard */,
+				4D268E4820EE9DA9000F3597 /* Info.plist */,
+			);
+			path = "Mist-sample-vbeacon-zone-notifications";
+			sourceTree = "<group>";
+		};
+		4EB05959634F365757945506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBBA5044976EFDF3E86CBAEE /* Pods-Mist-sample-vbeacon-zone-notifications.debug.xcconfig */,
+				C21F00574A2297128A120B04 /* Pods-Mist-sample-vbeacon-zone-notifications.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69E2F1FF32D6C8CF9367716F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C3339BFEF35F2B70326B8CA /* Pods_Mist_sample_vbeacon_zone_notifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D268E3820EE9DA8000F3597 /* Mist-sample-vbeacon-zone-notifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D268E4B20EE9DA9000F3597 /* Build configuration list for PBXNativeTarget "Mist-sample-vbeacon-zone-notifications" */;
+			buildPhases = (
+				840FF479ACBBE5A1F23C414C /* [CP] Check Pods Manifest.lock */,
+				4D268E3520EE9DA8000F3597 /* Sources */,
+				4D268E3620EE9DA8000F3597 /* Frameworks */,
+				4D268E3720EE9DA8000F3597 /* Resources */,
+				E6DD040EDFA300DB0E0DD3C3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mist-sample-vbeacon-zone-notifications";
+			productName = "Mist-sample-vbeacon-zone-notifications";
+			productReference = 4D268E3920EE9DA8000F3597 /* Mist-sample-vbeacon-zone-notifications.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D268E3120EE9DA8000F3597 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Mist;
+				TargetAttributes = {
+					4D268E3820EE9DA8000F3597 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4D268E3420EE9DA8000F3597 /* Build configuration list for PBXProject "Mist-sample-vbeacon-zone-notifications" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D268E3020EE9DA8000F3597;
+			productRefGroup = 4D268E3A20EE9DA8000F3597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D268E3820EE9DA8000F3597 /* Mist-sample-vbeacon-zone-notifications */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D268E3720EE9DA8000F3597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8F0F3C20EE9EBA00D95691 /* Main.storyboard in Resources */,
+				4D8F0F3B20EE9EBA00D95691 /* Assets.xcassets in Resources */,
+				4D268E4720EE9DA9000F3597 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		840FF479ACBBE5A1F23C414C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mist-sample-vbeacon-zone-notifications-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6DD040EDFA300DB0E0DD3C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mist-sample-vbeacon-zone-notifications/Pods-Mist-sample-vbeacon-zone-notifications-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${PODS_ROOT}/MistSDK/Framework/MistSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MistSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mist-sample-vbeacon-zone-notifications/Pods-Mist-sample-vbeacon-zone-notifications-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D268E3520EE9DA8000F3597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8F0F3D20EE9EBA00D95691 /* ViewController.swift in Sources */,
+				4D268E3D20EE9DA8000F3597 /* AppDelegate.swift in Sources */,
+				4D8F0F3A20EE9EBA00D95691 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D268E4520EE9DA9000F3597 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D268E4620EE9DA9000F3597 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D268E4920EE9DA9000F3597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D268E4A20EE9DA9000F3597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D268E4C20EE9DA9000F3597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBA5044976EFDF3E86CBAEE /* Pods-Mist-sample-vbeacon-zone-notifications.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				INFOPLIST_FILE = "Mist-sample-vbeacon-zone-notifications/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mist.Mist-sample-vbeacon-zone-notifications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D268E4D20EE9DA9000F3597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21F00574A2297128A120B04 /* Pods-Mist-sample-vbeacon-zone-notifications.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				INFOPLIST_FILE = "Mist-sample-vbeacon-zone-notifications/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mist.Mist-sample-vbeacon-zone-notifications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D268E3420EE9DA8000F3597 /* Build configuration list for PBXProject "Mist-sample-vbeacon-zone-notifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D268E4920EE9DA9000F3597 /* Debug */,
+				4D268E4A20EE9DA9000F3597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D268E4B20EE9DA9000F3597 /* Build configuration list for PBXNativeTarget "Mist-sample-vbeacon-zone-notifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D268E4C20EE9DA9000F3597 /* Debug */,
+				4D268E4D20EE9DA9000F3597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D268E3120EE9DA8000F3597 /* Project object */;
+}
