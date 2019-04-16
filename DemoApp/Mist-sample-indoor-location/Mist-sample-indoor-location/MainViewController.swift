@@ -8,38 +8,21 @@
 import Foundation
 import UIKit
 
-class MainViewController: UIViewController{
-    @IBOutlet weak var mainTextField: UITextField!
-    let kSettings = "com.mist.new.mistsdk_credentials"
-    var currentKey:String?
-    var isTesting : Bool = true
+class MainViewController: UIViewController {
     
-    @IBOutlet weak var button: UIButton!
+    var sdkToken: String = // "<ENTER MIST SDK TOKEN>"
     
-    
+    @IBOutlet var button: UIButton!
+
     override func viewDidLoad() {
-        
-        if(isTesting){
-            mainTextField.text = currentKey
-        }
-        
-        if let myLoadedString = UserDefaults.standard.string(forKey: kSettings) {
-            currentKey = myLoadedString;
-            mainTextField.text = myLoadedString
-        }
-        
         button.layer.cornerRadius = 10
         button.clipsToBounds = true
     }
-    @IBAction func onDoneButtonClicked(_ sender: Any) {
-        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-        
+
+    @IBAction func onDoneButtonClicked(_: Any) {
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let nextViewController = storyBoard.instantiateViewController(withIdentifier: "viewController") as! ViewController
-        
-        guard let userInput = mainTextField.text, !userInput.isEmpty else {return}
-        UserDefaults.standard.set(userInput, forKey: kSettings)
-        nextViewController.clientSecret = userInput
-        
-        self.present(nextViewController, animated:true, completion:nil)
+        nextViewController.sdkSecret = sdkToken
+        present(nextViewController, animated: true, completion: nil)
     }
 }

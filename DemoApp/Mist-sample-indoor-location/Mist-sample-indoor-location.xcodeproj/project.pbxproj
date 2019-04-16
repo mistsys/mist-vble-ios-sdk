@@ -166,7 +166,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Mist-sample-indoor-location/Pods-Mist-sample-indoor-location-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Mist-sample-indoor-location/Pods-Mist-sample-indoor-location-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${PODS_ROOT}/MistSDK/Framework/MistSDK.framework",
 			);
@@ -177,7 +177,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mist-sample-indoor-location/Pods-Mist-sample-indoor-location-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mist-sample-indoor-location/Pods-Mist-sample-indoor-location-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9BD54BBC37E4EE4CC0D1E8F3 /* [CP] Check Pods Manifest.lock */ = {
@@ -353,7 +353,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S6W43QBW7N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Mist-sample-indoor-location/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -373,7 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S6W43QBW7N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Mist-sample-indoor-location/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
