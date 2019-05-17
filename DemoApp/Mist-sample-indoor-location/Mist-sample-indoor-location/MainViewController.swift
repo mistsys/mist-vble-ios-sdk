@@ -10,7 +10,7 @@ import UIKit
 
 class MainViewController: UIViewController {
     
-    var sdkToken: String = // "<ENTER MIST SDK TOKEN>"
+    var sdkToken: String = "<ENTER MIST SDK TOKEN>"
     
     @IBOutlet var button: UIButton!
 
