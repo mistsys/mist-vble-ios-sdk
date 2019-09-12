@@ -190,12 +190,10 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Mist-sample-vbeacon-zone-notifications/Pods-Mist-sample-vbeacon-zone-notifications-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${PODS_ROOT}/MistSDK/Framework/MistSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MistSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,8 +347,8 @@
 			baseConfigurationReference = BBBA5044976EFDF3E86CBAEE /* Pods-Mist-sample-vbeacon-zone-notifications.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S6W43QBW7N;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Mist-sample-vbeacon-zone-notifications/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -359,6 +357,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mist.Mist-sample-vbeacon-zone-notifications";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -369,8 +368,8 @@
 			baseConfigurationReference = C21F00574A2297128A120B04 /* Pods-Mist-sample-vbeacon-zone-notifications.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S6W43QBW7N;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Mist-sample-vbeacon-zone-notifications/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -379,6 +378,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mist.Mist-sample-vbeacon-zone-notifications";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
