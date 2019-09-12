@@ -5,7 +5,6 @@
 //  Created by Ajay Gantayet on 6/21/18.
 //
 
-import Kingfisher
 import MistSDK
 import UIKit
 
@@ -90,7 +89,13 @@ class ViewController: UIViewController, MSTCentralManagerDelegate, MSTCentralMan
             self.progressView.isHidden = true
         }
         
-        mapImageView.kf.setImage(with: URL(string: url))
+        DispatchQueue.global(qos: DispatchQoS.QoSClass.default).async {
+            guard let data = try? Data.init(contentsOf: URL(string: url)!) else { return }
+            DispatchQueue.main.async {
+                let image = UIImage.init(data: data)
+                self.mapImageView.image = image;
+            }
+        }
     }
     
     func updatePoint(point: MSTPoint) {

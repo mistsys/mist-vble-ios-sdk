@@ -7,8 +7,7 @@ target 'Mist-sample-indoor-location' do
 
   # Pods for Mist-sample-indoor-location
 	
-  pod 'MistSDK’, ‘1.4.2’
-  pod 'Kingfisher'
+  pod 'MistSDK’
 
 end
 
