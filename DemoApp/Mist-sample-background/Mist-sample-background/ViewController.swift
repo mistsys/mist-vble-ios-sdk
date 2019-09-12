@@ -7,7 +7,6 @@
 
 import UIKit
 import MistSDK
-import Kingfisher
 
 
 class ViewController: UIViewController,MSTCentralManagerDelegate,MSTCentralManagerMapDataSource ,CLLocationManagerDelegate{
@@ -119,11 +118,14 @@ class ViewController: UIViewController,MSTCentralManagerDelegate,MSTCentralManag
     
     func addIndoorMapView(url : String){
         self.progressView.isHidden = true
-        self.mapImageView.kf.setImage(with: URL(string: url))
-    }
-    
-    func updateIndoorPlan(){
         
+        DispatchQueue.global(qos: DispatchQoS.QoSClass.default).async {
+            guard let data = try? Data.init(contentsOf: URL(string: url)!) else { return }
+            DispatchQueue.main.async {
+                let image = UIImage.init(data: data)
+                self.mapImageView.image = image;
+            }
+        }
     }
     
     func mistManager(_ manager: MSTCentralManager!, didUpdateRelativeLocation relativeLocation: MSTPoint!, inMaps maps: [Any]!, at dateUpdated: Date!) {
