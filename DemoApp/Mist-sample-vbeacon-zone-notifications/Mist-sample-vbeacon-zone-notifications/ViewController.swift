@@ -66,11 +66,15 @@ class ViewController: UIViewController,MSTCentralManagerDelegate,MSTCentralManag
     
     func mistManager(_ manager: MSTCentralManager!, didUpdate map: MSTMap!, at dateUpdated: Date!) {
         DispatchQueue.main.async {
-            guard let newMap = map,newMap.mapType == .IMAGE else { return }
+            //guard let newMap = map,newMap.mapType == .IMAGE else { return }
+            
+            guard let newMap = map, let newMapImage = newMap.mapImage, newMap.mapType == .IMAGE else {
+                return
+            }
             
             self.ppm = newMap.ppm
-            self.scaleX = Float(self.mapImageView.bounds.size.width/newMap.mapImage.size.width)
-            self.scaleY = Float(self.mapImageView.bounds.size.height/newMap.mapImage.size.height)
+            self.scaleX = Float(self.mapImageView.bounds.size.width/newMapImage.size.width)
+            self.scaleY = Float(self.mapImageView.bounds.size.height/newMapImage.size.height)
             
             if let previousMap = self.currentMap{
                 if(previousMap.mapId != newMap.mapId){
