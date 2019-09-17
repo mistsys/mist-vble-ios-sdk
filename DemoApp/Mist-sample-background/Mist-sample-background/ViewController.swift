@@ -187,12 +187,14 @@ class ViewController: UIViewController,MSTCentralManagerDelegate,MSTCentralManag
                                 "tokenID"       :   org_id,
                                 "tokenSecret"   :   secret,
                                 "tokenEnvType"  :   envType]
-                    self.manager = MSTCentralManager(orgID: org_id, andOrgSecret: secret)
+                    self.manager = MSTCentralManager.init(orgID: org_id, andOrgSecret: secret)
                     self.manager?.delegate = self
                     self.manager?.setAppState(UIApplication.shared.applicationState)
-                    self.manager?.startLocationUpdates()
                     self.setAppWakeUp()
                     self.updateSettings(dict)
+                    self.manager?.startLocationUpdates()
+                   
+
                 }
                 
             }
