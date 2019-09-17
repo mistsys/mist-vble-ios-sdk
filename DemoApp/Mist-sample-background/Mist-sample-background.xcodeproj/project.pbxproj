@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -125,6 +125,7 @@
 				TargetAttributes = {
 					4D8D899F20EEA60E003A9F6B = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -170,17 +171,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Mist-sample-background/Pods-Mist-sample-background-frameworks.sh",
-				"${PODS_ROOT}/MistSDK/Framework/MistSDK.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mist-sample-background/Pods-Mist-sample-background-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MistSDK.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mist-sample-background/Pods-Mist-sample-background-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mist-sample-background/Pods-Mist-sample-background-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mist-sample-background/Pods-Mist-sample-background-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C5B9E0FA2E033BA014068F8E /* [CP] Check Pods Manifest.lock */ = {
@@ -357,7 +357,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mist.Mist-sample-background";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -377,7 +377,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mist.Mist-sample-background";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
