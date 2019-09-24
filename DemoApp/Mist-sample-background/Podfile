@@ -7,8 +7,7 @@ target 'Mist-sample-background' do
 
   # Pods for Mist-sample-background
 	
-  pod 'MistSDK’, ‘1.2.0’
-  pod 'Kingfisher', '~> 4.0'
+  pod 'MistSDK’
 
 end
 

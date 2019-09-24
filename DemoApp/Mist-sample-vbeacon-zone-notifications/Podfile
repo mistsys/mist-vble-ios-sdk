@@ -7,8 +7,7 @@ target 'Mist-sample-vbeacon-zone-notifications' do
 
   # Pods for Mist-sample-vbeacon-zone-notifications
 	
-  pod 'MistSDK’, ‘1.2.0’
-  pod 'Kingfisher', '~> 4.0'
+  pod 'MistSDK’
 
 end
 

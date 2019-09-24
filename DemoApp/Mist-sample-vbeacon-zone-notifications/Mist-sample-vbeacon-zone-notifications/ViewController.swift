@@ -7,7 +7,6 @@
 
 import UIKit
 import MistSDK
-import Kingfisher
 
 
 class ViewController: UIViewController,MSTCentralManagerDelegate,MSTCentralManagerMapDataSource {
@@ -67,11 +66,15 @@ class ViewController: UIViewController,MSTCentralManagerDelegate,MSTCentralManag
     
     func mistManager(_ manager: MSTCentralManager!, didUpdate map: MSTMap!, at dateUpdated: Date!) {
         DispatchQueue.main.async {
-            guard let newMap = map,newMap.mapType == .IMAGE else { return }
+            //guard let newMap = map,newMap.mapType == .IMAGE else { return }
+            
+            guard let newMap = map, let newMapImage = newMap.mapImage, newMap.mapType == .IMAGE else {
+                return
+            }
             
             self.ppm = newMap.ppm
-            self.scaleX = Float(self.mapImageView.bounds.size.width/newMap.mapImage.size.width)
-            self.scaleY = Float(self.mapImageView.bounds.size.height/newMap.mapImage.size.height)
+            self.scaleX = Float(self.mapImageView.bounds.size.width/newMapImage.size.width)
+            self.scaleY = Float(self.mapImageView.bounds.size.height/newMapImage.size.height)
             
             if let previousMap = self.currentMap{
                 if(previousMap.mapId != newMap.mapId){
@@ -133,11 +136,14 @@ class ViewController: UIViewController,MSTCentralManagerDelegate,MSTCentralManag
         DispatchQueue.main.async {
             self.progressView.isHidden = true
         }
-        mapImageView.kf.setImage(with: URL(string: url))
-    }
-    
-    func updateIndoorPlan(){
         
+        DispatchQueue.global(qos: DispatchQoS.QoSClass.default).async {
+            guard let data = try? Data.init(contentsOf: URL(string: url)!) else { return }
+            DispatchQueue.main.async {
+                let image = UIImage.init(data: data)
+                self.mapImageView.image = image;
+            }
+        }
     }
     
     func mistManager(_ manager: MSTCentralManager!, didUpdateRelativeLocation relativeLocation: MSTPoint!, inMaps maps: [Any]!, at dateUpdated: Date!) {

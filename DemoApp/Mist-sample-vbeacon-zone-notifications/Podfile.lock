@@ -1,20 +1,16 @@
 PODS:
-  - Kingfisher (4.6.1)
-  - MistSDK (1.2.0)
+  - MistSDK (1.5.47)
 
 DEPENDENCIES:
-  - Kingfisher (~> 4.0)
-  - MistSDK (= 1.2.0)
+  - MistSDK
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - Kingfisher
     - MistSDK
 
 SPEC CHECKSUMS:
-  Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
-  MistSDK: 5612c3d6c4c0575c3fb77287e3739410a1f26130
+  MistSDK: 3a533be2bc5119ef3493ecc31a65ba4bd8f6751c
 
-PODFILE CHECKSUM: ae3cea2752de18d01210cdc45c428db24b8a2d27
+PODFILE CHECKSUM: 279e01bcad41498a5a906464978b7e6c1ad90d21
 
 COCOAPODS: 1.5.3
