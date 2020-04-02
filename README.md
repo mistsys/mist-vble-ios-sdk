@@ -4,19 +4,19 @@
 Mist SDK will provide you the indoor bluedot experience using Mist’s 16 vBLE antenna array Access point. Using this SDK you will know where the user is and can provide proximity related notification using Mist patented *vBeacon technology*.
 
 ## Latest Mist SDK -DR release:
-Mist vBLE iOS SDK is distributed via framework file:            
+* Mist vBLE iOS SDK is distributed via framework file:            
 
-*DR latest version is 1.5.272-dr* [[Download Link]](https://github.com/mistsys/mist-vble-ios-sdk/tree/dr2/Frameworks/1.5.272-dr) .  
+  *DR latest version is 1.5.272-dr* [[Download Link]](https://github.com/mistsys/mist-vble-ios-sdk/tree/dr2/Frameworks/1.5.272-dr) .  
 
 OR
 
-Mist vBLE iOS SDK is also available on cocoapods.     
+* Mist vBLE iOS SDK is also available on cocoapods.     
 
-For Mist SDK with DR, include the following dependency in your xcode project:
+  For Mist SDK with DR, include the following dependency in your xcode project:
 
-```pod 'MistSDKDR'                    ```
+  ```pod 'MistSDKDR'                    ```
 
-[For details, see Installation using cocoapods]](https://github.com/mistsys/mist-vble-ios-sdk/wiki#installation-using-cocoa-pods) .  
+For details, see [Installation using cocoapods](https://github.com/mistsys/mist-vble-ios-sdk/wiki#installation-using-cocoa-pods) .  
 
 
 ## Integrating Mist SDK
