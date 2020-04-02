@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0CE43E23C3A9A800460E32 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0CE43D23C3A9A800460E32 /* MainViewController.swift */; };
+		0DA799A823AC23D500F13C9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA799A723AC23D500F13C9B /* AppDelegate.swift */; };
+		0DA799AA23AC23D500F13C9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA799A923AC23D500F13C9B /* SceneDelegate.swift */; };
+		0DA799AC23AC23D500F13C9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA799AB23AC23D500F13C9B /* ViewController.swift */; };
+		0DA799AF23AC23D500F13C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA799AD23AC23D500F13C9B /* Main.storyboard */; };
+		0DA799B123AC23D700F13C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA799B023AC23D700F13C9B /* Assets.xcassets */; };
+		0DA799B423AC23D700F13C9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA799B223AC23D700F13C9B /* LaunchScreen.storyboard */; };
+		6D5B18843116BB6A3DDE1FEE /* Pods_Mist_indoor_location_dr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392F008DF8A71EAA464D3FD8 /* Pods_Mist_indoor_location_dr.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0D0CE44323C3B1CC00460E32 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D0CE43D23C3A9A800460E32 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0D4816CDD50D2AC15243EAAD /* Pods-Mist-indoor-location-dr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mist-indoor-location-dr.release.xcconfig"; path = "Target Support Files/Pods-Mist-indoor-location-dr/Pods-Mist-indoor-location-dr.release.xcconfig"; sourceTree = "<group>"; };
+		0DA799A423AC23D500F13C9B /* Mist-indoor-DR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mist-indoor-DR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DA799A723AC23D500F13C9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DA799A923AC23D500F13C9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0DA799AB23AC23D500F13C9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DA799AE23AC23D500F13C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DA799B023AC23D700F13C9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DA799B323AC23D700F13C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DA799B523AC23D700F13C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		392F008DF8A71EAA464D3FD8 /* Pods_Mist_indoor_location_dr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mist_indoor_location_dr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53460DCFB51E61EDFD39FADD /* Pods-Mist-indoor-location-dr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mist-indoor-location-dr.debug.xcconfig"; path = "Target Support Files/Pods-Mist-indoor-location-dr/Pods-Mist-indoor-location-dr.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DA799A123AC23D500F13C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5B18843116BB6A3DDE1FEE /* Pods_Mist_indoor_location_dr.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DA7999B23AC23D500F13C9B = {
+			isa = PBXGroup;
+			children = (
+				0DA799A623AC23D500F13C9B /* Mist-indoor-location-dr */,
+				0DA799A523AC23D500F13C9B /* Products */,
+				A948290EFC1CEB82F308CDD2 /* Pods */,
+				58AF5AA0887A3D2ECF2ED76C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0DA799A523AC23D500F13C9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DA799A423AC23D500F13C9B /* Mist-indoor-DR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DA799A623AC23D500F13C9B /* Mist-indoor-location-dr */ = {
+			isa = PBXGroup;
+			children = (
+				0DA799A723AC23D500F13C9B /* AppDelegate.swift */,
+				0DA799A923AC23D500F13C9B /* SceneDelegate.swift */,
+				0D0CE43D23C3A9A800460E32 /* MainViewController.swift */,
+				0DA799AB23AC23D500F13C9B /* ViewController.swift */,
+				0DA799AD23AC23D500F13C9B /* Main.storyboard */,
+				0DA799B023AC23D700F13C9B /* Assets.xcassets */,
+				0DA799B223AC23D700F13C9B /* LaunchScreen.storyboard */,
+				0DA799B523AC23D700F13C9B /* Info.plist */,
+			);
+			path = "Mist-indoor-location-dr";
+			sourceTree = "<group>";
+		};
+		58AF5AA0887A3D2ECF2ED76C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				392F008DF8A71EAA464D3FD8 /* Pods_Mist_indoor_location_dr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A948290EFC1CEB82F308CDD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53460DCFB51E61EDFD39FADD /* Pods-Mist-indoor-location-dr.debug.xcconfig */,
+				0D4816CDD50D2AC15243EAAD /* Pods-Mist-indoor-location-dr.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DA799A323AC23D500F13C9B /* Mist-indoor-location-dr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DA799B823AC23D700F13C9B /* Build configuration list for PBXNativeTarget "Mist-indoor-location-dr" */;
+			buildPhases = (
+				C5687EA36444AD03959D951C /* [CP] Check Pods Manifest.lock */,
+				0DA799A023AC23D500F13C9B /* Sources */,
+				0DA799A123AC23D500F13C9B /* Frameworks */,
+				0DA799A223AC23D500F13C9B /* Resources */,
+				0D0CE44323C3B1CC00460E32 /* Embed Frameworks */,
+				1E7938E52F991321F698C917 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mist-indoor-location-dr";
+			productName = "Mist-indoor-location-dr";
+			productReference = 0DA799A423AC23D500F13C9B /* Mist-indoor-DR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DA7999C23AC23D500F13C9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Pooja Gulabchand Mishra";
+				TargetAttributes = {
+					0DA799A323AC23D500F13C9B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 0DA7999F23AC23D500F13C9B /* Build configuration list for PBXProject "Mist-indoor-location-dr" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DA7999B23AC23D500F13C9B;
+			productRefGroup = 0DA799A523AC23D500F13C9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DA799A323AC23D500F13C9B /* Mist-indoor-location-dr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DA799A223AC23D500F13C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DA799B423AC23D700F13C9B /* LaunchScreen.storyboard in Resources */,
+				0DA799B123AC23D700F13C9B /* Assets.xcassets in Resources */,
+				0DA799AF23AC23D500F13C9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E7938E52F991321F698C917 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mist-indoor-location-dr/Pods-Mist-indoor-location-dr-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mist-indoor-location-dr/Pods-Mist-indoor-location-dr-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mist-indoor-location-dr/Pods-Mist-indoor-location-dr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5687EA36444AD03959D951C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mist-indoor-location-dr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DA799A023AC23D500F13C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DA799AC23AC23D500F13C9B /* ViewController.swift in Sources */,
+				0DA799A823AC23D500F13C9B /* AppDelegate.swift in Sources */,
+				0DA799AA23AC23D500F13C9B /* SceneDelegate.swift in Sources */,
+				0D0CE43E23C3A9A800460E32 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0DA799AD23AC23D500F13C9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DA799AE23AC23D500F13C9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DA799B223AC23D700F13C9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DA799B323AC23D700F13C9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DA799B623AC23D700F13C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Cuong Ta (WZ7N2686DF)";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DA799B723AC23D700F13C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Cuong Ta (WZ7N2686DF)";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DA799B923AC23D700F13C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53460DCFB51E61EDFD39FADD /* Pods-Mist-indoor-location-dr.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Mist-indoor-location-dr",
+				);
+				INFOPLIST_FILE = "Mist-indoor-location-dr/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mist.Mist-indoor-location-dr";
+				PRODUCT_NAME = "Mist-indoor-DR";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DA799BA23AC23D700F13C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D4816CDD50D2AC15243EAAD /* Pods-Mist-indoor-location-dr.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Mist-indoor-location-dr",
+				);
+				INFOPLIST_FILE = "Mist-indoor-location-dr/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mist.Mist-indoor-location-dr";
+				PRODUCT_NAME = "Mist-indoor-DR";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DA7999F23AC23D500F13C9B /* Build configuration list for PBXProject "Mist-indoor-location-dr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DA799B623AC23D700F13C9B /* Debug */,
+				0DA799B723AC23D700F13C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DA799B823AC23D700F13C9B /* Build configuration list for PBXNativeTarget "Mist-indoor-location-dr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DA799B923AC23D700F13C9B /* Debug */,
+				0DA799BA23AC23D700F13C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DA7999C23AC23D500F13C9B /* Project object */;
+}
