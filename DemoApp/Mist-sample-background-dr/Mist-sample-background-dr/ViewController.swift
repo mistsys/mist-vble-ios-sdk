@@ -141,7 +141,7 @@ class ViewController: UIViewController, MSTCentralManagerDelegate, MSTCentralMan
                 self.manager?.setAppState(UIApplication.shared.applicationState)
                 self.manager?.startLocationUpdates()
                 self.manager?.wakeUpAppSetting(true)
-                self.manager?.setSentTimeInBackgroundInMins(0.5, restTimeInBackgroundInMins:2) //Set the Send and Rest time for location update in mins
+                self.manager?.sendWithoutRest()
                 
             }
         })
