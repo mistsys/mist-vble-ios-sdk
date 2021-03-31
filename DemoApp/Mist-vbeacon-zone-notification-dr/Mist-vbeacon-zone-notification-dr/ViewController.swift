@@ -59,10 +59,12 @@ class ViewController: UIViewController,MSTCentralManagerDelegate,MSTCentralManag
     
     //MARK:- MSTCentralManagerDelegate
     
+    // SDK cloud connection status
     func mistManager(_ manager: MSTCentralManager!, didConnect isConnected: Bool) {
         print("connected \(isConnected)")
     }
     
+    // Get map info (mapId, mapURL, width, height, PPM - pixel per meter)
     func mistManager(_ manager: MSTCentralManager!, didUpdateDRMap map: MSTMap!, at dateUpdated: Date!) {
         DispatchQueue.main.async {
             guard let newMap = map, let mapURL = map.mapURL, newMap.mapType == .IMAGE else {
@@ -90,7 +92,7 @@ class ViewController: UIViewController,MSTCentralManagerDelegate,MSTCentralManag
         }
     }
     
-    
+    // Get relative location (x, Y)
     func mistManager(_ manager: MSTCentralManager!, didUpdateDRRelativeLocation drInfo: [AnyHashable : Any]!, inMaps maps: [Any]!, at dateUpdated: Date!) {
         
         // Fetching location - Snapped data from the response
@@ -110,6 +112,8 @@ class ViewController: UIViewController,MSTCentralManagerDelegate,MSTCentralManag
         }
     }
     
+    
+    // vBeacon and Zone notification
     func mistManager(_ manager: MSTCentralManager!, didReceiveNotificationMessage payload: [AnyHashable : Any]!) {
         DispatchQueue.global().sync {
             var messageToBeDisplayed = ""

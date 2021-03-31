@@ -57,11 +57,12 @@ class ViewController: UIViewController, MSTCentralManagerDelegate, MSTCentralMan
     
     //MARK: - MSTCentralManagerDelegate
     
+    // SDK cloud connection status
     func mistManager(_ manager: MSTCentralManager!, didConnect isConnected: Bool) {
         print("didConnect callback response is: \(isConnected)")
     }
     
-    
+    // Get map info (mapId, mapURL, width, height, PPM - pixel per meter)
     func mistManager(_ manager: MSTCentralManager!, didUpdateDRMap map: MSTMap!, at dateUpdated: Date!) {
         DispatchQueue.main.async {
             guard let newMap = map, let mapURL = map.mapURL, newMap.mapType == .IMAGE else {
@@ -69,6 +70,7 @@ class ViewController: UIViewController, MSTCentralManagerDelegate, MSTCentralMan
             }
             //Conversion of image to pixel per meter
             self.ppm = newMap.ppm
+            
             
             // download image using map url
             self.downloadMap(with:URL(string: mapURL)) { (data, urlResponse, error) in
@@ -89,8 +91,9 @@ class ViewController: UIViewController, MSTCentralManagerDelegate, MSTCentralMan
         }
     }
     
-    
+    // Get location (x, Y)
     func mistManager(_ manager: MSTCentralManager!, didUpdateDRRelativeLocation drInfo: [AnyHashable : Any]!, inMaps maps: [Any]!, at dateUpdated: Date!) {
+
         
         // Fetching location Snapped data from the response
         guard let drInfo = drInfo,
@@ -100,7 +103,7 @@ class ViewController: UIViewController, MSTCentralManagerDelegate, MSTCentralMan
                 print("Error: drInfo empty")
                 return
         }
-        
+
         DispatchQueue.main.async {
             let point = MSTPoint.init(x: x, andY: y)
             if point != nil{
@@ -108,6 +111,12 @@ class ViewController: UIViewController, MSTCentralManagerDelegate, MSTCentralMan
             }
         }
     }
+    
+    // Get device direction
+    func mistManager(_ manager: MSTCentralManager!, didUpdateDRHeading heading: NSNumber!) {
+         //print(heading as Any)
+    }
+    
     
     //MARK: - MSTCentralManagerMapDataSource
     
@@ -158,7 +167,6 @@ class ViewController: UIViewController, MSTCentralManagerDelegate, MSTCentralMan
         }
         session.finishTasksAndInvalidate()
     }
-    
     
     
     // Updates the Blue Dot on the floor map

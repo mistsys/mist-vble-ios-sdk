@@ -53,10 +53,12 @@ class ViewController: UIViewController, MSTCentralManagerDelegate, MSTCentralMan
     
     //MARK: - MSTCentralManagerDelegate
     
+    // SDK cloud connection status
     func mistManager(_ manager: MSTCentralManager!, didConnect isConnected: Bool) {
         print("isConnected check : \(isConnected)")
     }
     
+    // Get map info (mapId, mapURL, width, height, PPM - pixel per meter)
     func mistManager(_ manager: MSTCentralManager!, didUpdateDRMap map: MSTMap!, at dateUpdated: Date!) {
         DispatchQueue.main.async {
             guard let newMap = map, let mapURL = map.mapURL, newMap.mapType == .IMAGE else {
@@ -84,7 +86,7 @@ class ViewController: UIViewController, MSTCentralManagerDelegate, MSTCentralMan
         }
     }
  
-      
+    // Get relative location (x, Y)
     func mistManager(_ manager: MSTCentralManager!, didUpdateDRRelativeLocation drInfo: [AnyHashable : Any]!, inMaps maps: [Any]!, at dateUpdated: Date!) {
         // Fetching location - Snapped data from the response
         guard let drInfo = drInfo,
@@ -140,8 +142,7 @@ class ViewController: UIViewController, MSTCentralManagerDelegate, MSTCentralMan
                 self.manager?.setEnviroment(env.uppercased())
                 self.manager?.setAppState(UIApplication.shared.applicationState)
                 self.manager?.startLocationUpdates()
-                self.manager?.wakeUpAppSetting(true)
-                self.manager?.sendWithoutRest()
+                self.manager?.sendWithoutRest() // background mode, send data continuously
                 
             }
         })
