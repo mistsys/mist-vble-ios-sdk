@@ -7,27 +7,13 @@ Mist SDK will provide you the indoor bluedot experience using Mist’s 16 vBLE a
 
 Mist vBLE iOS SDK is distributed via framework file:            
 
-- *Non-DR latest version is 1.5.58* [[Download SDK]](https://github.com/mistsys/mist-vble-ios-sdk/tree/master/Frameworks/1.5.58) .  
-- *DR latest version is 1.5.272-dr* [[Download SDK]](https://github.com/mistsys/mist-vble-ios-sdk/tree/dr2/Frameworks/1.5.272-dr).  
-- *DR beta version is 1.5.278-beta* [[Download SDK]](https://github.com/mistsys/mist-vble-ios-sdk/tree/dr2-beta/Frameworks/1.5.278-beta).
+- *Non-DR latest version is 1.5.58* [[Download SDK]](https://github.com/mistsys/mist-vble-ios-sdk/tree/master/Frameworks/1.5.58) .    
 
 Mist vBLE iOS SDK is also available on cocoapods.
 
 - For Mist SDK without DR, use the following dependency in your xcode project pod file:               
 
   ``` pod 'MistSDK'  ```      
-  
-- For Mist SDK with DR, use the following dependency in your xcode project pod file:          
-
-   ```pod 'MistSDKDR' ```    
-   
-- For Mist SDK with DR (Beta version), use the following dependency in your xcode project pod file:          
-
-   ```pod 'MistSDKDR-Beta' ``` 
-   
-For details, see [Installation using cocoapods](https://github.com/mistsys/mist-vble-ios-sdk/wiki#installation-using-cocoa-pods).         
-
-> Note: We recommend to use Mist SDK with DR for better location accuracy.
 
 
 ## Integrating Mist SDK
@@ -35,9 +21,7 @@ To integrate Mist vBLE iOS SDK in your app, please follow the instructions avail
 
 ## Sample Apps 
 For more detail, you can see the implementation in the sample app below.    
-* [Sample app using Mist SDK without DR](https://github.com/mistsys/mist-vble-ios-sdk/tree/master/DemoApp)    
-* [Sample app using Mist SDK with DR](https://github.com/mistsys/mist-vble-ios-sdk/tree/dr2/DemoApp)      
-
+* [Sample app using Mist SDK without DR](https://github.com/mistsys/mist-vble-ios-sdk/tree/master/DemoApp) 
 
 ## Releases   
 Check what's new via [[Releases]](https://github.com/mistsys/mist-vble-ios-sdk/releases) .  
