@@ -20,13 +20,9 @@ For details, see [Installation using cocoapods](https://github.com/mistsys/mist-
 
 ## Release Notes:
 **New:**
-* Support to enroll Org on Google Cloud Environment, in addition to AWS. 
-* Resolved concurrent map read/write memory leak crash.   
+* Support to enroll Org on AWS East. 
+* Minor bug fix.   
 
-**Improvements:**
-* Enhancements in SDK to improve the location and direction accuracy based on-device sensor data.
-* Simplified didUpdateDRHeading callback which now returns Snapped heading(direction) directly in the response.
-* Minor bug fixes
 
 ## Integrating Mist SDK
 To integrate Mist vBLE iOS SDK in your app, please follow the instructions available at [Integration Guide in Wiki section](https://github.com/mistsys/mist-vble-ios-sdk/wiki)
