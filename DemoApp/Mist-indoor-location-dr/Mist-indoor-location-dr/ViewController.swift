@@ -153,6 +153,7 @@ class ViewController: UIViewController, MSTCentralManagerDelegate, MSTCentralMan
                 self.manager = MSTCentralManager(orgID: orgId, andOrgSecret: secretToken)
                 self.manager?.delegate = self;
                 self.manager?.setEnviroment(env.uppercased()) // Set Environment for that Org belongs
+                self.manager?.setAppState(UIApplication.shared.applicationState)
                 self.manager?.startLocationUpdates()
             }
             
