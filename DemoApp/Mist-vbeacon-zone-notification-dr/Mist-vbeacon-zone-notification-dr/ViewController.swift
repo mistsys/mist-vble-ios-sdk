@@ -50,7 +50,7 @@ class ViewController: UIViewController,MSTCentralManagerDelegate,MSTCentralManag
         super.viewDidLoad()
         
         if let secret = clientSecret{
-            hardCodeReceivedQr(secret: secret)
+            enrollDeviceWithSecret(secret: secret)
         }
         mapImageView.contentMode = .scaleAspectFit
     }
@@ -153,6 +153,18 @@ class ViewController: UIViewController,MSTCentralManagerDelegate,MSTCentralManag
         }
     }
     
+    func manager(_ manager: MSTCentralManager!, didErrorOccurWith errorType: ErrorType, andDetails errorDetails: String!) {
+        
+        if errorType == ErrorType.authFailure {
+            // auth failed due to invalid or expired(30 days) secret, re-enroll to get new token
+            if let secret = clientSecret{
+                enrollDeviceWithSecret(secret: secret)
+            }
+        }
+        else if errorType == ErrorType.noBeaconsDetected{
+            //No beacon heard nearby
+        }
+    }
     
     //MARK: - MSTCentralManagerMapDataSource
     
@@ -167,7 +179,7 @@ class ViewController: UIViewController,MSTCentralManagerDelegate,MSTCentralManag
     //MARK:-
     
     // Enroll your device with MobileSDK secret
-    func hardCodeReceivedQr(secret: String){
+    func enrollDeviceWithSecret(secret: String){
         MSTOrgCredentialsManager.enrollDevice(withToken: secret, onComplete: { (response, error) in
             if error == nil, response != nil {
                 

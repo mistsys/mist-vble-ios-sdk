@@ -105,6 +105,20 @@ class ViewController: UIViewController, MSTCentralManagerDelegate, MSTCentralMan
         }
     }
     
+    func manager(_ manager: MSTCentralManager!, didErrorOccurWith errorType: ErrorType, andDetails errorDetails: String!) {
+        
+        if errorType == ErrorType.authFailure {
+            // auth failed due to invalid or expired(30 days) secret, re-enroll to get new token
+            if let sdkSecret = sdkSecret{
+                enrollDeviceWithSecret(secret: sdkSecret)
+            }
+        }
+        else if errorType == ErrorType.noBeaconsDetected{
+            //No beacon heard nearby
+        }
+    }
+    
+    
     //MARK: - MSTCentralManagerMapDataSource
     
     func map(forMapId mapId: String) -> UIImage? {
