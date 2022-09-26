@@ -6,7 +6,7 @@ Mist SDK will provide you the indoor bluedot experience using Mist’s 16 vBLE a
 ## Latest Mist SDK -DR release:
 * Mist vBLE iOS SDK is distributed via framework file:            
 
-  *DR latest version is 1.5.289* [[Download Link]](https://github.com/mistsys/mist-vble-ios-sdk/tree/master-dr2/Frameworks/1.5.289) .  
+  *DR latest version is 1.5.291* [[Download Link]](https://github.com/mistsys/mist-vble-ios-sdk/tree/master-dr2/Frameworks/1.5.289) .  
 
 OR
 
