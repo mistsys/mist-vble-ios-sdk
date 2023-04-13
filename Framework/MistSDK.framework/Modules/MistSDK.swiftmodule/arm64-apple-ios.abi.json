@@ -1,0 +1,697 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MistSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Mobile",
+        "printedName": "Mobile",
+        "declKind": "Import",
+        "moduleName": "MistSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocalCloud",
+        "printedName": "LocalCloud",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocalCloud",
+                "printedName": "MistSDK.LocalCloud",
+                "usr": "c:@M@MistSDK@objc(cs)LocalCloud"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MistSDK@objc(cs)LocalCloud(cpy)shared",
+            "mangledName": "$s7MistSDK10LocalCloudC6sharedACvpZ",
+            "moduleName": "MistSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocalCloud",
+                    "printedName": "MistSDK.LocalCloud",
+                    "usr": "c:@M@MistSDK@objc(cs)LocalCloud"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MistSDK@objc(cs)LocalCloud(cm)shared",
+                "mangledName": "$s7MistSDK10LocalCloudC6sharedACvgZ",
+                "moduleName": "MistSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "clearWayfindingPath",
+            "printedName": "clearWayfindingPath()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MistSDK@objc(cs)LocalCloud(im)clearWayfindingPath",
+            "mangledName": "$s7MistSDK10LocalCloudC19clearWayfindingPathyyF",
+            "moduleName": "MistSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "detectMotion",
+            "printedName": "detectMotion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MistSDK@objc(cs)LocalCloud(im)detectMotion",
+            "mangledName": "$s7MistSDK10LocalCloudC12detectMotionSbyF",
+            "moduleName": "MistSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "detectPercentMotion",
+            "printedName": "detectPercentMotion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MistSDK@objc(cs)LocalCloud(im)detectPercentMotion",
+            "mangledName": "$s7MistSDK10LocalCloudC19detectPercentMotionSdyF",
+            "moduleName": "MistSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLocationEstimate",
+            "printedName": "getLocationEstimate(inEpRequestJson:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MistSDK@objc(cs)LocalCloud(im)getLocationEstimateInEpRequestJson:",
+            "mangledName": "$s7MistSDK10LocalCloudC19getLocationEstimate15inEpRequestJson10Foundation4DataVSgAH_tF",
+            "moduleName": "MistSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLocationEstimates",
+            "printedName": "setLocationEstimates(m:x:y:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MistSDK@objc(cs)LocalCloud(im)setLocationEstimatesWithM:x:y:",
+            "mangledName": "$s7MistSDK10LocalCloudC20setLocationEstimates1m1x1yySS_S2dtF",
+            "moduleName": "MistSDK",
+            "objc_name": "setLocationEstimatesWithM:x:y:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMapId",
+            "printedName": "getMapId(epRequestJson:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MistSDK@objc(cs)LocalCloud(im)getMapIdWithEpRequestJson:",
+            "mangledName": "$s7MistSDK10LocalCloudC8getMapId13epRequestJsonSS10Foundation4DataVSg_tF",
+            "moduleName": "MistSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUseLE",
+            "printedName": "getUseLE()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MistSDK@objc(cs)LocalCloud(im)getUseLE",
+            "mangledName": "$s7MistSDK10LocalCloudC8getUseLESbyF",
+            "moduleName": "MistSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeDR",
+            "printedName": "initializeDR()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MistSDK@objc(cs)LocalCloud(im)initializeDR",
+            "mangledName": "$s7MistSDK10LocalCloudC12initializeDRSbyF",
+            "moduleName": "MistSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "insert",
+            "printedName": "insert(record:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MistSDK@objc(cs)LocalCloud(im)insertWithRecord:",
+            "mangledName": "$s7MistSDK10LocalCloudC6insert6recordSb10Foundation4DataVSg_tF",
+            "moduleName": "MistSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUseLE",
+            "printedName": "setUseLE(bool:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MistSDK@objc(cs)LocalCloud(im)setUseLEWithBool:",
+            "mangledName": "$s7MistSDK10LocalCloudC8setUseLE4boolySb_tF",
+            "moduleName": "MistSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "storeEpResponse",
+            "printedName": "storeEpResponse(inEpResponse:cloudLatency:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MistSDK@objc(cs)LocalCloud(im)storeEpResponseInEpResponse:cloudLatency:",
+            "mangledName": "$s7MistSDK10LocalCloudC15storeEpResponse02infG012cloudLatencyy10Foundation4DataVSg_s5Int64VtF",
+            "moduleName": "MistSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "storeMapInfo",
+            "printedName": "storeMapInfo(mapInfoJson:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MistSDK@objc(cs)LocalCloud(im)storeMapInfoWithMapInfoJson:",
+            "mangledName": "$s7MistSDK10LocalCloudC12storeMapInfo03mapG4JsonSb10Foundation4DataVSg_tF",
+            "moduleName": "MistSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "storeOneMapInfo",
+            "printedName": "storeOneMapInfo(mapInfoJson:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MistSDK@objc(cs)LocalCloud(im)storeOneMapInfoWithMapInfoJson:",
+            "mangledName": "$s7MistSDK10LocalCloudC15storeOneMapInfo03mapH4JsonSb10Foundation4DataVSg_tF",
+            "moduleName": "MistSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "storeSiteDevices",
+            "printedName": "storeSiteDevices(deviceInfoJson:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MistSDK@objc(cs)LocalCloud(im)storeSiteDevicesWithDeviceInfoJson:",
+            "mangledName": "$s7MistSDK10LocalCloudC16storeSiteDevices14deviceInfoJsonSb10Foundation4DataVSg_tF",
+            "moduleName": "MistSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "storeWayfindingPath",
+            "printedName": "storeWayfindingPath(wayPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MistSDK@objc(cs)LocalCloud(im)storeWayfindingPathWithWayPath:",
+            "mangledName": "$s7MistSDK10LocalCloudC19storeWayfindingPath03wayG0y10Foundation4DataVSg_tF",
+            "moduleName": "MistSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMobileDRVersion",
+            "printedName": "getMobileDRVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MistSDK@objc(cs)LocalCloud(im)getMobileDRVersion",
+            "mangledName": "$s7MistSDK10LocalCloudC18getMobileDRVersionSSyF",
+            "moduleName": "MistSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setConnectionStatus",
+            "printedName": "setConnectionStatus(flag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MistSDK@objc(cs)LocalCloud(im)setConnectionStatusWithFlag:",
+            "mangledName": "$s7MistSDK10LocalCloudC19setConnectionStatus4flagySb_tF",
+            "moduleName": "MistSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MistSDK@objc(cs)LocalCloud",
+        "mangledName": "$s7MistSDK10LocalCloudC",
+        "moduleName": "MistSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/dinkark\/Documents\/iOS\/iOS-Framework\/MistSDK\/LocalCloud.swift",
+      "kind": "FloatLiteral",
+      "offset": 704,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/dinkark\/Documents\/iOS\/iOS-Framework\/MistSDK\/LocalCloud.swift",
+      "kind": "FloatLiteral",
+      "offset": 730,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/dinkark\/Documents\/iOS\/iOS-Framework\/MistSDK\/LocalCloud.swift",
+      "kind": "StringLiteral",
+      "offset": 760,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
