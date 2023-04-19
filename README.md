@@ -6,7 +6,7 @@ Mist SDK will provide you the indoor bluedot experience using Mist’s 16 vBLE a
 ## Latest Release
 * Mist Location SDK iOS is distributed via framework file:            
 
-  * latest version is 2.0.5* [[Download Link]](https://github.com/mistsys/mist-vble-ios-sdk/tree/master/Frameworks) .  
+  * latest version is 2.0.5* [[Download Link]](https://github.com/mistsys/mist-vble-ios-sdk/releases/tag/2.0.5)  
 
 OR
 
