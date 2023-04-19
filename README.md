@@ -17,11 +17,11 @@ OR
   ```pod 'MistSDKDR', '2.0.5'                    ```
   
 
-## Release Notes:
+## Release Notes
 * .
 
 ## Integrating 
-To integrate Mist Location SDK for iOS in your app, please follow the instructions available here [Integration Guide in Wiki section](https://github.com/mistsys/mist-vble-ios-sdk/wiki)
+To integrate Mist Location SDK for iOS in your app, please follow the instructions available in the [Integration Guide](https://github.com/mistsys/mist-vble-ios-sdk/wiki)
 
 ## Sample Apps
 For more detail, you can see the implementation in the sample apps. 
