@@ -21,8 +21,8 @@ For details, see [Installation using cocoapods](https://github.com/mistsys/mist-
 ## Release Notes:
 * Minor bug fixes and improvements.
 
-## Integrating Mist SDK
-To integrate Mist vBLE iOS SDK in your app, please follow the instructions available at [Integration Guide in Wiki section](https://github.com/mistsys/mist-vble-ios-sdk/wiki)
+## Integrating Mist SDK Legacy [Depricated]
+[MSTCentralManager](MSTCentralManager-deprecated)
 
 ## Sample Apps:
 For more detail, you can see the implementation in the sample app [here](https://github.com/mistsys/mist-vble-ios-sdk/tree/master-dr2/DemoApp).
