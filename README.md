@@ -24,7 +24,7 @@ OR
 To integrate Mist Location SDK for iOS in your app, please follow the instructions available here [Integration Guide in Wiki section](https://github.com/mistsys/mist-vble-ios-sdk/wiki)
 
 ## Sample Apps
-For more detail, you can see the implementation in the sample app 
+For more detail, you can see the implementation in the sample apps. 
 
 ## Previous Releases
 [[Releases]](https://github.com/mistsys/mist-vble-ios-sdk/releases) 
