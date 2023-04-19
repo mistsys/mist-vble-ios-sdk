@@ -1,7 +1,7 @@
 # Mist Location SDK iOS
 
 ## Overview
-Mist SDK will provide you the indoor bluedot experience using Mist’s 16 vBLE antenna array Access point. Using this SDK you will know where the user is and can provide proximity related notification using Mist patented *vBeacon technology*.
+The Mist Location SDK provides applications the indoor bluedot experience using Mist’s 16 vBLE antenna array Access point. This technology allows your application to provide indoor location information and proximity related notification using Mist patented *vBeacon technology*.
 
 ## Latest Release
 * Mist Location SDK iOS is distributed via framework file:            
