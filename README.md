@@ -18,7 +18,8 @@ OR
   
 
 ## Release Notes
-* .
+In this version, we are introducing a new, simpler and easier way to integrate our location SDK into your applications. Implementation requires less steps and less code to accomplish. Please see our updated integration guide [here](https://github.com/mistsys/mist-vble-ios-sdk/wiki)
+
 
 ## Integrating 
 To integrate Mist Location SDK for iOS in your app, please follow the instructions available in the [Integration Guide](https://github.com/mistsys/mist-vble-ios-sdk/wiki)
