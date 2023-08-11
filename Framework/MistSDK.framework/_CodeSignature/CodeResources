@@ -90,7 +90,7 @@
 		</data>
 		<key>Headers/MistSDK-Swift.h</key>
 		<data>
-		iGownDw9cB0kqfDq8jUc3ZBA7Ro=
+		FRsH/8Le8Q18NeQq7kh91cg7Yxc=
 		</data>
 		<key>Headers/MistSDK.h</key>
 		<data>
@@ -126,31 +126,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KtkxrPY9TIhAO71UcW1ccpzZq7M=
+		dLDKHBIKrjD7Z8udwvfqE7D0Ocw=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		loMiXLsyZOPzcaEdkiWdFQcdNew=
+		OJ7jxU7jHXQDgThUvuiRr9L0ytM=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		h9uO8MP3WRQBbbil3jRTczVaIH4=
+		rl4CQnDHd7J5ECZBu8/lFo/g1ww=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Ij9OcSrWgRsT+h/nq1nuk7HOK+Q=
+		9GEIUuR1X0VJL2MxPCi+3Z7CI9E=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		8FDawcmpUfnK5J+xIdOHsDRRZbc=
+		aLfob0/gR3FDZZPd+vmtlJwQ+Co=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Ij9OcSrWgRsT+h/nq1nuk7HOK+Q=
+		9GEIUuR1X0VJL2MxPCi+3Z7CI9E=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		cMAjZx7fAhqEFhhCpLxc84RMltI=
+		zQhp6wPC4P88YzXdi8BMTWTv8ng=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -454,7 +454,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ucOT4v59pTO3i5DdeYKKCtNb1f8ArCG7v2lkVg3Q3eM=
+			Jd6kevhJ/TTKAoShEKNP8/6s6d0al6SLns+eqQ18ZjM=
 			</data>
 		</dict>
 		<key>Headers/MistSDK.h</key>
@@ -517,42 +517,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rAgA2PbRLw5mmq6zInAbj9lL5aVUClWDAKKwFiaKv+o=
+			zTwlyDUI1BGajLPO3w4mMCdK8BEsWuPfxRhZro75GC4=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lsHuSO2amj4LqQ516A/CPaBFUlQw+poh0cXDTjL2O0c=
+			5q8A49fMBHbAMX9YxRbqKiSgUl83gN/9cRTQKsgsiao=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4kh/D/3+G8TVdLs/hg1ZyUVnxod7sIsXzTXTwJWaiSg=
+			44qCnzxpGGJEWcrPuK5pppEqdKRChN0PxoDTepCCXC8=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y2Hgv1laG1feJRyx/0Dd8tzbNfjNH0oJ6IWocLhncVo=
+			xbJgbTPRq9HkmcmgvN/mX67euiUhsdVsVxcxC9hszks=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4kh/D/3+G8TVdLs/hg1ZyUVnxod7sIsXzTXTwJWaiSg=
+			44qCnzxpGGJEWcrPuK5pppEqdKRChN0PxoDTepCCXC8=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qpH+SAYQl8Bw0mc1f9So5d6nJqXir2ZCCpoTyUej9Lc=
+			cq9j1V2FB+hjPJ9nBKEQuJ4mY586sBMhctoB88bej4Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
