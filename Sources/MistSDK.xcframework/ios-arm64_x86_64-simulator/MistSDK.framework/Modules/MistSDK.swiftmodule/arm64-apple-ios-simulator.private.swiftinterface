@@ -1,0 +1,27 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MistSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import MistDR
+@_exported import MistSDK
+import Swift
+import _Concurrency
+import _StringProcessing
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class LocalCloud : ObjectiveC.NSObject {
+  @objc public static let shared: MistSDK.LocalCloud
+  @objc @discardableResult
+  public func storeSiteDevices(jsonArray: [[Swift.AnyHashable : Any]]) -> Swift.Bool
+  @objc @discardableResult
+  public func storeMapInfo(jsonArray: [[Swift.AnyHashable : Any]]) -> Swift.Bool
+  @objc public func setUseLE(bool: Swift.Bool)
+  @objc public func insert(record: [Swift.AnyHashable : Any])
+  @objc public func storeEpResponse(jsonObject: [Swift.AnyHashable : Any], cloudLatency: Swift.Int64)
+  @objc public func getMapId(jsonObject: [Swift.AnyHashable : Any]) -> Swift.String
+  @objc public func updateDrFromLe(x: Swift.Double, y: Swift.Double, mapId: Swift.String, isSVDValid: Swift.Bool, svdHeading: Swift.Double, scale: Swift.Double)
+  @objc public func getDrEstimates(jsonObject: [Swift.AnyHashable : Any]) -> Foundation.Data?
+  @objc public func detectMotion() -> Swift.Bool
+  @objc public func setConnectionStatus(connectionStatus: Swift.Bool)
+  @objc public func getMobileDRVersion() -> Swift.String
+  @objc deinit
+}

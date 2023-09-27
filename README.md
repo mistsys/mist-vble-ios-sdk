@@ -6,7 +6,7 @@ The Mist Location SDK provide applications the indoor bluedot experience using M
 ## Latest Release
 * Mist Location SDK iOS is distributed via framework file:            
 
-  * latest version is 2.0.7* [[Download Link]](https://github.com/mistsys/mist-vble-ios-sdk/releases/tag/2.0.7)  
+  * latest version is 2.0.8-beta.1* [[Download Link]](https://github.com/mistsys/mist-vble-ios-sdk/releases/tag/2.0.8-beta.1)  
 
 OR
 
@@ -14,7 +14,15 @@ OR
 
   For Mist SDK , include the following dependency in your xcode project:
 
-  ```pod 'MistSDKDR', '2.0.7'                    ```
+  ```pod 'MistSDKDR', '2.0.8-beta.1'                    ```
+  
+* Swift Package Manager
+
+Once you have your Swift package set up, adding Alamofire as a dependency is as easy as adding it to the dependencies value of your Package.swift.
+
+dependencies: [
+    .package(url: "https://github.com/mistsys/mist-vble-ios-sdk.git", from: "2.0.8-beta.1")
+]
   
 
 ## Release Notes
