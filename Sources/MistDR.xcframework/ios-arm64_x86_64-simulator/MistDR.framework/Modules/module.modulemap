@@ -1,6 +1,0 @@
-framework module MistDR {
-  umbrella header "MistDR.h"
-
-  export *
-  module * { export * }
-}
