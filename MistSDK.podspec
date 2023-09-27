@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.homepage              = "https://github.com/mistsys/mist-vble-ios-sdk"
     s.license               = { :type => 'Copyright', :file => 'LICENSE' }
     s.author                = { "Mist Systems" => "sdksupport@mist.com" }
-    s.source                = { :git => "https://github.com/mistsys/mist-vble-ios-sdk.git", :branch => "master" }
+    s.source                = { :git => "https://github.com/mistsys/mist-vble-ios-sdk.git", :tag => "#{s.version}" }
     s.vendored_frameworks   = "Sources/*.xcframework"
     s.swift_version         = '5.7'
     s.ios.deployment_target = '14.0'
