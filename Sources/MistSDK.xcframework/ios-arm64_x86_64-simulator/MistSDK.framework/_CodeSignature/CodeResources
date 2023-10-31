@@ -126,7 +126,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MDgijGI5/opHJwhJUmgpHAC2nYc=
+		SskhAGgEMYA7JQJZ2DcCeFmnB/w=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gqUFU/thB6/c+W9NeGzmGTa/Q8M=
+		+2uf4ICoGikJ+qHnr5fqUQ+AUEI=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>Modules/MistSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Yv8VNFV/qw+eOReg7/NW9BUswrE=
+		wP1ZoenKFslRCtuEc6HYwjkR/UI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -577,7 +577,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LCAUTDEhV3Lq08SDgMjjiu7sWCtWUtTqLGW3xgr289I=
+			gTtug6jIbaYmCUQ33wuPLphD/v689N1v8aLbXEDuTXQ=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -612,7 +612,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U6T5EB+wcN00/UFB2yVl9fz78sJoZw4GFkMyhfghzUc=
+			uVk0t9HNe2tltxtN+OzcOYxwUsXmlahWy2mAVgi65LQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

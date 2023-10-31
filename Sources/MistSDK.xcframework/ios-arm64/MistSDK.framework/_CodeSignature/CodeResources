@@ -126,7 +126,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		c7XhEaIBI2Z6IB+kmWMVwrWCSBw=
+		i5/MnHlSLXfIN25ypq054SYUEAg=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		rLgQCsYB+s4cDxA+TH5VCC3aY7M=
+		5pkrWCErHBtHmei8ivMyl5+WQRo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -557,7 +557,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k5gVFLM6JCut8/cVD6VBAia1/dkL3CDopd9+8eHtLro=
+			1ihaZFK0Xp3bsGQVsN/t9qqv/geJP5+JWKg2Icyr01M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
