@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
     s.name                  = "MistSDK"
-    s.version               = "2.0.8-beta.3"
+    s.version               = "2.0.8-beta.4"
     s.summary               = "Mist Location SDK for iOS"
     s.homepage              = "https://github.com/mistsys/mist-vble-ios-sdk"
     s.license               = { :type => 'Copyright', :file => 'LICENSE' }
     s.author                = { "Mist Systems" => "sdksupport@mist.com" }
-    s.source                = { :git => "https://github.com/mistsys/mist-vble-ios-sdk.git", :branch => 'release/2.0.8-beta', :tag => '2.0.8-beta.3' }
+    s.source                = { :git => "https://github.com/mistsys/mist-vble-ios-sdk.git", :branch => 'release/2.0.8-beta', :tag => '2.0.8-beta.4' }
     s.vendored_frameworks   = "Sources/*.xcframework"
     s.swift_version         = '5.7'
     s.ios.deployment_target = '14.0'
