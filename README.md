@@ -14,7 +14,7 @@ OR
 
   For Mist SDK , include the following dependency in your xcode project:
 
-  ```pod 'MistSDK', '2.0.8-beta.3'                    ```
+  ```pod 'MistSDK', '2.0.8'                    ```
   
 * and Mist Location SDK iOS also available on Swift Package Manager (SPM)
 
