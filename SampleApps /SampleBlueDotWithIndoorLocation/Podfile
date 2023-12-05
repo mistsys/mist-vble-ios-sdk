@@ -1,10 +1,13 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '12.0'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/mistsys/mist-vble-ios-sdk.git'
+
+# platform :ios, '14.0'
 
 target 'SampleBlueDotWithIndoorLocation' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'MistSDKDR' , '2.0.7'
+  pod 'MistSDK' , '2.0.8'
 
 end

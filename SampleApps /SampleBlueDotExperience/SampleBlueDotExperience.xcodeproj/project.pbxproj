@@ -19,7 +19,7 @@
 		24C018632983E6F70073A891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C018612983E6F70073A891 /* LaunchScreen.storyboard */; };
 		24C018CB2983FB5F0073A891 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C018CA2983FB5F0073A891 /* ViewModel.swift */; };
 		24C018CD2983FE570073A891 /* MistService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C018CC2983FE570073A891 /* MistService.swift */; };
-		EBD8A142DE905417FE815A56 /* Pods_SampleBlueDotExperience.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06C58EBBBADB4EDF2C47EFE /* Pods_SampleBlueDotExperience.framework */; };
+		A4C888C12B1F363500D6D12D /* MistSDK in Frameworks */ = {isa = PBXBuildFile; productRef = A4C888C02B1F363500D6D12D /* MistSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +38,6 @@
 		24C018642983E6F70073A891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
 		24C018CA2983FB5F0073A891 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		24C018CC2983FE570073A891 /* MistService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistService.swift; sourceTree = "<group>"; };
-		C06C58EBBBADB4EDF2C47EFE /* Pods_SampleBlueDotExperience.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleBlueDotExperience.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBD8A142DE905417FE815A56 /* Pods_SampleBlueDotExperience.framework in Frameworks */,
+				A4C888C12B1F363500D6D12D /* MistSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				24458D1829878B0700C34F41 /* Mobile.framework */,
-				C06C58EBBBADB4EDF2C47EFE /* Pods_SampleBlueDotExperience.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -146,17 +144,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24C018672983E6F70073A891 /* Build configuration list for PBXNativeTarget "SampleBlueDotExperience" */;
 			buildPhases = (
-				9B201362A7A55470E2A5FD0A /* [CP] Check Pods Manifest.lock */,
 				24C0184F2983E6F60073A891 /* Sources */,
 				24C018502983E6F60073A891 /* Frameworks */,
 				24C018512983E6F60073A891 /* Resources */,
-				9B68D7748C6F7ED785074377 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SampleBlueDotExperience;
+			packageProductDependencies = (
+				A4C888C02B1F363500D6D12D /* MistSDK */,
+			);
 			productName = SampleBlueDotExperience;
 			productReference = 24C018532983E6F60073A891 /* SampleBlueDotExperience.app */;
 			productType = "com.apple.product-type.application";
@@ -185,6 +184,9 @@
 				Base,
 			);
 			mainGroup = 24C0184A2983E6F60073A891;
+			packageReferences = (
+				A4C888BF2B1F363500D6D12D /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */,
+			);
 			productRefGroup = 24C018542983E6F60073A891 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -206,48 +208,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		9B201362A7A55470E2A5FD0A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SampleBlueDotExperience-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9B68D7748C6F7ED785074377 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleBlueDotExperience/Pods-SampleBlueDotExperience-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleBlueDotExperience/Pods-SampleBlueDotExperience-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleBlueDotExperience/Pods-SampleBlueDotExperience-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		24C0184F2983E6F60073A891 /* Sources */ = {
@@ -492,6 +452,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A4C888BF2B1F363500D6D12D /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mistsys/mist-vble-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A4C888C02B1F363500D6D12D /* MistSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4C888BF2B1F363500D6D12D /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */;
+			productName = MistSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 24C0184B2983E6F60073A891 /* Project object */;
 }

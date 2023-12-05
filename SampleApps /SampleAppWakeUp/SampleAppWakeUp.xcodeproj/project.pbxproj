@@ -20,6 +20,8 @@
 		24C0187E2983E7190073A891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C0187C2983E7190073A891 /* Main.storyboard */; };
 		24C018802983E71A0073A891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C0187F2983E71A0073A891 /* Assets.xcassets */; };
 		24C018832983E71A0073A891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C018812983E71A0073A891 /* LaunchScreen.storyboard */; };
+		A4C888BE2B1F326E00D6D12D /* MistSDK in Frameworks */ = {isa = PBXBuildFile; productRef = A4C888BD2B1F326E00D6D12D /* MistSDK */; };
+		A4C888C32B1F36E000D6D12D /* MistSDK in Frameworks */ = {isa = PBXBuildFile; productRef = A4C888C22B1F36E000D6D12D /* MistSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4C888C32B1F36E000D6D12D /* MistSDK in Frameworks */,
+				A4C888BE2B1F326E00D6D12D /* MistSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +109,6 @@
 			children = (
 				24C018752983E7190073A891 /* SampleAppWakeUp */,
 				24C018742983E7190073A891 /* Products */,
-				E94BA4452A250A2851B32BAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,13 +132,6 @@
 			path = SampleAppWakeUp;
 			sourceTree = "<group>";
 		};
-		E94BA4452A250A2851B32BAC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,17 +139,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24C018872983E71A0073A891 /* Build configuration list for PBXNativeTarget "SampleAppWakeUp" */;
 			buildPhases = (
-				A7A6EEB7616380CAD02AD324 /* [CP] Check Pods Manifest.lock */,
 				24C0186F2983E7190073A891 /* Sources */,
 				24C018702983E7190073A891 /* Frameworks */,
 				24C018712983E7190073A891 /* Resources */,
-				C519A56440FC11C67D2E9808 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SampleAppWakeUp;
+			packageProductDependencies = (
+				A4C888BD2B1F326E00D6D12D /* MistSDK */,
+				A4C888C22B1F36E000D6D12D /* MistSDK */,
+			);
 			productName = SampleAppWakeUp;
 			productReference = 24C018732983E7190073A891 /* SampleAppWakeUp.app */;
 			productType = "com.apple.product-type.application";
@@ -183,6 +181,7 @@
 			);
 			mainGroup = 24C0186A2983E7190073A891;
 			packageReferences = (
+				A4C888BC2B1F326E00D6D12D /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */,
 			);
 			productRefGroup = 24C018742983E7190073A891 /* Products */;
 			projectDirPath = "";
@@ -205,48 +204,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		A7A6EEB7616380CAD02AD324 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SampleAppWakeUp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C519A56440FC11C67D2E9808 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleAppWakeUp/Pods-SampleAppWakeUp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleAppWakeUp/Pods-SampleAppWakeUp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleAppWakeUp/Pods-SampleAppWakeUp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		24C0186F2983E7190073A891 /* Sources */ = {
@@ -490,6 +447,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A4C888BC2B1F326E00D6D12D /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mistsys/mist-vble-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A4C888BD2B1F326E00D6D12D /* MistSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4C888BC2B1F326E00D6D12D /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */;
+			productName = MistSDK;
+		};
+		A4C888C22B1F36E000D6D12D /* MistSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4C888BC2B1F326E00D6D12D /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */;
+			productName = MistSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 24C0186B2983E7190073A891 /* Project object */;
 }

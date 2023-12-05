@@ -16,6 +16,7 @@
 		24C0189E2983E73A0073A891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C0189C2983E73A0073A891 /* Main.storyboard */; };
 		24C018A02983E73B0073A891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C0189F2983E73B0073A891 /* Assets.xcassets */; };
 		24C018A32983E73B0073A891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C018A12983E73B0073A891 /* LaunchScreen.storyboard */; };
+		A4C888C92B1F381500D6D12D /* MistSDK in Frameworks */ = {isa = PBXBuildFile; productRef = A4C888C82B1F381500D6D12D /* MistSDK */; };
 		DCFB7637F682078C621009DF /* Pods_SampleIndoorLocationReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D6C672FF3E5CEF92AB9A32 /* Pods_SampleIndoorLocationReporting.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4C888C92B1F381500D6D12D /* MistSDK in Frameworks */,
 				DCFB7637F682078C621009DF /* Pods_SampleIndoorLocationReporting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +108,9 @@
 			dependencies = (
 			);
 			name = SampleIndoorLocationReporting;
+			packageProductDependencies = (
+				A4C888C82B1F381500D6D12D /* MistSDK */,
+			);
 			productName = SampleIndoorLocationReporting;
 			productReference = 24C018932983E73A0073A891 /* SampleIndoorLocationReporting.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +139,9 @@
 				Base,
 			);
 			mainGroup = 24C0188A2983E73A0073A891;
+			packageReferences = (
+				A4C888C72B1F381500D6D12D /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */,
+			);
 			productRefGroup = 24C018942983E73A0073A891 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -436,6 +444,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A4C888C72B1F381500D6D12D /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mistsys/mist-vble-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A4C888C82B1F381500D6D12D /* MistSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4C888C72B1F381500D6D12D /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */;
+			productName = MistSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 24C0188B2983E73A0073A891 /* Project object */;
 }
