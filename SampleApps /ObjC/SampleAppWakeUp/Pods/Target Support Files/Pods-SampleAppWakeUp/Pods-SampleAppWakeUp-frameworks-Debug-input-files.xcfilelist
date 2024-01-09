@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-SampleAppWakeUp/Pods-SampleAppWakeUp-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/MistSDK/MistDR.framework/MistDR
+${PODS_XCFRAMEWORKS_BUILD_DIR}/MistSDK/MistSDK.framework/MistSDK
