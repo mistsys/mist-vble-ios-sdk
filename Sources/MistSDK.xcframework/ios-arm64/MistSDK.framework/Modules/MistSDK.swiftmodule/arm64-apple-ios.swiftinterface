@@ -1,28 +1,716 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MistSDK
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MistSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
+import CommonCrypto
+import CoreBluetooth
+import CoreMotion
+import CryptoKit
 import Foundation
 import MistDR
 @_exported import MistSDK
 import Swift
+import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class LocalCloud : ObjectiveC.NSObject {
-  @objc public static let shared: MistSDK.LocalCloud
-  @objc @discardableResult
-  public func storeSiteDevices(jsonArray: [[Swift.AnyHashable : Any]]) -> Swift.Bool
-  @objc @discardableResult
-  public func storeMapInfo(jsonArray: [[Swift.AnyHashable : Any]]) -> Swift.Bool
-  @objc public func setUseLE(bool: Swift.Bool)
-  @objc public func insert(record: [Swift.AnyHashable : Any])
-  @objc public func storeEpResponse(jsonObject: [Swift.AnyHashable : Any], cloudLatency: Swift.Int64)
-  @objc public func getMapId(jsonObject: [Swift.AnyHashable : Any]) -> Swift.String
-  @objc public func updateDrFromLe(x: Swift.Double, y: Swift.Double, mapId: Swift.String, isSVDValid: Swift.Bool, svdHeading: Swift.Double, scale: Swift.Double)
-  @objc public func getDrEstimates(jsonObject: [Swift.AnyHashable : Any]) -> Foundation.Data?
-  @objc public func detectMotion() -> Swift.Bool
-  @objc public func setConnectionStatus(connectionStatus: Swift.Bool)
-  @objc public func getMobileDRVersion() -> Swift.String
+extension MistSDK.Mist {
+  public struct VirtualBeacon : Swift.Hashable {
+    public let orgId: Swift.String?
+    public let siteId: Swift.String?
+    public let mapId: Swift.String?
+    public let vbId: Swift.String?
+    public let vbUUID: Swift.String?
+    public let vbMajor: Swift.Int?
+    public let vbMinor: Swift.Int?
+    public let power: Swift.Int?
+    public let powerMode: Swift.String?
+    public let message: Swift.String?
+    public let createdTime: Swift.Int64?
+    public let modifiedTime: Swift.Int64?
+    public let tagId: Swift.String?
+    public let name: Swift.String?
+    public let url: Swift.String?
+    public let position: MistSDK.VBeaconPosition?
+    public var additionalInfo: MistSDK.Mist.AdditionalInfo?
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (lhs: MistSDK.Mist.VirtualBeacon, rhs: MistSDK.Mist.VirtualBeacon) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public struct AdditionalInfo {
+    public let userId: Swift.String?
+    public let clientType: Swift.String?
+    public let isRandom: Swift.Bool?
+    public let proximity: Swift.String?
+    public let distance: Swift.Double?
+    public let rssi: Swift.Double?
+    public let timestamp: Swift.String?
+    public let orientation: Swift.Int?
+    public let direction: Swift.String?
+    public let timeEpoch: Swift.Int64?
+    public let timezone: Swift.String?
+    public let tzOffset: Swift.Int64?
+    public let origin: Swift.Int?
+    public let level: Swift.Int64?
+    public let recipient: Swift.String?
+    public let recipientId: Swift.String?
+  }
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class MistMap : ObjectiveC.NSObject {
+  @objc final public let id: Swift.String
+  @objc final public let name: Swift.String
+  @objc final public let siteId: Swift.String
+  @objc final public let orgId: Swift.String
+  @objc final public let type: Swift.String
+  @objc final public let locked: Swift.Bool
+  @objc final public let originX: Swift.Double
+  @objc final public let originY: Swift.Double
+  @objc final public let width: Swift.Double
+  @objc final public let height: Swift.Double
+  @objc final public let ppm: Swift.Double
+  @objc final public let widthM: Swift.Double
+  @objc final public let heightM: Swift.Double
+  @objc final public let createdTime: Swift.Int64
+  @objc final public let modifiedTime: Swift.Int64
+  @objc final public let url: Swift.String
+  @objc final public let thumbnailUrl: Swift.String
+  @objc public var wayFindingPath: MistSDK.MistPath?
+  @objc public var wallPath: MistSDK.MistPath?
+  @objc public var siteSurveyPath: [MistSDK.MistPath]?
+  @objc public var wayfinding: MistSDK.Wayfinding?
+  @objc public var latlngBr: MistSDK.LatlngBr?
+  @objc public var latlngTl: MistSDK.LatlngTl?
+  @objc public var drInternal: MistSDK.DRInternal?
+  @objc public var geoRefParamsv2: MistSDK.GeoRefParamsV2?
+  @objc final public let orientation: Swift.Int
+  @objc final public let occupancyLimit: Swift.Int64
+  @objc final public let intendedCoverageAreas: [[Swift.String : Swift.String]]
   @objc deinit
 }
+@objc @_hasMissingDesignatedInitializers @objcMembers public class MistPath : ObjectiveC.NSObject {
+  @objc final public let id: Swift.String
+  @objc final public let name: Swift.String
+  @objc final public let coordinate: Swift.String
+  @objc final public let nodes: [MistSDK.MistNodes]?
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class MistNodes : ObjectiveC.NSObject {
+  @objc final public let name: Swift.String
+  @objc final public let position: MistSDK.MistPosition
+  @objc final public let edges: [Swift.String : Swift.String]
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class MistPosition : ObjectiveC.NSObject {
+  @objc final public let x: Swift.Double
+  @objc final public let y: Swift.Double
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class Wayfinding : ObjectiveC.NSObject {
+  @objc final public let _default: Swift.String?
+  @objc final public let jibestream: MistSDK.Jibestream?
+  @objc final public let micello: MistSDK.Micello?
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class Jibestream : ObjectiveC.NSObject {
+  @objc final public let venueId: Swift.String
+  @objc final public let mapId: Swift.String
+  @objc final public let ppm: Swift.Double
+  @objc final public let clientId: Swift.String
+  @objc final public let clientSecret: Swift.String
+  @objc final public let customerId: Swift.String
+  @objc final public let endpointUrl: Swift.String
+  @objc final public let mmpp: Swift.Double
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class Micello : ObjectiveC.NSObject {
+  @objc final public let accountKey: Swift.String
+  @objc final public let mapId: Swift.String
+  @objc final public let scaleRatio: Swift.Double
+  @objc final public let drawingId: Swift.String
+  @objc final public let geoId: Swift.String
+  @objc final public let defaultLevelId: Swift.String
+  @objc final public let cid: Swift.String
+  @objc final public let did: Swift.String
+  @objc final public let lid: Swift.String
+  @objc final public let imageUrl: Swift.String
+  @objc final public let zoomLevel: Swift.String
+  @objc final public let enablePOI: Swift.String
+  @objc public var transformParams: MistSDK.TransformParams?
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class TransformParams : ObjectiveC.NSObject {
+  @objc final public let cid: Swift.Int
+  @objc final public let did: Swift.Int
+  @objc final public let lid: Swift.Int
+  @objc final public let transform: [Swift.Double]
+  @objc final public let mercToNat: [Swift.Double]
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class LatlngBr : ObjectiveC.NSObject {
+  @objc final public let lat: Swift.Double
+  @objc final public let lng: Swift.Double
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class LatlngTl : ObjectiveC.NSObject {
+  @objc final public let lat: Swift.Double
+  @objc final public let lng: Swift.Double
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class DRInternal : ObjectiveC.NSObject {
+  @objc final public let config: MistSDK.Config?
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class Config : ObjectiveC.NSObject {
+  @objc public var mapTransition: MistSDK.MapTransition?
+  @objc public var dr: MistSDK.DR?
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class MapTransition : ObjectiveC.NSObject {
+  final public let active: Swift.Bool?
+  final public let tsMaxNames: Swift.Double?
+  final public let mapHysteresis: Swift.Double?
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class DR : ObjectiveC.NSObject {
+  final public let pfJumpDist: Swift.Double?
+  final public let mapTransitionHold: Swift.Double?
+  final public let maxLatency: Swift.Double?
+  final public let maxSnapDistance: Swift.Double?
+  final public let speedCorrectionTimescale: Swift.Double?
+  final public let speed: Swift.Double?
+  final public let jumpHyst: Swift.Double?
+  final public let headingCorrectionTimescale: Swift.Double?
+  final public let compassCutover: Swift.Double?
+  final public let secondsExpireEPResponse: Swift.Double?
+  final public let gyroCompassTimescale: Swift.Double?
+  final public let androidMotionFilterThreshold: Swift.Double?
+  final public let iOSMotionFilterThreshold: Swift.Double?
+  final public let timescaleTowardPF: Swift.Double?
+  final public let locationCorrectionTimescale: Swift.Double?
+  final public let active: Swift.Bool?
+  final public let timescaleTowardSnap: Swift.Double?
+  final public let headMismatchLength: Swift.Double?
+  final public let nsNapAngles: Swift.Double?
+  final public let flagRawToSnap: Swift.Bool?
+  final public let maxNudge: Swift.Int64?
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class GeoRefParamsV2 : ObjectiveC.NSObject {
+  final public let active: Swift.Bool?
+  @objc final public let p1: MistSDK.GeoRefPoint?
+  @objc final public let p2: MistSDK.GeoRefPoint?
+  @objc final public let p3: MistSDK.GeoRefPoint?
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class GeoRefPoint : ObjectiveC.NSObject {
+  @objc final public let mistXY: MistSDK.GeoRefXY?
+  @objc final public let latLon: MistSDK.GeoRefLatLon?
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class GeoRefXY : ObjectiveC.NSObject {
+  final public let x: Swift.Double?
+  final public let y: Swift.Double?
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class GeoRefLatLon : ObjectiveC.NSObject {
+  final public let x: Swift.Double?
+  final public let y: Swift.Double?
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class MistPoint : ObjectiveC.NSObject {
+  @objc final public let map: MistSDK.MistMap
+  @objc final public let x: Swift.Double
+  @objc final public let y: Swift.Double
+  @objc final public let lat: Swift.Double
+  @objc final public let lon: Swift.Double
+  @objc final public let latency: Swift.Int64
+  @objc final public let heading: Swift.Double
+  @objc final public let speed: Swift.Double
+  @objc final public let hasMotion: Swift.Bool
+  @objc public init(x: Swift.Double, y: Swift.Double)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class VBeaconPosition : ObjectiveC.NSObject, Swift.Decodable {
+  @objc final public let x: Swift.Double
+  @objc final public let y: Swift.Double
+  @objc final public let z: Swift.Double
+  @objc deinit
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class MistVirtualBeacon : ObjectiveC.NSObject {
+  @objc final public let orgId: Swift.String?
+  @objc final public let siteId: Swift.String?
+  @objc final public let mapId: Swift.String?
+  @objc final public let vbId: Swift.String?
+  @objc final public let vbUUID: Swift.String?
+  final public let vbMajor: Swift.Int?
+  final public let vbMinor: Swift.Int?
+  final public let power: Swift.Int?
+  @objc final public let powerMode: Swift.String?
+  @objc final public let message: Swift.String?
+  final public let createdTime: Swift.Int64?
+  final public let modifiedTime: Swift.Int64?
+  @objc final public let tagId: Swift.String?
+  @objc final public let name: Swift.String?
+  @objc final public let url: Swift.String?
+  @objc public var position: MistSDK.VBeaconPosition?
+  @objc public var additionalInfo: MistSDK.VBAdditionalInfo?
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class VBAdditionalInfo : ObjectiveC.NSObject {
+  @objc final public let userId: Swift.String
+  @objc final public let clientType: Swift.String
+  @objc final public let isRandom: Swift.Bool
+  @objc final public let proximity: Swift.String
+  @objc final public let distance: Swift.Double
+  @objc final public let rssi: Swift.Double
+  @objc final public let timestamp: Swift.String
+  @objc final public let orientation: Swift.Int
+  @objc final public let direction: Swift.String
+  @objc final public let timeEpoch: Swift.Int64
+  @objc final public let timezone: Swift.String
+  @objc final public let tzOffset: Swift.Int64
+  @objc final public let origin: Swift.Int
+  @objc final public let level: Swift.Int64
+  @objc final public let recipient: Swift.String
+  @objc final public let recipientId: Swift.String
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class MistZone : ObjectiveC.NSObject {
+  @objc final public let name: Swift.String?
+  @objc final public let timestamp: Swift.String?
+  @objc final public let origin: Swift.String?
+  final public let level: Swift.Int?
+  @objc final public let recipient: Swift.String?
+  @objc final public let recipientId: Swift.String?
+  @objc final public let userId: Swift.String?
+  @objc final public let zoneId: Swift.String?
+  @objc final public let mapId: Swift.String?
+  @objc final public let siteId: Swift.String?
+  @objc final public let orgId: Swift.String?
+  @objc final public let clientType: Swift.String?
+  final public let isRandom: Swift.Bool?
+  final public let zonePosition: MistSDK.ZonePosition?
+  final public let trigger: MistSDK.Mist.ZoneTrigger?
+  @objc final public let time: Swift.String?
+  @objc final public let sinceTime: Swift.String?
+  final public let timeEpoch: Swift.Int64?
+  final public let sinceTimeEpoch: Swift.Int64?
+  @objc final public let sessionId: Swift.String?
+  final public let duration: Swift.Int64?
+  @objc deinit
+}
+public typealias ErrorType = Swift.Error
+public protocol MistIndoorLocationDelegate : AnyObject {
+  func didReceive(event: MistSDK.Mist.Event)
+}
+@objc public protocol IndoorLocationDelegate {
+  @objc func didUpdateMap(_ map: MistSDK.MistMap!)
+  @objc func didUpdateRelativeLocation(_ relativeLocation: MistSDK.MistPoint!)
+  @objc optional func didReceivedOrgInfoWithTokenName(_ tokenName: Swift.String!, andOrgID orgID: Swift.String!)
+  @objc optional func didErrorOccurWithType(_ errorType: any Swift.Error, andMessage errorMessage: Swift.String!)
+}
+@objc public protocol VirtualBeaconsDelegate {
+  @objc func didRangeVirtualBeacon(_ mistVirtualBeacon: MistSDK.MistVirtualBeacon)
+  @objc optional func didUpdateVirtualBeaconList(_ mistVirtualBeacons: [MistSDK.MistVirtualBeacon])
+}
+@objc public protocol ZonesDelegate {
+  @objc optional func didEnterZone(_ mistZone: MistSDK.MistZone)
+  @objc optional func didExitZone(_ mistZone: MistSDK.MistZone)
+}
+@objc public protocol MapsListDelegate {
+  @objc func didReceiveAllMaps(_ maps: [MistSDK.MistMap])
+}
+@objc public protocol ClientInformationDelegate {
+  @objc func onSuccess(_ clientName: Swift.String)
+  @objc func onError(_ errorType: any Swift.Error, andMessage errorMessage: Swift.String)
+}
+extension MistSDK.Mist {
+  public enum Event {
+    case onReceivedClientInfo(MistSDK.Mist.Client)
+    case onReceivedAllMaps([MistSDK.Mist.Map])
+    case onMapUpdate(MistSDK.Mist.Map)
+    case onUpdateVirtualBeaconList([MistSDK.Mist.VirtualBeacon])
+    case onRelativeLocationUpdate(MistSDK.Mist.Point)
+    case onEnterZone(MistSDK.Mist.Zone)
+    case onExitZone(MistSDK.Mist.Zone)
+    case onRangeVirtualBeacon(MistSDK.Mist.VirtualBeacon)
+    case onError(any Swift.Error)
+    case onMessage(MistSDK.Mist.Message)
+  }
+}
+public enum MistError : Swift.Error {
+  case invalidSDKToken
+  case sdkNotStarted
+  case notConnected
+  case authorizationFailure
+  case clientEnrollmentFailed
+  case clientUpdationFailed
+  case unableToGetClientDetails
+  case mapGraphDataNotAvailable
+  case noBleFound
+  public static func == (a: MistSDK.MistError, b: MistSDK.MistError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MistSDK.MistError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+extension MistSDK.Mist {
+  public struct Configuration : Swift.Equatable {
+    public init(sdkToken: Swift.String, clientUUID: Swift.String? = "", logLevel: MistSDK.Mist.LogLevel = .info, enableLog: Swift.Bool = false)
+    public static func == (a: MistSDK.Mist.Configuration, b: MistSDK.Mist.Configuration) -> Swift.Bool
+  }
+  public enum LogLevel : Swift.Int, Swift.Equatable {
+    case verbose
+    case debug
+    case info
+    case warning
+    case error
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+}
+extension MistSDK.Mist.Configuration {
+  public static func `default`(sdkToken: Swift.String, enableLog: Swift.Bool = false) -> MistSDK.Mist.Configuration
+}
+extension MistSDK.Mist {
+  public struct Message {
+    public var description: Swift.String?
+  }
+}
+public struct BeaconPosition : Swift.Decodable {
+  public let x: Swift.Double?
+  public let y: Swift.Double?
+  public let z: Swift.Double?
+  public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers final public class IndoorLocationManager : ObjectiveC.NSObject {
+  @objc public static let shared: MistSDK.IndoorLocationManager
+  weak final public var delegate: (any MistSDK.MistIndoorLocationDelegate)?
+  @objc weak final public var indoorLocationDelegate: (any MistSDK.IndoorLocationDelegate)?
+  @objc weak final public var virtualBeaconsDelegate: (any MistSDK.VirtualBeaconsDelegate)?
+  @objc weak final public var zonesDelegate: (any MistSDK.ZonesDelegate)?
+  @objc weak final public var mapsListDelegate: (any MistSDK.MapsListDelegate)?
+  @objc weak final public var clientInformationDelegate: (any MistSDK.ClientInformationDelegate)?
+  @objc deinit
+}
+extension MistSDK.IndoorLocationManager {
+  @objc public static func sharedInstance(_ token: Swift.String) -> MistSDK.IndoorLocationManager
+  @objc @available(*, deprecated, message: "Use clientUUID instead")
+  public static func getMistUUID() -> Swift.String
+  @objc final public func startWithIndoorLocationDelegate(_ delegate: any MistSDK.IndoorLocationDelegate)
+  final public func start(with config: MistSDK.Mist.Configuration, delegate: any MistSDK.MistIndoorLocationDelegate)
+  @objc final public func stop()
+  final public func getWayfindingPath(to destination: MistSDK.MistPosition) -> [MistSDK.Mist.Node]?
+  @objc final public func saveClientInformation(_ clientName: Swift.String, withDelegate: any MistSDK.ClientInformationDelegate)
+  @objc final public func getClientInformation(with delegate: any MistSDK.ClientInformationDelegate)
+  @objc final public func saveClient(name: Swift.String)
+  @objc final public func getClientInformation()
+  @objc final public var clientUUID: Swift.String {
+    @objc get
+  }
+}
+extension MistSDK.Mist {
+  public struct Map : Swift.Decodable {
+    public let id: Swift.String?
+    public let name: Swift.String?
+    public let siteId: Swift.String?
+    public let orgId: Swift.String?
+    public let type: Swift.String?
+    public let locked: Swift.Bool?
+    public let originX: Swift.Double?
+    public let originY: Swift.Double?
+    public let width: Swift.Double?
+    public let height: Swift.Double?
+    public let ppm: Swift.Double?
+    public let widthM: Swift.Double?
+    public let heightM: Swift.Double?
+    public let createdTime: Swift.Int64?
+    public let modifiedTime: Swift.Int64?
+    public let url: Swift.String?
+    public let thumbnailUrl: Swift.String?
+    public let wayFindingPath: MistSDK.Mist.Path?
+    public let wallPath: MistSDK.Mist.Path?
+    public let siteSurveyPath: [MistSDK.Mist.Path]?
+    public let wayfinding: MistSDK.Mist.Wayfinding?
+    public let latlngBr: MistSDK.Mist.LatlngBr?
+    public let latlngTl: MistSDK.Mist.LatlngTl?
+    public let drInternal: MistSDK.Mist.DRInternal?
+    public let geoRefParamsv2: MistSDK.Mist.GeoRefParamsV2?
+    public let orientation: Swift.Int?
+    public let occupancyLimit: Swift.Int64?
+    public let intendedCoverageAreas: [[Swift.String : Swift.String]]?
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct Path : Swift.Decodable, Swift.Equatable {
+    public let id: Swift.String?
+    public let name: Swift.String?
+    public let coordinate: Swift.String?
+    public let nodes: [MistSDK.Mist.Nodes]?
+    public static func == (a: MistSDK.Mist.Path, b: MistSDK.Mist.Path) -> Swift.Bool
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct Nodes : Swift.Decodable, Swift.Equatable {
+    public let name: Swift.String?
+    public let position: MistSDK.Mist.Position?
+    public let edges: [Swift.String : Swift.String]?
+    public static func == (a: MistSDK.Mist.Nodes, b: MistSDK.Mist.Nodes) -> Swift.Bool
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct Position : Swift.Decodable, Swift.Equatable {
+    public let x: Swift.Double?
+    public let y: Swift.Double?
+    public static func == (a: MistSDK.Mist.Position, b: MistSDK.Mist.Position) -> Swift.Bool
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct Wayfinding : Swift.Decodable, Swift.Equatable {
+    public let _default: Swift.String?
+    public let jibestream: MistSDK.Mist.Jibestream?
+    public let micello: MistSDK.Mist.Micello?
+    public static func == (a: MistSDK.Mist.Wayfinding, b: MistSDK.Mist.Wayfinding) -> Swift.Bool
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct Jibestream : Swift.Decodable, Swift.Equatable {
+    public let venueId: Swift.String?
+    public let mapId: Swift.String?
+    public let ppm: Swift.Double?
+    public let clientId: Swift.String?
+    public let clientSecret: Swift.String?
+    public let customerId: Swift.String?
+    public let endpointUrl: Swift.String?
+    public let mmpp: Swift.Double?
+    public init(from decoder: any Swift.Decoder) throws
+    public static func == (a: MistSDK.Mist.Jibestream, b: MistSDK.Mist.Jibestream) -> Swift.Bool
+  }
+  public struct Micello : Swift.Decodable, Swift.Equatable {
+    public let accountKey: Swift.String?
+    public let mapId: Swift.String?
+    public let scaleRatio: Swift.Double?
+    public let drawingId: Swift.String?
+    public let geoId: Swift.String?
+    public let defaultLevelId: Swift.String?
+    public let cid: Swift.String?
+    public let did: Swift.String?
+    public let lid: Swift.String?
+    public let imageUrl: Swift.String?
+    public let zoomLevel: Swift.String?
+    public let enablePOI: Swift.String?
+    public let transformParams: MistSDK.Mist.TransformParams?
+    public static func == (a: MistSDK.Mist.Micello, b: MistSDK.Mist.Micello) -> Swift.Bool
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct TransformParams : Swift.Decodable, Swift.Equatable {
+    public let cid: Swift.Int?
+    public let did: Swift.Int?
+    public let lid: Swift.Int?
+    public let transform: [Swift.Double]?
+    public let mercToNat: [Swift.Double]?
+    public static func == (a: MistSDK.Mist.TransformParams, b: MistSDK.Mist.TransformParams) -> Swift.Bool
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct LatlngBr : Swift.Decodable, Swift.Equatable {
+    public let lat: Swift.Double?
+    public let lng: Swift.Double?
+    public static func == (a: MistSDK.Mist.LatlngBr, b: MistSDK.Mist.LatlngBr) -> Swift.Bool
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct LatlngTl : Swift.Decodable, Swift.Equatable {
+    public let lat: Swift.Double?
+    public let lng: Swift.Double?
+    public static func == (a: MistSDK.Mist.LatlngTl, b: MistSDK.Mist.LatlngTl) -> Swift.Bool
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct DRInternal : Swift.Decodable, Swift.Equatable {
+    public let config: MistSDK.Mist.Config?
+    public static func == (a: MistSDK.Mist.DRInternal, b: MistSDK.Mist.DRInternal) -> Swift.Bool
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct Config : Swift.Decodable, Swift.Equatable {
+    public let mapTransition: MistSDK.Mist.MapTransition?
+    public let dr: MistSDK.Mist.DR?
+    public static func == (a: MistSDK.Mist.Config, b: MistSDK.Mist.Config) -> Swift.Bool
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct MapTransition : Swift.Decodable, Swift.Equatable {
+    public let active: Swift.Bool?
+    public let tsMaxNames: Swift.Double?
+    public let mapHysteresis: Swift.Double?
+    public static func == (a: MistSDK.Mist.MapTransition, b: MistSDK.Mist.MapTransition) -> Swift.Bool
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct DR : Swift.Decodable, Swift.Equatable {
+    public let pfJumpDist: Swift.Double?
+    public let mapTransitionHold: Swift.Double?
+    public let maxLatency: Swift.Double?
+    public let maxSnapDistance: Swift.Double?
+    public let speedCorrectionTimescale: Swift.Double?
+    public let speed: Swift.Double?
+    public let jumpHyst: Swift.Double?
+    public let headingCorrectionTimescale: Swift.Double?
+    public let compassCutover: Swift.Double?
+    public let secondsExpireEPResponse: Swift.Double?
+    public let gyroCompassTimescale: Swift.Double?
+    public let androidMotionFilterThreshold: Swift.Double?
+    public let iOSMotionFilterThreshold: Swift.Double?
+    public let timescaleTowardPF: Swift.Double?
+    public let locationCorrectionTimescale: Swift.Double?
+    public let active: Swift.Bool?
+    public let timescaleTowardSnap: Swift.Double?
+    public let headMismatchLength: Swift.Double?
+    public let nsNapAngles: Swift.Double?
+    public let flagRawToSnap: Swift.Bool?
+    public let maxNudge: Swift.Int64?
+    public static func == (a: MistSDK.Mist.DR, b: MistSDK.Mist.DR) -> Swift.Bool
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct GeoRefParamsV2 : Swift.Decodable, Swift.Equatable {
+    public let active: Swift.Bool?
+    public let p1: MistSDK.Mist.GeoRefPoint?
+    public let p2: MistSDK.Mist.GeoRefPoint?
+    public let p3: MistSDK.Mist.GeoRefPoint?
+    public static func == (a: MistSDK.Mist.GeoRefParamsV2, b: MistSDK.Mist.GeoRefParamsV2) -> Swift.Bool
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct GeoRefPoint : Swift.Decodable, Swift.Equatable {
+    public let mistXY: MistSDK.Mist.GeoRefXY?
+    public let latLon: MistSDK.Mist.GeoRefLatLon?
+    public static func == (a: MistSDK.Mist.GeoRefPoint, b: MistSDK.Mist.GeoRefPoint) -> Swift.Bool
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct GeoRefXY : Swift.Decodable, Swift.Equatable {
+    public let x: Swift.Double?
+    public let y: Swift.Double?
+    public static func == (a: MistSDK.Mist.GeoRefXY, b: MistSDK.Mist.GeoRefXY) -> Swift.Bool
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct GeoRefLatLon : Swift.Decodable, Swift.Equatable {
+    public let x: Swift.Double?
+    public let y: Swift.Double?
+    public static func == (a: MistSDK.Mist.GeoRefLatLon, b: MistSDK.Mist.GeoRefLatLon) -> Swift.Bool
+    public init(from decoder: any Swift.Decoder) throws
+  }
+}
+extension MistSDK.Mist.Map : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: MistSDK.Mist.Map, b: MistSDK.Mist.Map) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MistSDK.Mist {
+  public struct Node {
+    public var name: Swift.String?
+    public var position: MistSDK.MistPosition?
+  }
+}
+extension MistSDK.Mist.Node : Swift.Hashable {
+  public static func == (lhs: MistSDK.Mist.Node, rhs: MistSDK.Mist.Node) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MistSDK.Mist {
+  public struct Zone {
+    public let name: Swift.String?
+    public let timestamp: Swift.String?
+    public let origin: Swift.String?
+    public let level: Swift.Int?
+    public let recipient: Swift.String?
+    public let recipientId: Swift.String?
+    public let userId: Swift.String?
+    public let zoneId: Swift.String?
+    public let mapId: Swift.String?
+    public let siteId: Swift.String?
+    public let orgId: Swift.String?
+    public let clientType: Swift.String?
+    public let isRandom: Swift.Bool?
+    public let zonePosition: MistSDK.ZonePosition?
+    public let trigger: MistSDK.Mist.ZoneTrigger?
+    public let time: Swift.String?
+    public let sinceTime: Swift.String?
+    public let timeEpoch: Swift.Int64?
+    public let sinceTimeEpoch: Swift.Int64?
+    public let sessionId: Swift.String?
+    public let duration: Swift.Int64?
+  }
+  public enum ZoneTrigger : Swift.String, Swift.Decodable {
+    case enter
+    case exit
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+extension MistSDK.Mist.Zone : Swift.Equatable {
+  public static func == (lhs: MistSDK.Mist.Zone, rhs: MistSDK.Mist.Zone) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers final public class Mist {
+  public static var sdkVersion: Swift.String {
+    get
+  }
+  public static var drVersion: Swift.String {
+    get
+  }
+  @objc deinit
+}
+extension MistSDK.Mist {
+  public struct Client : Swift.Codable {
+    public let name: Swift.String?
+    public let orgId: Swift.String?
+    public let orgName: Swift.String?
+    public let deviceId: Swift.String?
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+}
+public struct ZonePosition : Swift.Decodable, Swift.Equatable {
+  public let x: Swift.Double?
+  public let y: Swift.Double?
+  public let z: Swift.Double?
+  public static func == (a: MistSDK.ZonePosition, b: MistSDK.ZonePosition) -> Swift.Bool
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Swift.String {
+  @inlinable internal static var empty: Swift.String {
+    get { "" }
+  }
+}
+extension MistSDK.Mist {
+  public struct Point {
+    public let map: MistSDK.Mist.Map
+    public let x: Swift.Double
+    public let y: Swift.Double
+    public let lat: Swift.Double
+    public let lon: Swift.Double
+    public let latency: Swift.Int64
+    public let heading: Swift.Double
+    public let speed: Swift.Double
+    public let hasMotion: Swift.Bool
+  }
+}
+extension MistSDK.Mist.Point {
+  public var toPosition: MistSDK.MistPosition {
+    get
+  }
+}
+extension MistSDK.MistError : Swift.Equatable {}
+extension MistSDK.MistError : Swift.Hashable {}
+extension MistSDK.Mist.LogLevel : Swift.Hashable {}
+extension MistSDK.Mist.LogLevel : Swift.RawRepresentable {}
+extension MistSDK.Mist.ZoneTrigger : Swift.Equatable {}
+extension MistSDK.Mist.ZoneTrigger : Swift.Hashable {}
+extension MistSDK.Mist.ZoneTrigger : Swift.RawRepresentable {}

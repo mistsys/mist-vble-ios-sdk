@@ -10,12 +10,23 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@interface DREstimateData : NSObject
+@property(nonatomic, copy) NSString *jsonData;
+@property(nonatomic, assign) double scale;
+@property(nonatomic, assign) double magHeading;
+@property(nonatomic, assign) double leX;
+@property(nonatomic, assign) double leY;
+@property(nonatomic, assign) double vX;
+@property(nonatomic, assign) double vY;
+@end
+
 @interface DrLib : NSObject
 
 + (void)initDR;
-+ (NSArray*)getDrEstimate:(NSString*)jsonData scale:(double)scale magHeading:(double)magHeading leX:(double)leX leY:(double)leY vX:(double)vX vY:(double)vY;
++ (NSArray*)getDrEstimateWith:(DREstimateData*)inputData;
 + (void)adjustHeading:(double)magHeading;
 
 @end
+
 
 NS_ASSUME_NONNULL_END

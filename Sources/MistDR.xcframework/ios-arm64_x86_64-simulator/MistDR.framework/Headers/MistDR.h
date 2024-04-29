@@ -16,3 +16,7 @@ FOUNDATION_EXPORT const unsigned char MistDRVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <MistDR/PublicHeader.h>
 
 #import <MistDR/DrLib.h>
+#import <MistDR/SRWebSocket.h>
+#import <MistDR/SRSecurityPolicy.h>
+#import <MistDR/WSHelper.h>
+#import <MistDR/Reachability.h>
