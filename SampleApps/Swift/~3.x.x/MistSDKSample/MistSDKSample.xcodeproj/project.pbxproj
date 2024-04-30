@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2456F4C12BDFA4290037F0F6 /* MistSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 2456F4C02BDFA4290037F0F6 /* MistSDK */; };
+		246168A22B26D14F00CFBF5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246168992B26D14F00CFBF5D /* ViewController.swift */; };
+		246168A32B26D14F00CFBF5D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2461689A2B26D14F00CFBF5D /* ViewModel.swift */; };
+		246168A42B26D14F00CFBF5D /* MapDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2461689C2B26D14F00CFBF5D /* MapDownloader.swift */; };
+		246168A52B26D14F00CFBF5D /* MistService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2461689D2B26D14F00CFBF5D /* MistService.swift */; };
+		246168A62B26D14F00CFBF5D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2461689F2B26D14F00CFBF5D /* Constants.swift */; };
+		246168A72B26D14F00CFBF5D /* HUDProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246168A02B26D14F00CFBF5D /* HUDProgress.swift */; };
+		246168A82B26D14F00CFBF5D /* CGPoint+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246168A12B26D14F00CFBF5D /* CGPoint+Extention.swift */; };
+		24C174DE2A13B255007312E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C174DD2A13B255007312E2 /* AppDelegate.swift */; };
+		24C174E02A13B255007312E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C174DF2A13B255007312E2 /* SceneDelegate.swift */; };
+		24C174E52A13B255007312E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C174E32A13B255007312E2 /* Main.storyboard */; };
+		24C174E72A13B257007312E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C174E62A13B257007312E2 /* Assets.xcassets */; };
+		24C174EA2A13B257007312E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C174E82A13B257007312E2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		244274112A385C9600112009 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E9DE482B84890000D7D1F9 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		246168992B26D14F00CFBF5D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2461689A2B26D14F00CFBF5D /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		2461689C2B26D14F00CFBF5D /* MapDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDownloader.swift; sourceTree = "<group>"; };
+		2461689D2B26D14F00CFBF5D /* MistService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MistService.swift; sourceTree = "<group>"; };
+		2461689F2B26D14F00CFBF5D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		246168A02B26D14F00CFBF5D /* HUDProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUDProgress.swift; sourceTree = "<group>"; };
+		246168A12B26D14F00CFBF5D /* CGPoint+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extention.swift"; sourceTree = "<group>"; };
+		24C174DA2A13B255007312E2 /* MistSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MistSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C174DD2A13B255007312E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24C174DF2A13B255007312E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		24C174E42A13B255007312E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24C174E62A13B257007312E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24C174E92A13B257007312E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24C174EB2A13B257007312E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24C174D72A13B255007312E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2456F4C12BDFA4290037F0F6 /* MistSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		246168982B26D14F00CFBF5D /* BlueDot */ = {
+			isa = PBXGroup;
+			children = (
+				246168992B26D14F00CFBF5D /* ViewController.swift */,
+				2461689A2B26D14F00CFBF5D /* ViewModel.swift */,
+			);
+			path = BlueDot;
+			sourceTree = "<group>";
+		};
+		2461689B2B26D14F00CFBF5D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2461689C2B26D14F00CFBF5D /* MapDownloader.swift */,
+				2461689D2B26D14F00CFBF5D /* MistService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2461689E2B26D14F00CFBF5D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2461689F2B26D14F00CFBF5D /* Constants.swift */,
+				246168A02B26D14F00CFBF5D /* HUDProgress.swift */,
+				246168A12B26D14F00CFBF5D /* CGPoint+Extention.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		24C174D12A13B255007312E2 = {
+			isa = PBXGroup;
+			children = (
+				24C174DC2A13B255007312E2 /* MistSDKSample */,
+				24C174DB2A13B255007312E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24C174DB2A13B255007312E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24C174DA2A13B255007312E2 /* MistSDKSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24C174DC2A13B255007312E2 /* MistSDKSample */ = {
+			isa = PBXGroup;
+			children = (
+				24C174EB2A13B257007312E2 /* Info.plist */,
+				24C174DD2A13B255007312E2 /* AppDelegate.swift */,
+				24C174DF2A13B255007312E2 /* SceneDelegate.swift */,
+				246168982B26D14F00CFBF5D /* BlueDot */,
+				2461689B2B26D14F00CFBF5D /* Services */,
+				2461689E2B26D14F00CFBF5D /* Utilities */,
+				24D0AF032BE0D01E001DFB53 /* Resources */,
+			);
+			path = MistSDKSample;
+			sourceTree = "<group>";
+		};
+		24D0AF032BE0D01E001DFB53 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24C174E32A13B255007312E2 /* Main.storyboard */,
+				24C174E62A13B257007312E2 /* Assets.xcassets */,
+				24C174E82A13B257007312E2 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24C174D92A13B255007312E2 /* MistSDKSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C174EE2A13B257007312E2 /* Build configuration list for PBXNativeTarget "MistSDKSample" */;
+			buildPhases = (
+				24C174D62A13B255007312E2 /* Sources */,
+				24C174D72A13B255007312E2 /* Frameworks */,
+				24C174D82A13B255007312E2 /* Resources */,
+				244274112A385C9600112009 /* Embed Frameworks */,
+				24E9DE482B84890000D7D1F9 /* Embed App Clips */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MistSDKSample;
+			packageProductDependencies = (
+				2456F4C02BDFA4290037F0F6 /* MistSDK */,
+			);
+			productName = MistSDKSample;
+			productReference = 24C174DA2A13B255007312E2 /* MistSDKSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24C174D22A13B255007312E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1410;
+				ORGANIZATIONNAME = "Juniper Networks";
+				TargetAttributes = {
+					24C174D92A13B255007312E2 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 24C174D52A13B255007312E2 /* Build configuration list for PBXProject "MistSDKSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24C174D12A13B255007312E2;
+			packageReferences = (
+				2456F4BF2BDFA4290037F0F6 /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */,
+			);
+			productRefGroup = 24C174DB2A13B255007312E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24C174D92A13B255007312E2 /* MistSDKSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24C174D82A13B255007312E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C174EA2A13B257007312E2 /* LaunchScreen.storyboard in Resources */,
+				24C174E72A13B257007312E2 /* Assets.xcassets in Resources */,
+				24C174E52A13B255007312E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C174D62A13B255007312E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246168A42B26D14F00CFBF5D /* MapDownloader.swift in Sources */,
+				246168A22B26D14F00CFBF5D /* ViewController.swift in Sources */,
+				246168A72B26D14F00CFBF5D /* HUDProgress.swift in Sources */,
+				24C174DE2A13B255007312E2 /* AppDelegate.swift in Sources */,
+				246168A32B26D14F00CFBF5D /* ViewModel.swift in Sources */,
+				246168A62B26D14F00CFBF5D /* Constants.swift in Sources */,
+				246168A52B26D14F00CFBF5D /* MistService.swift in Sources */,
+				24C174E02A13B255007312E2 /* SceneDelegate.swift in Sources */,
+				246168A82B26D14F00CFBF5D /* CGPoint+Extention.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24C174E32A13B255007312E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C174E42A13B255007312E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24C174E82A13B257007312E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C174E92A13B257007312E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24C174EC2A13B257007312E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24C174ED2A13B257007312E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24C174EF2A13B257007312E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MistSDKSample/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "require bluetooth access to scan mist beacon";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.MistSDKSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24C174F02A13B257007312E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MistSDKSample/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "require bluetooth access to scan mist beacon";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.MistSDKSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24C174D52A13B255007312E2 /* Build configuration list for PBXProject "MistSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C174EC2A13B257007312E2 /* Debug */,
+				24C174ED2A13B257007312E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C174EE2A13B257007312E2 /* Build configuration list for PBXNativeTarget "MistSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C174EF2A13B257007312E2 /* Debug */,
+				24C174F02A13B257007312E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2456F4BF2BDFA4290037F0F6 /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mistsys/mist-vble-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2456F4C02BDFA4290037F0F6 /* MistSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2456F4BF2BDFA4290037F0F6 /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */;
+			productName = MistSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 24C174D22A13B255007312E2 /* Project object */;
+}
