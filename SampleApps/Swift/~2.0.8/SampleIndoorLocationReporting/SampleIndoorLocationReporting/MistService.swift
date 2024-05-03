@@ -6,15 +6,12 @@
 //
 
 import Foundation
-
+import MistSDK
 
 protocol MistService {
     func start()
     func stop()
 }
-
-#if !targetEnvironment(simulator)
-import MistSDK
 
 class RealMistService: NSObject, MistService {
     let mistManager: IndoorLocationManager
@@ -32,7 +29,7 @@ class RealMistService: NSObject, MistService {
         //mistManager.clientInformationDelegate = self
         
         // start mist indoor location service
-        mistManager.start(with: self)
+        mistManager.startWithIndoorLocationDelegate(self)
     }
     
     func stop() {
@@ -44,7 +41,7 @@ class RealMistService: NSObject, MistService {
 // MARK :- IndoorLocationDelegate
 extension RealMistService: IndoorLocationDelegate {
 
-    func didUpdate(_ map: MistMap!) {
+    func didUpdateMap(_ map: MistMap!) {
         debugPrint(">>> didUpdate MistMap.name = \(map.name.description)")
     }
 
@@ -52,23 +49,23 @@ extension RealMistService: IndoorLocationDelegate {
         debugPrint(">>> didUpdateRelativeLocation MistPoint = x=\(relativeLocation.x) y=\(relativeLocation.y)")
     }
 
-    func didReceivedOrgInfo(withTokenName tokenName: String!, andOrgID orgID: String!) {
+    func didReceivedOrgInfoWithTokenName(_ tokenName: String!, andOrgID orgID: String!) {
         debugPrint(">>> didReceivedOrgInfo tokenName = \(tokenName.description) orgID = \(orgID.description)")
     }
 
-    func didErrorOccur(with errorType: ErrorType, andMessage errorMessage: String!) {
-        debugPrint(">>> didErrorOccur errorType = \(errorType.rawValue) errorMessage = \(errorMessage.description)")
+    func didErrorOccurWithType(_ errorType: ErrorType, andMessage errorMessage: String!) {
+        debugPrint(">>> didErrorOccur errorType = \(errorType) errorMessage = \(String(describing: errorMessage))")
     }
 }
 
 // MARK :- VirtualBeaconsDelegate
 extension RealMistService: VirtualBeaconsDelegate {
     
-    func didRangeVirtualBeacon(_ mistVirtualBeacon: MistVirtualBeacon!) {
-        debugPrint(">>> didRangeVirtualBeacon MistVirtualBeacon.name = \(mistVirtualBeacon.name.description)")
+    func didRangeVirtualBeacon(_ mistVirtualBeacon: MistVirtualBeacon) {
+        debugPrint(">>> didRangeVirtualBeacon MistVirtualBeacon.name = \(String(describing: mistVirtualBeacon.name))")
     }
     
-    func didUpdateVirtualBeaconList(_ mistVirtualBeacons: [MistVirtualBeacon]!) {
+    func didUpdateVirtualBeaconList(_ mistVirtualBeacons: [MistVirtualBeacon]) {
         debugPrint(">>> didUpdateVirtualBeaconList mistVirtualBeacons = \(mistVirtualBeacons.count)")
     }
 }
@@ -76,18 +73,18 @@ extension RealMistService: VirtualBeaconsDelegate {
 // MARK :- ZonesDelegate
 extension RealMistService: ZonesDelegate {
     
-    func didEnter(_ mistZone: MistZone!) {
-        debugPrint(">>> didEnter MistZone name = \(mistZone.name.description) ID = \(mistZone.zoneID.description)")
+    func didEnterZone(_ mistZone: MistZone) {
+        debugPrint(">>> didEnter MistZone name = \(String(describing: mistZone.name)) ID = \(String(describing: mistZone.zoneId))")
     }
     
-    func didExitZone(_ mistZone: MistZone!) {
-        debugPrint(">>> didExitZone MistZone name = \(mistZone.name.description) ID = \(mistZone.zoneID.description)")
+    func didExitZone(_ mistZone: MistZone) {
+        debugPrint(">>> didExitZone MistZone name = \(String(describing: mistZone.name)) ID = \(String(describing: mistZone.zoneId))")
     }
 }
 
 // MARK :- MapsListDelegate
 extension RealMistService: MapsListDelegate {
-    func didReceiveAllMaps(_ maps: [MistMap]!) {
+    func didReceiveAllMaps(_ maps: [MistMap]) {
         debugPrint(">>> didReceiveAllMaps maps = \(maps.count)")
     }
 }
@@ -95,13 +92,11 @@ extension RealMistService: MapsListDelegate {
 // MARK :- ClientInformationDelegate
 extension RealMistService: ClientInformationDelegate {
     
-    func onSuccess(_ clientName: String!) {
+    func onSuccess(_ clientName: String) {
         debugPrint(">>> ClientInformationDelegate onSuccess name = \(clientName.description)")
     }
     
-    func onError(_ errorType: ErrorType, andMessage errorMessage: String!) {
+    func onError(_ errorType: ErrorType, andMessage errorMessage: String) {
         debugPrint(">>> ClientInformationDelegate errorMessage = \(errorMessage.description)")
     }
 }
-
-#endif

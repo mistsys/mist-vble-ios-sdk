@@ -31,7 +31,7 @@ class RealMistService: NSObject, MistService {
     }
     
     func start() {
-        mistManager.start(with: self)
+        mistManager.startWithIndoorLocationDelegate(self)
         isStarted = true
     }
     
@@ -44,7 +44,7 @@ class RealMistService: NSObject, MistService {
 // MARK :- IndoorLocationDelegate
 extension RealMistService: IndoorLocationDelegate {
     
-    func didUpdate(_ map: MistMap!) {
+    func didUpdateMap(_ map: MistMap!) {
         debugPrint(">>> didUpdate MistMap.name = \(map.name.description)")
     }
     
@@ -54,9 +54,7 @@ extension RealMistService: IndoorLocationDelegate {
         delegate?.didUpdateRelativeLocation(location)
     }
     
-    func didErrorOccur(with errorType: Error, andMessage errorMessage: String!) {
-        debugPrint(">>> didErrorOccur errorType = \(errorType.rawValue) errorMessage = \(errorMessage.description)")
+    func didErrorOccurWithType(_ errorType: Error, andMessage errorMessage: String!) {
+        debugPrint(">>> didErrorOccur errorType = \(errorType) errorMessage = \(String(describing: errorMessage))")
     }
 }
-
-#endif

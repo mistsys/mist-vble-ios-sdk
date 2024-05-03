@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import MistSDK
 
 protocol MistService {
     var  isStarted: Bool { get }
@@ -18,9 +19,6 @@ protocol MistServiceDelegate: AnyObject {
     func didUpdateMap(_ map: URL)
     func didUpdateLocation(_ location: CGPoint)
 }
-
-#if !targetEnvironment(simulator)
-import MistSDK
 
 class RealMistService: NSObject, MistService {
     weak var delegate: MistServiceDelegate?
@@ -39,7 +37,7 @@ class RealMistService: NSObject, MistService {
     }
     
     func start() {
-        mistManager.start(with: self)
+        mistManager.startWithIndoorLocationDelegate(self)
         isStarted = true
     }
     
@@ -52,9 +50,9 @@ class RealMistService: NSObject, MistService {
 // MARK :- IndoorLocationDelegate
 extension RealMistService: IndoorLocationDelegate {
     
-    func didUpdate(_ map: MistMap!) {
+    func didUpdateMap(_ map: MistMap!) {
         currentMap = map
-        guard let mapPath = map.url, let mapURL = URL(string: mapPath) else { return }
+        guard let mapURL = URL(string: map.url) else { return }
         delegate?.didUpdateMap(mapURL)
         debugPrint(">>> didUpdate MistMap mapName=\(map.name.description)")
     }
@@ -68,9 +66,7 @@ extension RealMistService: IndoorLocationDelegate {
         delegate?.didUpdateLocation(location)
     }
     
-    func didErrorOccur(with errorType: ErrorType, andMessage errorMessage: String!) {
-        debugPrint(">>> didErrorOccur errorType = \(errorType.rawValue) errorMessage = \(errorMessage.description)")
+    func didErrorOccurWithType(_ errorType: Error, andMessage errorMessage: String!) {
+        debugPrint(">>> didErrorOccur errorType = \(errorType) errorMessage = \(String(describing: errorMessage))")
     }
 }
-
-#endif

@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mistsys/mist-vble-ios-sdk.git",
       "state" : {
-        "revision" : "e8f61a44a723cee616406417f714ad8e82f31edd",
-        "version" : "2.0.8"
+        "revision" : "bd73c4287ecc6ac6706d283d825774953d484568",
+        "version" : "3.0.0"
       }
     }
   ],

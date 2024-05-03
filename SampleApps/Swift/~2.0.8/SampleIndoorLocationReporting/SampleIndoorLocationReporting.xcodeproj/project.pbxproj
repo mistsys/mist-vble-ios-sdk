@@ -451,7 +451,7 @@
 			repositoryURL = "https://github.com/mistsys/mist-vble-ios-sdk.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.8;
+				minimumVersion = 3.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

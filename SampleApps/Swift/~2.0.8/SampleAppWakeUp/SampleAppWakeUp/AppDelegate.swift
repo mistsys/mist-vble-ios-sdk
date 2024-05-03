@@ -73,7 +73,6 @@ extension AppDelegate {
 extension AppDelegate {
     
     func configureAndStartMistService() {
-        #if !targetEnvironment(simulator)
         let wakeUpService = RealWakeupService()
         let mistService = RealMistService(token: Mist.SDK.token)
         let viewModel = ViewModel(wakeUpService: wakeUpService, mistService: mistService)
@@ -81,7 +80,6 @@ extension AppDelegate {
         mistService.delegate = viewModel
         self.viewModel = viewModel
         viewModel.startMistService()
-        #endif
         debugPrint(">>> Mist Service Started ...")
     }
 }
