@@ -381,7 +381,8 @@
 				DEVELOPMENT_TEAM = S6W43QBW7N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MistSDKSample/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "require bluetooth access to scan mist beacon";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth access required to scan Mist AP Beacon.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion sensor data is used to provide a more accurate indoor location estimate.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -412,7 +413,8 @@
 				DEVELOPMENT_TEAM = S6W43QBW7N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MistSDKSample/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "require bluetooth access to scan mist beacon";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth access required to scan Mist AP Beacon.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion sensor data is used to provide a more accurate indoor location estimate.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

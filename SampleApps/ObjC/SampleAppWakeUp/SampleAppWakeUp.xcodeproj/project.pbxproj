@@ -67,7 +67,6 @@
 				AEF425DB9266128BE7B70A7F /* Pods-SampleAppWakeUp.debug.xcconfig */,
 				E33D3780A41A5129C236BC71 /* Pods-SampleAppWakeUp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -236,7 +235,7 @@
 			);
 			mainGroup = 59D2AA2A2B1072F400168AE6;
 			packageReferences = (
-				A4740E2A2B20567900C60B3A /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk.git" */,
+				A4740E2A2B20567900C60B3A /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */,
 			);
 			productRefGroup = 59D2AA342B1072F400168AE6 /* Products */;
 			projectDirPath = "";
@@ -460,9 +459,8 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleAppWakeUp/Resources/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "\"BT ACCESS\"";
-				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "\"BT ACCESS\"";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "\"Location access\"";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth access required to scan Mist AP Beacon.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion sensor data is used to provide a more accurate indoor location estimate.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -494,9 +492,8 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleAppWakeUp/Resources/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "\"BT ACCESS\"";
-				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "\"BT ACCESS\"";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "\"Location access\"";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth access required to scan Mist AP Beacon.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion sensor data is used to provide a more accurate indoor location estimate.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -540,7 +537,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A4740E2A2B20567900C60B3A /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk.git" */ = {
+		A4740E2A2B20567900C60B3A /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/mistsys/mist-vble-ios-sdk.git";
 			requirement = {
@@ -553,7 +550,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		A4740E2B2B20567900C60B3A /* MistSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A4740E2A2B20567900C60B3A /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk.git" */;
+			package = A4740E2A2B20567900C60B3A /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */;
 			productName = MistSDK;
 		};
 /* End XCSwiftPackageProductDependency section */

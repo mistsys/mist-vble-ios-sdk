@@ -454,10 +454,11 @@
 				DEVELOPMENT_TEAM = S6W43QBW7N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleBlueDotWithIndoorLocation/Resources/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Access required to scan near by Mist AP Beacon";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth access required to scan Mist AP Beacon.";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion sensor data is used to provide a more accurate indoor location estimate.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -486,10 +487,11 @@
 				DEVELOPMENT_TEAM = S6W43QBW7N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleBlueDotWithIndoorLocation/Resources/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Access required to scan near by Mist AP Beacon";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth access required to scan Mist AP Beacon.";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion sensor data is used to provide a more accurate indoor location estimate.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

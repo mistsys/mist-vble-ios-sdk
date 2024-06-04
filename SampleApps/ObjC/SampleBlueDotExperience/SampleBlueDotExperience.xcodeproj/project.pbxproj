@@ -426,9 +426,8 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleBlueDotExperience/Resources/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "\"BT ACCESS\"";
-				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "\"BT ACCESS\"";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "\"Location access\"";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth access required to scan Mist AP Beacon.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion sensor data is used to provide a more accurate indoor location estimate.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -459,9 +458,8 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleBlueDotExperience/Resources/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "\"BT ACCESS\"";
-				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "\"BT ACCESS\"";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "\"Location access\"";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth access required to scan Mist AP Beacon.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion sensor data is used to provide a more accurate indoor location estimate.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

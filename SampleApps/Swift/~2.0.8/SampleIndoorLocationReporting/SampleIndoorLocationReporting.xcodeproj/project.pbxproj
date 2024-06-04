@@ -366,10 +366,11 @@
 				DEVELOPMENT_TEAM = S6W43QBW7N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleIndoorLocationReporting/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "requires bluetooth for better user experience";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth access required to scan Mist AP Beacon.";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "requires user’s location for better user experience";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "requires user’s location for better user experience";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "requires user’s location for better user experience";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion sensor data is used to provide a more accurate indoor location estimate.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -399,10 +400,11 @@
 				DEVELOPMENT_TEAM = S6W43QBW7N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleIndoorLocationReporting/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "requires bluetooth for better user experience";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth access required to scan Mist AP Beacon.";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "requires user’s location for better user experience";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "requires user’s location for better user experience";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "requires user’s location for better user experience";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion sensor data is used to provide a more accurate indoor location estimate.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

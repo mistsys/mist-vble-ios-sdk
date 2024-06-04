@@ -27,7 +27,5 @@
 		<string>location</string>
 		<string>processing</string>
 	</array>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>&quot;LOC Access&quot;</string>
 </dict>
 </plist>

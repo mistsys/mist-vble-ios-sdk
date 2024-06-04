@@ -373,6 +373,7 @@
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "In order to receive indoor location from the background as well as using the app we need to access your location";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "In order to receive indoor location from the background as well as using the app we need to access your location";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "In order to receive indoor location from the background as well as using the app we need to access your location";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion sensor data is used to provide a more accurate indoor location estimate.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -406,6 +407,7 @@
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "In order to receive indoor location from the background as well as using the app we need to access your location";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "In order to receive indoor location from the background as well as using the app we need to access your location";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "In order to receive indoor location from the background as well as using the app we need to access your location";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion sensor data is used to provide a more accurate indoor location estimate.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
