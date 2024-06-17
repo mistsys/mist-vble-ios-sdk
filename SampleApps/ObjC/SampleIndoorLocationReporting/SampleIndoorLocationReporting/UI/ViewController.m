@@ -56,7 +56,7 @@
 }
 
 /// It fetchs the Map of the floor based on the current location.
-- (void)didUpdate:(MistMap *)map {
+- (void)didUpdateMap:(MistMap *)map {
     NSLog(@">>> didUpdate MistMap.name = %@", map.name);
 }
 
@@ -82,12 +82,12 @@
 
 /// Triggered when user Entered into defined Zone Region
 - (void)didEnter:(MistZone *)mistZone {
-    NSLog(@">>> didEnter MistZone name = %@ ID = %@", mistZone.name, mistZone.zoneID);
+    NSLog(@">>> didEnter MistZone name = %@ ID = %@", mistZone.name, mistZone.zoneId);
 }
 
 /// Triggered when user Exits Zone Region
 - (void)didExitZone:(MistZone *)mistZone {
-    NSLog(@">>> didExitZone MistZone name = %@ ID = %@", mistZone.name, mistZone.zoneID);
+    NSLog(@">>> didExitZone MistZone name = %@ ID = %@", mistZone.name, mistZone.zoneId);
 }
 
 //MARK: MapListDelegate
@@ -100,7 +100,7 @@
 //MARK: ClientInformationDelegate
 
 /// Gives the Error Information
-- (void)onError:(ErrorType)errorType andMessage:(NSString *)errorMessage {
+- (void)onError:(NSError*)errorType andMessage:(NSString *)errorMessage {
     NSLog(@">>> ClientInformationDelegate errorMessage = %@", errorMessage);
 }
 

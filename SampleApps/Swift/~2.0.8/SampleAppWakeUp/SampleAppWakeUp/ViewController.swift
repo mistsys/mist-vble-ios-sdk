@@ -37,7 +37,6 @@ class ViewController: UIViewController {
     }
     
     private func configureViewModel() {
-        #if !targetEnvironment(simulator)
         let wakeUpService = RealWakeupService()
         let mistService = RealMistService(token: Mist.SDK.token)
         let viewModel = ViewModel(wakeUpService: wakeUpService, mistService: mistService)
@@ -45,7 +44,6 @@ class ViewController: UIViewController {
         wakeUpService.delegate = viewModel
         mistService.delegate = viewModel
         self.viewModel = viewModel
-        #endif
     }
 
     @IBAction func toggleWakeUpStatus() {

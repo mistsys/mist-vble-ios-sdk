@@ -113,8 +113,8 @@ extension ViewController: ViewModelDelegate {
         self.blueDot.center = relativeLocation
     }
     
-    func failedToUpdateMap(with error: String?) {
+    func failed(with error: String?) {
         guard let error = error else { return }
-        debugPrint("Error: unable to update map with Error: \(error)")
+        debugPrint("Failed with error: \(error)")
     }
 }

@@ -16,7 +16,7 @@ protocol MistService {
 protocol MistServiceDelegate: AnyObject {
     func didUpdateMap(_ map: URL)
     func didUpdateLocation(_ location: CGPoint)
-    func didFailedToUpdateMap(with error: String?)
+    func didFailed(with error: String?)
 }
 
 class RealMistService: MistService {
@@ -62,6 +62,6 @@ extension RealMistService: IndoorLocationDelegate {
     
     func didErrorOccurWithType(_ errorType: Error, andMessage errorMessage: String!) {
         debugPrint(">>> didErrorOccur errorType = \(errorType) errorMessage = \(String(describing: errorMessage))")
-        delegate?.didFailedToUpdateMap(with: errorMessage)
+        delegate?.didFailed(with: errorMessage)
     }
 }

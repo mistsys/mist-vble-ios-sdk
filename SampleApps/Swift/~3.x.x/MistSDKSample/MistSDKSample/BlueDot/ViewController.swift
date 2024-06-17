@@ -130,8 +130,8 @@ extension ViewController: ViewModelDelegate {
         debugInfoLabel.text = "{ Remote x=\(point.x), y=\(point.y)}\n{ Local x=\(relativeLocation.x.rounded()) y=\(relativeLocation.y.rounded())}"
     }
     
-    func failedToUpdateMap(with error: String?) {
+    func failed(with error: String?) {
         guard let error = error else { return }
-        debugPrint("Error: unable to update map with Error: \(error)")
+        debugPrint("Failed with error: \(error)")
     }
 }

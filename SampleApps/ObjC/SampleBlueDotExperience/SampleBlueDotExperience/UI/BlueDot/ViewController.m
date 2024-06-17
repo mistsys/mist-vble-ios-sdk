@@ -37,11 +37,13 @@
     CGFloat scaledX = location.x * _scaleX;
     CGFloat scaledY = location.y * _scaleY;
     CGPoint relativeLocation = CGPointMake(scaledX, scaledY);
-    self.blueDot.center = relativeLocation;
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        self.blueDot.center = relativeLocation;
+    });
  }
 
 - (void) didUpdateMap:(NSURL *)mapURL {
-    
     [_mistService downloadImageWithURL:mapURL completion:^(UIImage * _Nullable image, NSError * _Nullable error) {
         if (error) {
             NSLog(@"Error downloading image: %@", error.localizedDescription);
@@ -52,7 +54,6 @@
         }
     }];
  }
-
 
 - (UIView *)createBlueDot {
     if (!_blueDot) {
@@ -111,6 +112,5 @@
     _scaleX = floorMapView.bounds.size.width / image.size.width;
     _scaleY = floorMapView.bounds.size.height / image.size.height;
 }
-
 
 @end

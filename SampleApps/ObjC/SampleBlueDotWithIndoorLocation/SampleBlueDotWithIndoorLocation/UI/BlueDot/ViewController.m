@@ -51,8 +51,10 @@
     CGFloat scaledX = location.x * _scaleX;
     CGFloat scaledY = location.y * _scaleY;
     CGPoint relativeLocation = CGPointMake(scaledX, scaledY);
-    self.blueDot.center = relativeLocation;
-    [self updateStatusWithLocation:location];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        self.blueDot.center = relativeLocation;
+        [self updateStatusWithLocation:location];
+    });
  }
 
 - (void) didUpdateMap:(NSURL *)mapURL {

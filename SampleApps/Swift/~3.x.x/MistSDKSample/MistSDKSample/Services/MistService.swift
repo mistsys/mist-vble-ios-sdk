@@ -16,7 +16,7 @@ protocol MistService {
 protocol MistServiceDelegate: AnyObject {
     func didUpdateMap(_ map: URL)
     func didUpdateLocation(_ location: CGPoint)
-    func didFailedToUpdateMap(with error: String?)
+    func didFailed(with error: String?)
 }
 
 

@@ -11,7 +11,7 @@ import UIKit
 protocol ViewModelDelegate: AnyObject {
     func loadMap(with image: UIImage)
     func updateBluedotLocation(with point: CGPoint)
-    func failedToUpdateMap(with error: String?)
+    func failed(with error: String?)
 }
 
 struct Scale {
@@ -68,9 +68,9 @@ extension ViewModel: MistServiceDelegate {
         }
     }
     
-    func didFailedToUpdateMap(with error: String?) {
+    func didFailed(with error: String?) {
         DispatchQueue.main.async { [weak self] in
-            self?.delegate?.failedToUpdateMap(with: error)
+            self?.delegate?.failed(with: error)
         }
     }
 }
