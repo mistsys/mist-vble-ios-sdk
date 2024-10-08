@@ -34421,288 +34421,288 @@
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
-      "kind": "Array",
-      "offset": 874,
-      "length": 34,
-      "value": "[1, 1, 2, 3, 5, 8, 13, 21, 34, 55]"
-    },
-    {
-      "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "IntegerLiteral",
-      "offset": 945,
+      "offset": 858,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1023,
-      "length": 1,
-      "value": "1"
+      "offset": 936,
+      "length": 3,
+      "value": "999"
+    },
+    {
+      "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
+      "kind": "Array",
+      "offset": 1008,
+      "length": 34,
+      "value": "[1, 1, 2, 3, 5, 8, 13, 21, 34, 55]"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "StringLiteral",
-      "offset": 1096,
+      "offset": 1113,
       "length": 30,
       "value": "\"com.mist.sdk.centrnalService\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1670,
+      "offset": 1644,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1715,
+      "offset": 1689,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "StringLiteral",
-      "offset": 2796,
+      "offset": 2770,
       "length": 30,
       "value": "\"BLE Status = \""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "StringLiteral",
-      "offset": 2825,
+      "offset": 2799,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "StringLiteral",
-      "offset": 3440,
+      "offset": 3414,
       "length": 21,
       "value": "\"Org beacon observed\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3599,
+      "offset": 3573,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3749,
+      "offset": 3723,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "StringLiteral",
-      "offset": 3837,
+      "offset": 3811,
       "length": 62,
       "value": "\"MistSDK is stopped. No vBLE Beacon found for last 5 minutes.\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5134,
+      "offset": 5108,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5300,
+      "offset": 5274,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5316,
+      "offset": 5290,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5395,
+      "offset": 5379,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "StringLiteral",
-      "offset": 5439,
+      "offset": 5423,
       "length": 24,
       "value": "\"Max wait time reached.\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5665,
+      "offset": 5649,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5723,
+      "offset": 5707,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5739,
+      "offset": 5723,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5880,
+      "offset": 5864,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5896,
+      "offset": 5880,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "StringLiteral",
-      "offset": 6061,
+      "offset": 6045,
       "length": 18,
       "value": "\"BLE scan stoped.\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "IntegerLiteral",
-      "offset": 6110,
+      "offset": 6094,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "StringLiteral",
-      "offset": 6240,
+      "offset": 6234,
       "length": 43,
       "value": "\"BLE scan scheduled after \""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "StringLiteral",
-      "offset": 6275,
+      "offset": 6269,
       "length": 6,
       "value": "\" minute\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 6510,
+      "offset": 6504,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "StringLiteral",
-      "offset": 6545,
+      "offset": 6539,
       "length": 23,
       "value": "\"No vBLE Beacon found!\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 6718,
+      "offset": 6712,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "StringLiteral",
-      "offset": 7368,
+      "offset": 7362,
       "length": 48,
       "value": "\"No Network Connection: Disconnected From Mist.\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 8013,
+      "offset": 8007,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 8370,
+      "offset": 8364,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 8945,
+      "offset": 8939,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "StringLiteral",
-      "offset": 9095,
+      "offset": 9089,
       "length": 62,
       "value": "\"Sending \""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "StringLiteral",
-      "offset": 9128,
+      "offset": 9122,
       "length": 7,
       "value": "\" Offline Requests Completed.\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 10345,
+      "offset": 10339,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "StringLiteral",
-      "offset": 10730,
+      "offset": 10724,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "StringLiteral",
-      "offset": 10848,
+      "offset": 10842,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "StringLiteral",
-      "offset": 10904,
+      "offset": 10898,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "StringLiteral",
-      "offset": 10955,
+      "offset": 10949,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "StringLiteral",
-      "offset": 11053,
+      "offset": 11047,
       "length": 11,
       "value": "\"Anonymous\""
     },
@@ -51658,7 +51658,7 @@
       "kind": "IntegerLiteral",
       "offset": 2141,
       "length": 1,
-      "value": "6"
+      "value": "5"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
@@ -51683,13 +51683,6 @@
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2862,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "StringLiteral",
       "offset": 1116,
       "length": 14,
@@ -51698,133 +51691,133 @@
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3390,
+      "offset": 3362,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "BooleanLiteral",
-      "offset": 3718,
+      "offset": 3690,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4413,
+      "offset": 4385,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4514,
+      "offset": 4486,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4547,
+      "offset": 4519,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4653,
+      "offset": 4625,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4775,
+      "offset": 4747,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4820,
+      "offset": 4792,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4867,
+      "offset": 4839,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5140,
+      "offset": 5112,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5173,
+      "offset": 5145,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5680,
+      "offset": 5652,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5863,
+      "offset": 5835,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "StringLiteral",
-      "offset": 5891,
+      "offset": 5863,
       "length": 21,
       "value": "\"BLE Service Started\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "BooleanLiteral",
-      "offset": 6010,
+      "offset": 5982,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "StringLiteral",
-      "offset": 6039,
+      "offset": 6011,
       "length": 20,
       "value": "\"BLE Service Stoped\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "BooleanLiteral",
-      "offset": 8314,
+      "offset": 8286,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "BooleanLiteral",
-      "offset": 8364,
+      "offset": 8336,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "BooleanLiteral",
-      "offset": 8726,
+      "offset": 8698,
       "length": 5,
       "value": "false"
     },
@@ -51992,415 +51985,450 @@
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 850,
+      "offset": 890,
       "length": 26,
       "value": "\"https:\/\/api.ac5.mist.com\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 901,
+      "offset": 941,
       "length": 26,
       "value": "\"https:\/\/api.gc2.mist.com\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 952,
+      "offset": 992,
       "length": 27,
       "value": "\"https:\/\/api.ac99.mist.com\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 1004,
+      "offset": 1044,
       "length": 25,
       "value": "\"https:\/\/api.eu.mist.com\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 1054,
+      "offset": 1094,
       "length": 33,
       "value": "\"https:\/\/api.us.mist-federal.com\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 1112,
+      "offset": 1152,
       "length": 38,
       "value": "\"https:\/\/api.staging.mist-federal.com\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 1175,
+      "offset": 1215,
       "length": 26,
       "value": "\"https:\/\/api.gc1.mist.com\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 1226,
+      "offset": 1266,
       "length": 29,
       "value": "\"https:\/\/api.gc1.mistsys.com\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 1280,
+      "offset": 1320,
       "length": 26,
       "value": "\"https:\/\/api.ac2.mist.com\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 1331,
+      "offset": 1371,
       "length": 22,
       "value": "\"https:\/\/api.mist.com\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 1378,
+      "offset": 1418,
       "length": 25,
       "value": "\"https:\/\/api.mistsys.com\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 1428,
+      "offset": 1468,
       "length": 26,
       "value": "\"https:\/\/api.gc3.mist.com\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 1498,
+      "offset": 1519,
+      "length": 26,
+      "value": "\"https:\/\/api.ac6.mist.com\""
+    },
+    {
+      "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 1589,
       "length": 18,
       "value": "\"https:\/\/test.com\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 1675,
+      "offset": 1766,
       "length": 45,
       "value": "\"wss:\/\/client-terminator.ac5.mist.com:443\/ws\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 1745,
+      "offset": 1836,
       "length": 45,
       "value": "\"wss:\/\/client-terminator.gc2.mist.com:443\/ws\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 1815,
+      "offset": 1906,
       "length": 46,
       "value": "\"wss:\/\/client-terminator.ac99.mist.com:443\/ws\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 1886,
+      "offset": 1977,
       "length": 44,
       "value": "\"wss:\/\/client-terminator.eu.mist.com:443\/ws\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 1955,
+      "offset": 2046,
       "length": 52,
       "value": "\"wss:\/\/client-terminator.us.mist-federal.com:443\/ws\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 2032,
+      "offset": 2123,
       "length": 57,
       "value": "\"wss:\/\/client-terminator.staging.mist-federal.com:443\/ws\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 2114,
+      "offset": 2205,
       "length": 45,
       "value": "\"wss:\/\/client-terminator.gc1.mist.com:443\/ws\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 2184,
+      "offset": 2275,
       "length": 48,
       "value": "\"wss:\/\/client-terminator.gc1.mistsys.com:443\/ws\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 2257,
+      "offset": 2348,
       "length": 45,
       "value": "\"wss:\/\/client-terminator.ac2.mist.com:443\/ws\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 2327,
+      "offset": 2418,
       "length": 44,
       "value": "\"wss:\/\/client-terminator.mistsys.net:443\/ws\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 2396,
+      "offset": 2487,
       "length": 52,
       "value": "\"wss:\/\/client-terminator-staging.mistsys.net:443\/ws\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 2473,
+      "offset": 2564,
       "length": 45,
       "value": "\"wss:\/\/client-terminator.gc3.mist.com:443\/ws\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 2611,
+      "offset": 2634,
+      "length": 45,
+      "value": "\"wss:\/\/client-terminator.ac6.mist.com:443\/ws\""
+    },
+    {
+      "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 2772,
       "length": 45,
       "value": "\"https:\/\/client-terminator.ac5.mist.com:443\/\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 2681,
+      "offset": 2842,
       "length": 45,
       "value": "\"https:\/\/client-terminator.gc2.mist.com:443\/\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 2751,
+      "offset": 2912,
       "length": 46,
       "value": "\"https:\/\/client-terminator.ac99.mist.com:443\/\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 2822,
+      "offset": 2983,
       "length": 44,
       "value": "\"https:\/\/client-terminator.eu.mist.com:443\/\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 2891,
+      "offset": 3052,
       "length": 52,
       "value": "\"https:\/\/client-terminator.us.mist-federal.com:443\/\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 2968,
+      "offset": 3129,
       "length": 57,
       "value": "\"https:\/\/client-terminator.staging.mist-federal.com:443\/\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 3050,
+      "offset": 3211,
       "length": 45,
       "value": "\"https:\/\/client-terminator.gc1.mist.com:443\/\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 3120,
+      "offset": 3281,
       "length": 48,
       "value": "\"https:\/\/client-terminator.gc1.mistsys.com:443\/\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 3193,
+      "offset": 3354,
       "length": 45,
       "value": "\"https:\/\/client-terminator.ac2.mist.com:443\/\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 3263,
+      "offset": 3424,
       "length": 44,
       "value": "\"https:\/\/client-terminator.mistsys.net:443\/\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 3332,
+      "offset": 3493,
       "length": 52,
       "value": "\"https:\/\/client-terminator-staging.mistsys.net:443\/\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 3409,
+      "offset": 3570,
       "length": 45,
       "value": "\"https:\/\/client-terminator.gc3.mist.com:443\/\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 3612,
+      "offset": 3640,
+      "length": 45,
+      "value": "\"https:\/\/client-terminator.ac6.mist.com:443\/\""
+    },
+    {
+      "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 3843,
       "length": 26,
       "value": "\"mobile-client-apse2prod5\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 3663,
+      "offset": 3894,
       "length": 26,
       "value": "\"mobile-client-nane1prod1\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 3714,
+      "offset": 3945,
       "length": 28,
       "value": "\"mobile-client-use2canary99\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 3767,
+      "offset": 3998,
       "length": 18,
       "value": "\"mobile-client-eu\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 3810,
+      "offset": 4041,
       "length": 26,
       "value": "\"mobile-client-usge1prod4\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 3861,
+      "offset": 4092,
       "length": 28,
       "value": "\"mobile-client-usgw1staging\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 3918,
+      "offset": 4149,
       "length": 26,
       "value": "\"mobile-client-production\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 3973,
+      "offset": 4204,
       "length": 23,
       "value": "\"mobile-client-staging\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 4021,
+      "offset": 4252,
       "length": 25,
       "value": "\"mobile-client-use1prod2\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 4071,
+      "offset": 4302,
       "length": 26,
       "value": "\"mobile-client-euwe1prod3\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 4293,
+      "offset": 4353,
+      "length": 25,
+      "value": "\"mobile-client-mec1prod6\""
+    },
+    {
+      "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 4574,
       "length": 13,
       "value": "\"prod_aws_au\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 4331,
+      "offset": 4612,
       "length": 17,
       "value": "\"prod_gcp_canada\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 4373,
+      "offset": 4654,
       "length": 17,
       "value": "\"prod_aws_canary\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 4415,
+      "offset": 4696,
       "length": 13,
       "value": "\"prod_aws_eu\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 4453,
+      "offset": 4734,
       "length": 22,
       "value": "\"prod_aws_gov_federal\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 4500,
+      "offset": 4781,
       "length": 25,
       "value": "\"staging_aws_gov_federal\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 4550,
+      "offset": 4831,
       "length": 10,
       "value": "\"prod_gcp\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 4585,
+      "offset": 4866,
       "length": 13,
       "value": "\"staging_gcp\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 4623,
+      "offset": 4904,
       "length": 15,
       "value": "\"prod_aws_east\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 4663,
+      "offset": 4944,
       "length": 10,
       "value": "\"prod_aws\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 4698,
+      "offset": 4979,
       "length": 13,
       "value": "\"staging_aws\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 4736,
+      "offset": 5017,
       "length": 13,
       "value": "\"prod_gcp_uk\""
+    },
+    {
+      "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Configs\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 5055,
+      "length": 14,
+      "value": "\"prod_aws_uae\""
     },
     {
       "filePath": "\/Users\/vishwakarmar\/JuniperMobile\/mistsys\/MistSDK3.0\/MistSDK3.0-iOS\/MistSDK\/MistSDK\/Models\/DR\/DRResponse.swift",

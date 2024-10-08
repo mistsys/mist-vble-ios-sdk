@@ -6,7 +6,7 @@ The Mist Location SDK provide applications the indoor bluedot experience using M
 ## Latest Release
 * Mist Location SDK iOS is distributed via framework file:            
 
-  * latest version is 3.0.0* [[Download Link]](https://github.com/mistsys/mist-vble-ios-sdk/releases/tag/3.0.0)  
+  * latest version is 3.1.0* [[Download Link]](https://github.com/mistsys/mist-vble-ios-sdk/releases/tag/3.1.0)  
 
 OR
 
@@ -14,14 +14,14 @@ OR
 
   For Mist SDK , include the following dependency in your xcode project:
 
-  ```pod 'MistSDK', '3.0.0'                    ```
+  ```pod 'MistSDK', '3.1.0'                    ```
   
 * and Mist Location SDK iOS also available on Swift Package Manager (SPM)
 
     Once you have your Swift package set up, adding MistSDK as a dependency is as easy as adding it to the dependencies value of your Package.swift.
 
     dependencies: [
-        .package(url: "https://github.com/mistsys/mist-vble-ios-sdk.git", from: "3.0.0")
+        .package(url: "https://github.com/mistsys/mist-vble-ios-sdk.git", from: "3.1.0")
     ]
 
 ## Release Notes
