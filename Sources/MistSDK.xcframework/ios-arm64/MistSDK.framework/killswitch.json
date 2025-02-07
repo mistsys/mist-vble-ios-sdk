@@ -1,0 +1,53 @@
+{
+  "system_wide": false,
+  "interval_in_minutes": 15,
+  "platforms": {
+      "android": {
+          "platform_wide": false,
+          "os_versions": ["14.0","13.0"],
+          "marvis_app": ["1.0.0","1.8.0"],
+          "core-sdk": ["4.0.0","4.0.8"],
+          "marvis-sdk": ["4.1.0","4.0.8"],
+          "marvis-location-sdk": ["3.0.0","2.0.8"],
+          "marvis-onboarding-sdk": ["3.0.0","2.0.8"],
+          "marvis-onboarding-location-sdk": ["3.0.0","2.0.8"],
+          "onboarding-sdk": ["3.0.0","2.0.8"]
+      },
+      "ios": {
+          "platform_wide": false,
+          "os_versions": ["14.0","16.2"],
+          "core-sdk": ["2.8.0","3.0.0(4)"]
+      },
+      "macos": {
+          "platform_wide": false,
+          "os_versions": ["14.0","13.0"],
+          "marvis_app": ["1.0.0","1.8.0"],
+      },
+      "windows": {
+          "platform_wide": true
+      }
+  },
+  "features": {
+      "revoke_all": {
+          "PRODUCTION_AWS": [],
+          "PRODUCTION_AWS_EAST": ["OrgId4", "OrgId6"],
+          "PRODUCTION_AWS_GOV": ["OrgId4", "OrgId6"],
+          "PRODUCTION_GCP_UK": ["*"]
+        },
+      "telemetry": {
+          "feature_wide": false,
+          "PRODUCTION_AWS": ["OrgId1", "OrgId2"],
+          "PRODUCTION_AWS_EAST": ["OrgId4", "OrgId6"],
+          "CANARY_AWS_US": ["OrgId4", "OrgId6"],
+          "PRODUCTION_GCP_UK": ["OrgId4", "OrgId6"]
+      },
+      "zebra": {
+          "CANARY_AWS_US": ["OrgId4", "OrgId6"],
+          "PRODUCTION_GCP_UK": ["OrgId4", "OrgId6"]
+      },
+      "location": {
+          "feature_wide": false,
+          "PRODUCTION_AWS": ["1", "2"]
+      }
+  }
+}
