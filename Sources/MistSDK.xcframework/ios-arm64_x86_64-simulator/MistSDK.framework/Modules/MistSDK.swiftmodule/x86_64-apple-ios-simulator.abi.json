@@ -34516,21 +34516,21 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1644,
+      "offset": 1643,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1689,
+      "offset": 1688,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 10339,
+      "offset": 10370,
       "length": 5,
       "value": "false"
     },
@@ -35398,105 +35398,98 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3290,
+      "offset": 3341,
       "length": 14,
       "value": "\"feature_wide\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3337,
+      "offset": 3388,
       "length": 19,
       "value": "\"PRODUCTION_AWS_AU\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3386,
+      "offset": 3437,
       "length": 23,
       "value": "\"PRODUCTION_GCP_CANADA\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3439,
+      "offset": 3490,
       "length": 15,
       "value": "\"CANARY_AWS_US\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3480,
+      "offset": 3531,
       "length": 19,
       "value": "\"PRODUCTION_AWS_EU\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3533,
-      "length": 20,
-      "value": "\"PRODUCTION_AWS_GOV\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 3594,
-      "length": 17,
-      "value": "\"STAGING_AWS_GOV\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 3645,
+      "offset": 3700,
       "length": 16,
       "value": "\"PRODUCTION_GCP\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3692,
+      "offset": 3747,
       "length": 13,
       "value": "\"STAGING_GCP\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3733,
+      "offset": 3788,
       "length": 21,
       "value": "\"PRODUCTION_AWS_EAST\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3788,
+      "offset": 3843,
       "length": 16,
       "value": "\"PRODUCTION_AWS\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3835,
+      "offset": 3890,
       "length": 13,
       "value": "\"STAGING_AWS\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3874,
+      "offset": 3929,
       "length": 19,
       "value": "\"PRODUCTION_GCP_UK\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3920,
+      "offset": 3982,
+      "length": 28,
+      "value": "\"PRODUCTION_GCP_US_CENTRAL1\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 4037,
       "length": 20,
       "value": "\"PRODUCTION_AWS_UAE\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 4072,
+      "offset": 4189,
       "length": 1,
       "value": "1"
     },
@@ -42510,70 +42503,70 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 908,
+      "offset": 905,
       "length": 8,
       "value": "\"map_id\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 944,
+      "offset": 941,
       "length": 10,
       "value": "\"ant_type\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1081,
+      "offset": 1078,
       "length": 15,
       "value": "\"beam_disabled\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1128,
+      "offset": 1125,
       "length": 14,
       "value": "\"ibeacon_uuid\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1181,
+      "offset": 1178,
       "length": 21,
       "value": "\"eddystone_namespace\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1240,
+      "offset": 1237,
       "length": 20,
       "value": "\"eddystone_instance\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1293,
+      "offset": 1290,
       "length": 15,
       "value": "\"eddystone_url\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1376,
+      "offset": 1373,
       "length": 4,
       "value": "\"ap\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1404,
+      "offset": 1401,
       "length": 5,
       "value": "\"ble\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1442,
+      "offset": 1439,
       "length": 15,
       "value": "\"eddystone-uid\""
     },
@@ -43091,14 +43084,14 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/IndoorLocationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1465,
+      "offset": 1464,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/IndoorLocationManager.swift",
       "kind": "StringLiteral",
-      "offset": 15356,
+      "offset": 15355,
       "length": 2,
       "value": "\"\""
     },
@@ -43777,7 +43770,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 1598,
+      "offset": 1696,
       "length": 18,
       "value": "\"https:\/\/test.com\""
     },
@@ -44323,21 +44316,21 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/Helpers.swift",
       "kind": "StringLiteral",
-      "offset": 2671,
+      "offset": 2688,
       "length": 5,
       "value": "\"der\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/Helpers.swift",
       "kind": "IntegerLiteral",
-      "offset": 3990,
+      "offset": 3989,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/Helpers.swift",
       "kind": "StringLiteral",
-      "offset": 4278,
+      "offset": 4277,
       "length": 30,
       "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\""
     },
