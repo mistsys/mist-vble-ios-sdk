@@ -32,7 +32,7 @@ extension MistSDK.Mist {
     public let tagId: Swift.String?
     public let name: Swift.String?
     public let url: Swift.String?
-    public let position: MistSDK.VBeaconPosition?
+    public let position: MistSDK.Mist.VBeaconPosition?
     public var additionalInfo: MistSDK.Mist.AdditionalInfo?
     public func hash(into hasher: inout Swift.Hasher)
     public static func == (lhs: MistSDK.Mist.VirtualBeacon, rhs: MistSDK.Mist.VirtualBeacon) -> Swift.Bool
@@ -57,6 +57,11 @@ extension MistSDK.Mist {
     public let level: Swift.Int64?
     public let recipient: Swift.String?
     public let recipientId: Swift.String?
+  }
+  public struct VBeaconPosition {
+    public let x: Swift.Double
+    public let y: Swift.Double
+    public let z: Swift.Double
   }
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class MistMap : ObjectiveC.NSObject {
@@ -310,29 +315,8 @@ extension MistSDK.Mist {
   @objc deinit
 }
 public typealias ErrorType = Swift.Error
-public protocol MistIndoorLocationDelegate : AnyObject {
+public protocol IndoorLocationDelegate : AnyObject {
   func didReceive(event: MistSDK.Mist.Event)
-}
-@objc public protocol IndoorLocationDelegate {
-  @objc func didUpdateMap(_ map: MistSDK.MistMap!)
-  @objc func didUpdateRelativeLocation(_ relativeLocation: MistSDK.MistPoint!)
-  @objc optional func didReceivedOrgInfoWithTokenName(_ tokenName: Swift.String!, andOrgID orgID: Swift.String!)
-  @objc optional func didErrorOccurWithType(_ errorType: any Swift.Error, andMessage errorMessage: Swift.String!)
-}
-@objc public protocol VirtualBeaconsDelegate {
-  @objc func didRangeVirtualBeacon(_ mistVirtualBeacon: MistSDK.MistVirtualBeacon)
-  @objc optional func didUpdateVirtualBeaconList(_ mistVirtualBeacons: [MistSDK.MistVirtualBeacon])
-}
-@objc public protocol ZonesDelegate {
-  @objc optional func didEnterZone(_ mistZone: MistSDK.MistZone)
-  @objc optional func didExitZone(_ mistZone: MistSDK.MistZone)
-}
-@objc public protocol MapsListDelegate {
-  @objc func didReceiveAllMaps(_ maps: [MistSDK.MistMap])
-}
-@objc public protocol ClientInformationDelegate {
-  @objc func onSuccess(_ clientName: Swift.String)
-  @objc func onError(_ errorType: any Swift.Error, andMessage errorMessage: Swift.String)
 }
 extension MistSDK.Mist {
   public enum Event {
@@ -358,6 +342,7 @@ public enum MistError : Swift.Error {
   case unableToGetClientDetails
   case mapGraphDataNotAvailable
   case noBleFound
+  case noBleBeaconFound
   public static func == (a: MistSDK.MistError, b: MistSDK.MistError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -371,7 +356,7 @@ extension MistSDK.MistError : Foundation.LocalizedError {
 }
 extension MistSDK.Mist {
   public struct Configuration : Swift.Equatable {
-    public init(sdkToken: Swift.String, clientUUID: Swift.String? = "", logLevel: MistSDK.Mist.LogLevel = .info, enableLog: Swift.Bool = true)
+    public init(orgId: Swift.String, sdkToken: Swift.String, clientUUID: Swift.String? = "", logLevel: MistSDK.Mist.LogLevel = .info, enableLog: Swift.Bool = true)
     public static func == (a: MistSDK.Mist.Configuration, b: MistSDK.Mist.Configuration) -> Swift.Bool
   }
   public enum LogLevel : Swift.Int, Swift.Equatable {
@@ -389,7 +374,7 @@ extension MistSDK.Mist {
   }
 }
 extension MistSDK.Mist.Configuration {
-  public static func `default`(sdkToken: Swift.String, enableLog: Swift.Bool = false) -> MistSDK.Mist.Configuration
+  public static func `default`(orgId: Swift.String, sdkToken: Swift.String) -> MistSDK.Mist.Configuration
 }
 extension MistSDK.Mist {
   public struct Message {
@@ -404,24 +389,13 @@ public struct BeaconPosition : Swift.Decodable {
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers final public class IndoorLocationManager : ObjectiveC.NSObject {
   @objc public static let shared: MistSDK.IndoorLocationManager
-  weak final public var delegate: (any MistSDK.MistIndoorLocationDelegate)?
-  @objc weak final public var indoorLocationDelegate: (any MistSDK.IndoorLocationDelegate)?
-  @objc weak final public var virtualBeaconsDelegate: (any MistSDK.VirtualBeaconsDelegate)?
-  @objc weak final public var zonesDelegate: (any MistSDK.ZonesDelegate)?
-  @objc weak final public var mapsListDelegate: (any MistSDK.MapsListDelegate)?
-  @objc weak final public var clientInformationDelegate: (any MistSDK.ClientInformationDelegate)?
+  weak final public var delegate: (any MistSDK.IndoorLocationDelegate)?
   @objc deinit
 }
 extension MistSDK.IndoorLocationManager {
-  @objc public static func sharedInstance(_ token: Swift.String) -> MistSDK.IndoorLocationManager
-  @objc @available(*, deprecated, message: "Use clientUUID instead")
-  public static func getMistUUID() -> Swift.String
-  @objc final public func startWithIndoorLocationDelegate(_ delegate: any MistSDK.IndoorLocationDelegate)
-  final public func start(with config: MistSDK.Mist.Configuration, delegate: any MistSDK.MistIndoorLocationDelegate)
+  final public func start(with config: MistSDK.Mist.Configuration, delegate: any MistSDK.IndoorLocationDelegate)
   @objc final public func stop()
-  final public func getWayfindingPath(to destination: MistSDK.MistPosition) -> [MistSDK.Mist.Node]?
-  @objc final public func saveClientInformation(_ clientName: Swift.String, withDelegate: any MistSDK.ClientInformationDelegate)
-  @objc final public func getClientInformation(with delegate: any MistSDK.ClientInformationDelegate)
+  final public func getWayfindingPath(to destination: MistSDK.Mist.Position) -> [MistSDK.Mist.Node]?
   @objc final public func saveClient(name: Swift.String)
   @objc final public func getClientInformation()
   @objc final public var clientUUID: Swift.String {
@@ -618,7 +592,7 @@ extension MistSDK.Mist.Map : Swift.Hashable {
 extension MistSDK.Mist {
   public struct Node {
     public var name: Swift.String?
-    public var position: MistSDK.MistPosition?
+    public var position: MistSDK.Mist.Position?
   }
 }
 extension MistSDK.Mist.Node : Swift.Hashable {
@@ -710,7 +684,7 @@ extension MistSDK.Mist {
   }
 }
 extension MistSDK.Mist.Point {
-  public var toPosition: MistSDK.MistPosition {
+  public var toPosition: MistSDK.Mist.Position {
     get
   }
 }

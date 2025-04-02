@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MistSDK-Swift.h</key>
 		<data>
-		YkF3H6RiSk8sEljs66xijtlTTD0=
+		9Y+C/e/QwS+7bLEnRoUUTXfYEkI=
 		</data>
 		<key>Headers/MistSDK.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4ZxgIJ1KXMh2E0h8RwcOS9iDaak=
+		gYH4NzwXMvmjH+lBDR4EAHD3QD4=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Hznpd3+m2pw6o5EwS1VG9Bq1jSU=
+		/pqDRszB6hv5aAcVmlm/J37nmMc=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		kKinBVR+Wb4OS6z/Fsb4XJzi4A8=
+		FtxEV0fnAnQtLYwMZu/Z0rU/tkY=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		oeSqR+2zN8sb+TVAhR9MVpiXeCo=
+		DajJrOzV9ephQnH0uZOW8KrHUAU=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		kKinBVR+Wb4OS6z/Fsb4XJzi4A8=
+		FtxEV0fnAnQtLYwMZu/Z0rU/tkY=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		wHGh5yFfLjr67IYh5o2YkAB/UnY=
+		XeUJtqNanUWLuaG8saPb1eRH63c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -80,6 +80,18 @@
 		<data>
 		fS7VHhMY+O95ns8FjeqaZTmMtQ4=
 		</data>
+		<key>prod_gcp_india.der</key>
+		<data>
+		AbI9jtSz+5B4uPYvzmmX/q9do2Q=
+		</data>
+		<key>prod_gcp_japan.der</key>
+		<data>
+		NeZxi3BOifRv0sHvMtbJj2TuP4U=
+		</data>
+		<key>prod_gcp_saudi.der</key>
+		<data>
+		2KcArk4q5yEwxuctNa6ZlD0Wg1o=
+		</data>
 		<key>prod_gcp_uk.der</key>
 		<data>
 		NTsOC8rXGiSvR49G9UYqufPzbZw=
@@ -107,7 +119,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3jpGJ8f7MPWRpcqtBwT4BNsG94oDWMMga5TpFrdUg9I=
+			EGt83IauAzf4faXnzk8/NlM07nuLAFZrmmHWmy3h8rI=
 			</data>
 		</dict>
 		<key>Headers/MistSDK.h</key>
@@ -121,35 +133,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YUxFCp4GFHli+4sYwxVd/P8FQkFpcD78cZsMS+SzUEM=
+			3vifjI2Xvd6P6L/ESLDNbj3p8d4GUHxSJEA1VHYd3Ns=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			np1sg/ctz0QxzcS50pEntGHIMCYp/aNUX3j2RRAgqCE=
+			oqcf3RiFdvE4Dkd3oFj19zH4G5DpkUOZHJh7fxole4I=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2JCxrip9Hu8mS7nPHSTHMrqoGCWeOGu6T2jd5lPnfqM=
+			IL6S91PztxtVbsPpQFpRdVRjLtugqMxWmLBLUJCLYxQ=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			np1sg/ctz0QxzcS50pEntGHIMCYp/aNUX3j2RRAgqCE=
+			oqcf3RiFdvE4Dkd3oFj19zH4G5DpkUOZHJh7fxole4I=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7LUvSl1jSlhB5iRX67cxIXWbkpmVPtInaDXze4kLx30=
+			lRz4h6YsSR6sXjfKUsDs1OWQ7+/G+iI8of1SODiXbMw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -227,6 +239,27 @@
 			<key>hash2</key>
 			<data>
 			EwYdVlh9qK9cnB+izo8gck/aZrjAWeoBnhpr1DYysEw=
+			</data>
+		</dict>
+		<key>prod_gcp_india.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Z62TibXSOX6LtKPKYcNKk1WBEfrKINiaIy4ct2EBe6U=
+			</data>
+		</dict>
+		<key>prod_gcp_japan.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			M/ronoi24tj/Y+F+zU4EWBT0kEYAaVDkfgVUimvRRG8=
+			</data>
+		</dict>
+		<key>prod_gcp_saudi.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iniPNfGeWxUpDuiQw3dNd2Ppw/ZwVKNqS5/VZcIxgx4=
 			</data>
 		</dict>
 		<key>prod_gcp_uk.der</key>

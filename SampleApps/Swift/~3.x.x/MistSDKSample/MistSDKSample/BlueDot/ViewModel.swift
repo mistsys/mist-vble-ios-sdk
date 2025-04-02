@@ -30,12 +30,16 @@ class ViewModel {
     init(delegate: ViewModelDelegate, downloader: Downloadable = MapDownloader()) {
         self.delegate = delegate
         self.downloader = downloader
-        self.service = RealMistService(token: MistSDK.token, delegate: self)
+        self.service = RealMistService(orgId: MistSDK.orgId, token: MistSDK.token, delegate: self)
     }
     
     func start() {
         guard !MistSDK.token.isEmpty else {
             debugPrint("Token is missing !!!")
+            return
+        }
+        guard !MistSDK.orgId.isEmpty else {
+            debugPrint("Org Id is missing !!!")
             return
         }
         service?.start()

@@ -14130,8 +14130,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "MistIndoorLocationDelegate",
-        "printedName": "MistIndoorLocationDelegate",
+        "name": "IndoorLocationDelegate",
+        "printedName": "IndoorLocationDelegate",
         "children": [
           {
             "kind": "Function",
@@ -14151,614 +14151,24 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7MistSDK0A22IndoorLocationDelegateP10didReceive5eventyAA0A0C5EventO_tF",
-            "mangledName": "$s7MistSDK0A22IndoorLocationDelegateP10didReceive5eventyAA0A0C5EventO_tF",
+            "usr": "s:7MistSDK22IndoorLocationDelegateP10didReceive5eventyAA0A0C5EventO_tF",
+            "mangledName": "$s7MistSDK22IndoorLocationDelegateP10didReceive5eventyAA0A0C5EventO_tF",
             "moduleName": "MistSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : MistSDK.MistIndoorLocationDelegate>",
-            "sugared_genericSig": "<Self where Self : MistSDK.MistIndoorLocationDelegate>",
+            "genericSig": "<τ_0_0 where τ_0_0 : MistSDK.IndoorLocationDelegate>",
+            "sugared_genericSig": "<Self where Self : MistSDK.IndoorLocationDelegate>",
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:7MistSDK0A22IndoorLocationDelegateP",
-        "mangledName": "$s7MistSDK0A22IndoorLocationDelegateP",
-        "moduleName": "MistSDK",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "IndoorLocationDelegate",
-        "printedName": "IndoorLocationDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "didUpdateMap",
-            "printedName": "didUpdateMap(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "MistSDK.MistMap?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MistMap",
-                    "printedName": "MistSDK.MistMap",
-                    "usr": "c:@M@MistSDK@objc(cs)MistMap"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MistSDK@objc(pl)IndoorLocationDelegate(im)didUpdateMap:",
-            "mangledName": "$s7MistSDK22IndoorLocationDelegateP12didUpdateMapyyAA0aH0CSgF",
-            "moduleName": "MistSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : MistSDK.IndoorLocationDelegate>",
-            "sugared_genericSig": "<Self where Self : MistSDK.IndoorLocationDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didUpdateRelativeLocation",
-            "printedName": "didUpdateRelativeLocation(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "MistSDK.MistPoint?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MistPoint",
-                    "printedName": "MistSDK.MistPoint",
-                    "usr": "c:@M@MistSDK@objc(cs)MistPoint"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MistSDK@objc(pl)IndoorLocationDelegate(im)didUpdateRelativeLocation:",
-            "mangledName": "$s7MistSDK22IndoorLocationDelegateP017didUpdateRelativeD0yyAA0A5PointCSgF",
-            "moduleName": "MistSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : MistSDK.IndoorLocationDelegate>",
-            "sugared_genericSig": "<Self where Self : MistSDK.IndoorLocationDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didReceivedOrgInfoWithTokenName",
-            "printedName": "didReceivedOrgInfoWithTokenName(_:andOrgID:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MistSDK@objc(pl)IndoorLocationDelegate(im)didReceivedOrgInfoWithTokenName:andOrgID:",
-            "mangledName": "$s7MistSDK22IndoorLocationDelegateP31didReceivedOrgInfoWithTokenName_03andH2IDySSSg_AFtF",
-            "moduleName": "MistSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : MistSDK.IndoorLocationDelegate>",
-            "sugared_genericSig": "<Self where Self : MistSDK.IndoorLocationDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "Optional",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didErrorOccurWithType",
-            "printedName": "didErrorOccurWithType(_:andMessage:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Error",
-                "printedName": "any Swift.Error",
-                "usr": "s:s5ErrorP"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MistSDK@objc(pl)IndoorLocationDelegate(im)didErrorOccurWithType:andMessage:",
-            "mangledName": "$s7MistSDK22IndoorLocationDelegateP21didErrorOccurWithType_10andMessageys0G0_p_SSSgtF",
-            "moduleName": "MistSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : MistSDK.IndoorLocationDelegate>",
-            "sugared_genericSig": "<Self where Self : MistSDK.IndoorLocationDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "Optional",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "c:@M@MistSDK@objc(pl)IndoorLocationDelegate",
+        "usr": "s:7MistSDK22IndoorLocationDelegateP",
         "mangledName": "$s7MistSDK22IndoorLocationDelegateP",
         "moduleName": "MistSDK",
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "VirtualBeaconsDelegate",
-        "printedName": "VirtualBeaconsDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "didRangeVirtualBeacon",
-            "printedName": "didRangeVirtualBeacon(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MistVirtualBeacon",
-                "printedName": "MistSDK.MistVirtualBeacon",
-                "usr": "c:@M@MistSDK@objc(cs)MistVirtualBeacon"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MistSDK@objc(pl)VirtualBeaconsDelegate(im)didRangeVirtualBeacon:",
-            "mangledName": "$s7MistSDK22VirtualBeaconsDelegateP08didRangeC6BeaconyyAA0acH0CF",
-            "moduleName": "MistSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : MistSDK.VirtualBeaconsDelegate>",
-            "sugared_genericSig": "<Self where Self : MistSDK.VirtualBeaconsDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didUpdateVirtualBeaconList",
-            "printedName": "didUpdateVirtualBeaconList(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[MistSDK.MistVirtualBeacon]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MistVirtualBeacon",
-                    "printedName": "MistSDK.MistVirtualBeacon",
-                    "usr": "c:@M@MistSDK@objc(cs)MistVirtualBeacon"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MistSDK@objc(pl)VirtualBeaconsDelegate(im)didUpdateVirtualBeaconList:",
-            "mangledName": "$s7MistSDK22VirtualBeaconsDelegateP09didUpdateC10BeaconListyySayAA0acH0CGF",
-            "moduleName": "MistSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : MistSDK.VirtualBeaconsDelegate>",
-            "sugared_genericSig": "<Self where Self : MistSDK.VirtualBeaconsDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "Optional",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "c:@M@MistSDK@objc(pl)VirtualBeaconsDelegate",
-        "mangledName": "$s7MistSDK22VirtualBeaconsDelegateP",
-        "moduleName": "MistSDK",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ZonesDelegate",
-        "printedName": "ZonesDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "didEnterZone",
-            "printedName": "didEnterZone(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MistZone",
-                "printedName": "MistSDK.MistZone",
-                "usr": "c:@M@MistSDK@objc(cs)MistZone"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MistSDK@objc(pl)ZonesDelegate(im)didEnterZone:",
-            "mangledName": "$s7MistSDK13ZonesDelegateP12didEnterZoneyyAA0aG0CF",
-            "moduleName": "MistSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : MistSDK.ZonesDelegate>",
-            "sugared_genericSig": "<Self where Self : MistSDK.ZonesDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "Optional",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didExitZone",
-            "printedName": "didExitZone(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MistZone",
-                "printedName": "MistSDK.MistZone",
-                "usr": "c:@M@MistSDK@objc(cs)MistZone"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MistSDK@objc(pl)ZonesDelegate(im)didExitZone:",
-            "mangledName": "$s7MistSDK13ZonesDelegateP11didExitZoneyyAA0aG0CF",
-            "moduleName": "MistSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : MistSDK.ZonesDelegate>",
-            "sugared_genericSig": "<Self where Self : MistSDK.ZonesDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "Optional",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "c:@M@MistSDK@objc(pl)ZonesDelegate",
-        "mangledName": "$s7MistSDK13ZonesDelegateP",
-        "moduleName": "MistSDK",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MapsListDelegate",
-        "printedName": "MapsListDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "didReceiveAllMaps",
-            "printedName": "didReceiveAllMaps(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[MistSDK.MistMap]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MistMap",
-                    "printedName": "MistSDK.MistMap",
-                    "usr": "c:@M@MistSDK@objc(cs)MistMap"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MistSDK@objc(pl)MapsListDelegate(im)didReceiveAllMaps:",
-            "mangledName": "$s7MistSDK16MapsListDelegateP013didReceiveAllC0yySayAA0A3MapCGF",
-            "moduleName": "MistSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : MistSDK.MapsListDelegate>",
-            "sugared_genericSig": "<Self where Self : MistSDK.MapsListDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "c:@M@MistSDK@objc(pl)MapsListDelegate",
-        "mangledName": "$s7MistSDK16MapsListDelegateP",
-        "moduleName": "MistSDK",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ClientInformationDelegate",
-        "printedName": "ClientInformationDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "onSuccess",
-            "printedName": "onSuccess(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MistSDK@objc(pl)ClientInformationDelegate(im)onSuccess:",
-            "mangledName": "$s7MistSDK25ClientInformationDelegateP9onSuccessyySSF",
-            "moduleName": "MistSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : MistSDK.ClientInformationDelegate>",
-            "sugared_genericSig": "<Self where Self : MistSDK.ClientInformationDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onError",
-            "printedName": "onError(_:andMessage:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Error",
-                "printedName": "any Swift.Error",
-                "usr": "s:s5ErrorP"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MistSDK@objc(pl)ClientInformationDelegate(im)onError:andMessage:",
-            "mangledName": "$s7MistSDK25ClientInformationDelegateP7onError_10andMessageys0G0_p_SStF",
-            "moduleName": "MistSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : MistSDK.ClientInformationDelegate>",
-            "sugared_genericSig": "<Self where Self : MistSDK.ClientInformationDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "c:@M@MistSDK@objc(pl)ClientInformationDelegate",
-        "mangledName": "$s7MistSDK25ClientInformationDelegateP",
-        "moduleName": "MistSDK",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC",
           "RawDocComment"
         ],
         "conformances": [
@@ -15114,6 +14524,43 @@
             "declKind": "EnumElement",
             "usr": "s:7MistSDK0A5ErrorO10noBleFoundyA2CmF",
             "mangledName": "$s7MistSDK0A5ErrorO10noBleFoundyA2CmF",
+            "moduleName": "MistSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "noBleBeaconFound",
+            "printedName": "noBleBeaconFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MistSDK.MistError.Type) -> MistSDK.MistError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MistError",
+                    "printedName": "MistSDK.MistError",
+                    "usr": "s:7MistSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MistSDK.MistError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MistError",
+                        "printedName": "MistSDK.MistError",
+                        "usr": "s:7MistSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7MistSDK0A5ErrorO16noBleBeaconFoundyA2CmF",
+            "mangledName": "$s7MistSDK0A5ErrorO16noBleBeaconFoundyA2CmF",
             "moduleName": "MistSDK"
           },
           {
@@ -16140,12 +15587,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "(any MistSDK.MistIndoorLocationDelegate)?"
+                "printedName": "(any MistSDK.IndoorLocationDelegate)?"
               }
             ],
             "declKind": "Var",
-            "usr": "s:7MistSDK21IndoorLocationManagerC8delegateAA0acD8Delegate_pSgvp",
-            "mangledName": "$s7MistSDK21IndoorLocationManagerC8delegateAA0acD8Delegate_pSgvp",
+            "usr": "s:7MistSDK21IndoorLocationManagerC8delegateAA0cD8Delegate_pSgvp",
+            "mangledName": "$s7MistSDK21IndoorLocationManagerC8delegateAA0cD8Delegate_pSgvp",
             "moduleName": "MistSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -16165,141 +15612,25 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any MistSDK.MistIndoorLocationDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MistIndoorLocationDelegate",
-                        "printedName": "any MistSDK.MistIndoorLocationDelegate",
-                        "usr": "s:7MistSDK0A22IndoorLocationDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7MistSDK21IndoorLocationManagerC8delegateAA0acD8Delegate_pSgvg",
-                "mangledName": "$s7MistSDK21IndoorLocationManagerC8delegateAA0acD8Delegate_pSgvg",
-                "moduleName": "MistSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any MistSDK.MistIndoorLocationDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MistIndoorLocationDelegate",
-                        "printedName": "any MistSDK.MistIndoorLocationDelegate",
-                        "usr": "s:7MistSDK0A22IndoorLocationDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7MistSDK21IndoorLocationManagerC8delegateAA0acD8Delegate_pSgvs",
-                "mangledName": "$s7MistSDK21IndoorLocationManagerC8delegateAA0acD8Delegate_pSgvs",
-                "moduleName": "MistSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7MistSDK21IndoorLocationManagerC8delegateAA0acD8Delegate_pSgvM",
-                "mangledName": "$s7MistSDK21IndoorLocationManagerC8delegateAA0acD8Delegate_pSgvM",
-                "moduleName": "MistSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "indoorLocationDelegate",
-            "printedName": "indoorLocationDelegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "(any MistSDK.IndoorLocationDelegate)?"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@MistSDK@objc(cs)IndoorLocationManager(py)indoorLocationDelegate",
-            "mangledName": "$s7MistSDK21IndoorLocationManagerC06indoorD8DelegateAA0cdG0_pSgvp",
-            "moduleName": "MistSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "ReferenceOwnership",
-              "AccessControl",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "ownership": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
                     "printedName": "(any MistSDK.IndoorLocationDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "IndoorLocationDelegate",
                         "printedName": "any MistSDK.IndoorLocationDelegate",
-                        "usr": "c:@M@MistSDK@objc(pl)IndoorLocationDelegate"
+                        "usr": "s:7MistSDK22IndoorLocationDelegateP"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@MistSDK@objc(cs)IndoorLocationManager(im)indoorLocationDelegate",
-                "mangledName": "$s7MistSDK21IndoorLocationManagerC06indoorD8DelegateAA0cdG0_pSgvg",
+                "usr": "s:7MistSDK21IndoorLocationManagerC8delegateAA0cD8Delegate_pSgvg",
+                "mangledName": "$s7MistSDK21IndoorLocationManagerC8delegateAA0cD8Delegate_pSgvg",
                 "moduleName": "MistSDK",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
-                  "ObjC"
+                  "Final"
                 ],
                 "accessorKind": "get"
               },
@@ -16322,20 +15653,19 @@
                         "kind": "TypeNominal",
                         "name": "IndoorLocationDelegate",
                         "printedName": "any MistSDK.IndoorLocationDelegate",
-                        "usr": "c:@M@MistSDK@objc(pl)IndoorLocationDelegate"
+                        "usr": "s:7MistSDK22IndoorLocationDelegateP"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@MistSDK@objc(cs)IndoorLocationManager(im)setIndoorLocationDelegate:",
-                "mangledName": "$s7MistSDK21IndoorLocationManagerC06indoorD8DelegateAA0cdG0_pSgvs",
+                "usr": "s:7MistSDK21IndoorLocationManagerC8delegateAA0cD8Delegate_pSgvs",
+                "mangledName": "$s7MistSDK21IndoorLocationManagerC8delegateAA0cD8Delegate_pSgvs",
                 "moduleName": "MistSDK",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
-                  "ObjC"
+                  "Final"
                 ],
                 "accessorKind": "set"
               },
@@ -16351,8 +15681,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7MistSDK21IndoorLocationManagerC06indoorD8DelegateAA0cdG0_pSgvM",
-                "mangledName": "$s7MistSDK21IndoorLocationManagerC06indoorD8DelegateAA0cdG0_pSgvM",
+                "usr": "s:7MistSDK21IndoorLocationManagerC8delegateAA0cD8Delegate_pSgvM",
+                "mangledName": "$s7MistSDK21IndoorLocationManagerC8delegateAA0cD8Delegate_pSgvM",
                 "moduleName": "MistSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -16361,561 +15691,6 @@
                 "accessorKind": "_modify"
               }
             ]
-          },
-          {
-            "kind": "Var",
-            "name": "virtualBeaconsDelegate",
-            "printedName": "virtualBeaconsDelegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "(any MistSDK.VirtualBeaconsDelegate)?"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@MistSDK@objc(cs)IndoorLocationManager(py)virtualBeaconsDelegate",
-            "mangledName": "$s7MistSDK21IndoorLocationManagerC22virtualBeaconsDelegateAA07VirtualgH0_pSgvp",
-            "moduleName": "MistSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "ReferenceOwnership",
-              "AccessControl",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "ownership": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any MistSDK.VirtualBeaconsDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "VirtualBeaconsDelegate",
-                        "printedName": "any MistSDK.VirtualBeaconsDelegate",
-                        "usr": "c:@M@MistSDK@objc(pl)VirtualBeaconsDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MistSDK@objc(cs)IndoorLocationManager(im)virtualBeaconsDelegate",
-                "mangledName": "$s7MistSDK21IndoorLocationManagerC22virtualBeaconsDelegateAA07VirtualgH0_pSgvg",
-                "moduleName": "MistSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any MistSDK.VirtualBeaconsDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "VirtualBeaconsDelegate",
-                        "printedName": "any MistSDK.VirtualBeaconsDelegate",
-                        "usr": "c:@M@MistSDK@objc(pl)VirtualBeaconsDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MistSDK@objc(cs)IndoorLocationManager(im)setVirtualBeaconsDelegate:",
-                "mangledName": "$s7MistSDK21IndoorLocationManagerC22virtualBeaconsDelegateAA07VirtualgH0_pSgvs",
-                "moduleName": "MistSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7MistSDK21IndoorLocationManagerC22virtualBeaconsDelegateAA07VirtualgH0_pSgvM",
-                "mangledName": "$s7MistSDK21IndoorLocationManagerC22virtualBeaconsDelegateAA07VirtualgH0_pSgvM",
-                "moduleName": "MistSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "zonesDelegate",
-            "printedName": "zonesDelegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "(any MistSDK.ZonesDelegate)?"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@MistSDK@objc(cs)IndoorLocationManager(py)zonesDelegate",
-            "mangledName": "$s7MistSDK21IndoorLocationManagerC13zonesDelegateAA05ZonesG0_pSgvp",
-            "moduleName": "MistSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "ReferenceOwnership",
-              "AccessControl",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "ownership": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any MistSDK.ZonesDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ZonesDelegate",
-                        "printedName": "any MistSDK.ZonesDelegate",
-                        "usr": "c:@M@MistSDK@objc(pl)ZonesDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MistSDK@objc(cs)IndoorLocationManager(im)zonesDelegate",
-                "mangledName": "$s7MistSDK21IndoorLocationManagerC13zonesDelegateAA05ZonesG0_pSgvg",
-                "moduleName": "MistSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any MistSDK.ZonesDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ZonesDelegate",
-                        "printedName": "any MistSDK.ZonesDelegate",
-                        "usr": "c:@M@MistSDK@objc(pl)ZonesDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MistSDK@objc(cs)IndoorLocationManager(im)setZonesDelegate:",
-                "mangledName": "$s7MistSDK21IndoorLocationManagerC13zonesDelegateAA05ZonesG0_pSgvs",
-                "moduleName": "MistSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7MistSDK21IndoorLocationManagerC13zonesDelegateAA05ZonesG0_pSgvM",
-                "mangledName": "$s7MistSDK21IndoorLocationManagerC13zonesDelegateAA05ZonesG0_pSgvM",
-                "moduleName": "MistSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "mapsListDelegate",
-            "printedName": "mapsListDelegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "(any MistSDK.MapsListDelegate)?"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@MistSDK@objc(cs)IndoorLocationManager(py)mapsListDelegate",
-            "mangledName": "$s7MistSDK21IndoorLocationManagerC16mapsListDelegateAA04MapsgH0_pSgvp",
-            "moduleName": "MistSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "ReferenceOwnership",
-              "AccessControl",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "ownership": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any MistSDK.MapsListDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MapsListDelegate",
-                        "printedName": "any MistSDK.MapsListDelegate",
-                        "usr": "c:@M@MistSDK@objc(pl)MapsListDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MistSDK@objc(cs)IndoorLocationManager(im)mapsListDelegate",
-                "mangledName": "$s7MistSDK21IndoorLocationManagerC16mapsListDelegateAA04MapsgH0_pSgvg",
-                "moduleName": "MistSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any MistSDK.MapsListDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MapsListDelegate",
-                        "printedName": "any MistSDK.MapsListDelegate",
-                        "usr": "c:@M@MistSDK@objc(pl)MapsListDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MistSDK@objc(cs)IndoorLocationManager(im)setMapsListDelegate:",
-                "mangledName": "$s7MistSDK21IndoorLocationManagerC16mapsListDelegateAA04MapsgH0_pSgvs",
-                "moduleName": "MistSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7MistSDK21IndoorLocationManagerC16mapsListDelegateAA04MapsgH0_pSgvM",
-                "mangledName": "$s7MistSDK21IndoorLocationManagerC16mapsListDelegateAA04MapsgH0_pSgvM",
-                "moduleName": "MistSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "clientInformationDelegate",
-            "printedName": "clientInformationDelegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "(any MistSDK.ClientInformationDelegate)?"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@MistSDK@objc(cs)IndoorLocationManager(py)clientInformationDelegate",
-            "mangledName": "$s7MistSDK21IndoorLocationManagerC25clientInformationDelegateAA06ClientgH0_pSgvp",
-            "moduleName": "MistSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "ReferenceOwnership",
-              "AccessControl",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "ownership": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any MistSDK.ClientInformationDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ClientInformationDelegate",
-                        "printedName": "any MistSDK.ClientInformationDelegate",
-                        "usr": "c:@M@MistSDK@objc(pl)ClientInformationDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MistSDK@objc(cs)IndoorLocationManager(im)clientInformationDelegate",
-                "mangledName": "$s7MistSDK21IndoorLocationManagerC25clientInformationDelegateAA06ClientgH0_pSgvg",
-                "moduleName": "MistSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any MistSDK.ClientInformationDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ClientInformationDelegate",
-                        "printedName": "any MistSDK.ClientInformationDelegate",
-                        "usr": "c:@M@MistSDK@objc(pl)ClientInformationDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MistSDK@objc(cs)IndoorLocationManager(im)setClientInformationDelegate:",
-                "mangledName": "$s7MistSDK21IndoorLocationManagerC25clientInformationDelegateAA06ClientgH0_pSgvs",
-                "moduleName": "MistSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7MistSDK21IndoorLocationManagerC25clientInformationDelegateAA06ClientgH0_pSgvM",
-                "mangledName": "$s7MistSDK21IndoorLocationManagerC25clientInformationDelegateAA06ClientgH0_pSgvM",
-                "moduleName": "MistSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "sharedInstance",
-            "printedName": "sharedInstance(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "IndoorLocationManager",
-                "printedName": "MistSDK.IndoorLocationManager",
-                "usr": "c:@M@MistSDK@objc(cs)IndoorLocationManager"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@MistSDK@objc(cs)IndoorLocationManager(cm)sharedInstance:",
-            "mangledName": "$s7MistSDK21IndoorLocationManagerC14sharedInstanceyACSSFZ",
-            "moduleName": "MistSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getMistUUID",
-            "printedName": "getMistUUID()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@MistSDK@objc(cs)IndoorLocationManager(cm)getMistUUID",
-            "mangledName": "$s7MistSDK21IndoorLocationManagerC03getA4UUIDSSyFZ",
-            "moduleName": "MistSDK",
-            "static": true,
-            "deprecated": true,
-            "declAttributes": [
-              "Final",
-              "Available",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "startWithIndoorLocationDelegate",
-            "printedName": "startWithIndoorLocationDelegate(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "IndoorLocationDelegate",
-                "printedName": "any MistSDK.IndoorLocationDelegate",
-                "usr": "c:@M@MistSDK@objc(pl)IndoorLocationDelegate"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@MistSDK@objc(cs)IndoorLocationManager(im)startWithIndoorLocationDelegate:",
-            "mangledName": "$s7MistSDK21IndoorLocationManagerC09startWithcD8DelegateyyAA0cdH0_pF",
-            "moduleName": "MistSDK",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -16935,14 +15710,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "MistIndoorLocationDelegate",
-                "printedName": "any MistSDK.MistIndoorLocationDelegate",
-                "usr": "s:7MistSDK0A22IndoorLocationDelegateP"
+                "name": "IndoorLocationDelegate",
+                "printedName": "any MistSDK.IndoorLocationDelegate",
+                "usr": "s:7MistSDK22IndoorLocationDelegateP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7MistSDK21IndoorLocationManagerC5start4with8delegateyAA0A0C13ConfigurationV_AA0acD8Delegate_ptF",
-            "mangledName": "$s7MistSDK21IndoorLocationManagerC5start4with8delegateyAA0A0C13ConfigurationV_AA0acD8Delegate_ptF",
+            "usr": "s:7MistSDK21IndoorLocationManagerC5start4with8delegateyAA0A0C13ConfigurationV_AA0cD8Delegate_ptF",
+            "mangledName": "$s7MistSDK21IndoorLocationManagerC5start4with8delegateyAA0A0C13ConfigurationV_AA0cD8Delegate_ptF",
             "moduleName": "MistSDK",
             "declAttributes": [
               "Final",
@@ -17002,82 +15777,18 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "MistPosition",
-                "printedName": "MistSDK.MistPosition",
-                "usr": "c:@M@MistSDK@objc(cs)MistPosition"
+                "name": "Position",
+                "printedName": "MistSDK.Mist.Position",
+                "usr": "s:7MistSDK0A0C8PositionV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7MistSDK21IndoorLocationManagerC17getWayfindingPath2toSayAA0A0C4NodeVGSgAA0A8PositionC_tF",
-            "mangledName": "$s7MistSDK21IndoorLocationManagerC17getWayfindingPath2toSayAA0A0C4NodeVGSgAA0A8PositionC_tF",
+            "usr": "s:7MistSDK21IndoorLocationManagerC17getWayfindingPath2toSayAA0A0C4NodeVGSgAG8PositionV_tF",
+            "mangledName": "$s7MistSDK21IndoorLocationManagerC17getWayfindingPath2toSayAA0A0C4NodeVGSgAG8PositionV_tF",
             "moduleName": "MistSDK",
             "declAttributes": [
               "Final",
               "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "saveClientInformation",
-            "printedName": "saveClientInformation(_:withDelegate:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ClientInformationDelegate",
-                "printedName": "any MistSDK.ClientInformationDelegate",
-                "usr": "c:@M@MistSDK@objc(pl)ClientInformationDelegate"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@MistSDK@objc(cs)IndoorLocationManager(im)saveClientInformation:withDelegate:",
-            "mangledName": "$s7MistSDK21IndoorLocationManagerC21saveClientInformation_12withDelegateySS_AA0ghJ0_ptF",
-            "moduleName": "MistSDK",
-            "declAttributes": [
-              "Final",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getClientInformation",
-            "printedName": "getClientInformation(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ClientInformationDelegate",
-                "printedName": "any MistSDK.ClientInformationDelegate",
-                "usr": "c:@M@MistSDK@objc(pl)ClientInformationDelegate"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@MistSDK@objc(cs)IndoorLocationManager(im)getClientInformationWith:",
-            "mangledName": "$s7MistSDK21IndoorLocationManagerC20getClientInformation4withyAA0gH8Delegate_p_tF",
-            "moduleName": "MistSDK",
-            "declAttributes": [
-              "Final",
-              "RawDocComment",
-              "ObjC"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -18454,21 +17165,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "MistSDK.VBeaconPosition?",
+                    "printedName": "MistSDK.Mist.VBeaconPosition?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "VBeaconPosition",
-                        "printedName": "MistSDK.VBeaconPosition",
-                        "usr": "c:@M@MistSDK@objc(cs)VBeaconPosition"
+                        "printedName": "MistSDK.Mist.VBeaconPosition",
+                        "usr": "s:7MistSDK0A0C15VBeaconPositionV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:7MistSDK0A0C13VirtualBeaconV8positionAA15VBeaconPositionCSgvp",
-                "mangledName": "$s7MistSDK0A0C13VirtualBeaconV8positionAA15VBeaconPositionCSgvp",
+                "usr": "s:7MistSDK0A0C13VirtualBeaconV8positionAC15VBeaconPositionVSgvp",
+                "mangledName": "$s7MistSDK0A0C13VirtualBeaconV8positionAC15VBeaconPositionVSgvp",
                 "moduleName": "MistSDK",
                 "declAttributes": [
                   "HasStorage",
@@ -18485,21 +17196,21 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "MistSDK.VBeaconPosition?",
+                        "printedName": "MistSDK.Mist.VBeaconPosition?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "VBeaconPosition",
-                            "printedName": "MistSDK.VBeaconPosition",
-                            "usr": "c:@M@MistSDK@objc(cs)VBeaconPosition"
+                            "printedName": "MistSDK.Mist.VBeaconPosition",
+                            "usr": "s:7MistSDK0A0C15VBeaconPositionV"
                           }
                         ],
                         "usr": "s:Sq"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:7MistSDK0A0C13VirtualBeaconV8positionAA15VBeaconPositionCSgvg",
-                    "mangledName": "$s7MistSDK0A0C13VirtualBeaconV8positionAA15VBeaconPositionCSgvg",
+                    "usr": "s:7MistSDK0A0C13VirtualBeaconV8positionAC15VBeaconPositionVSgvg",
+                    "mangledName": "$s7MistSDK0A0C13VirtualBeaconV8positionAC15VBeaconPositionVSgvg",
                     "moduleName": "MistSDK",
                     "implicit": true,
                     "accessorKind": "get"
@@ -19746,6 +18457,166 @@
           },
           {
             "kind": "TypeDecl",
+            "name": "VBeaconPosition",
+            "printedName": "VBeaconPosition",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "x",
+                "printedName": "x",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C15VBeaconPositionV1xSdvp",
+                "mangledName": "$s7MistSDK0A0C15VBeaconPositionV1xSdvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C15VBeaconPositionV1xSdvg",
+                    "mangledName": "$s7MistSDK0A0C15VBeaconPositionV1xSdvg",
+                    "moduleName": "MistSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "y",
+                "printedName": "y",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C15VBeaconPositionV1ySdvp",
+                "mangledName": "$s7MistSDK0A0C15VBeaconPositionV1ySdvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C15VBeaconPositionV1ySdvg",
+                    "mangledName": "$s7MistSDK0A0C15VBeaconPositionV1ySdvg",
+                    "moduleName": "MistSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "z",
+                "printedName": "z",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C15VBeaconPositionV1zSdvp",
+                "mangledName": "$s7MistSDK0A0C15VBeaconPositionV1zSdvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C15VBeaconPositionV1zSdvg",
+                    "mangledName": "$s7MistSDK0A0C15VBeaconPositionV1zSdvg",
+                    "moduleName": "MistSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:7MistSDK0A0C15VBeaconPositionV",
+            "mangledName": "$s7MistSDK0A0C15VBeaconPositionV",
+            "moduleName": "MistSDK",
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
             "name": "Event",
             "printedName": "Event",
             "children": [
@@ -20326,13 +19197,19 @@
               {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(sdkToken:clientUUID:logLevel:enableLog:)",
+                "printedName": "init(orgId:sdkToken:clientUUID:logLevel:enableLog:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Configuration",
                     "printedName": "MistSDK.Mist.Configuration",
                     "usr": "s:7MistSDK0A0C13ConfigurationV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   },
                   {
                     "kind": "TypeNominal",
@@ -20371,8 +19248,8 @@
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:7MistSDK0A0C13ConfigurationV8sdkToken10clientUUID8logLevel9enableLogAESS_SSSgAC0kI0OSbtcfc",
-                "mangledName": "$s7MistSDK0A0C13ConfigurationV8sdkToken10clientUUID8logLevel9enableLogAESS_SSSgAC0kI0OSbtcfc",
+                "usr": "s:7MistSDK0A0C13ConfigurationV5orgId8sdkToken10clientUUID8logLevel9enableLogAESS_S2SSgAC0mK0OSbtcfc",
+                "mangledName": "$s7MistSDK0A0C13ConfigurationV5orgId8sdkToken10clientUUID8logLevel9enableLogAESS_S2SSgAC0mK0OSbtcfc",
                 "moduleName": "MistSDK",
                 "declAttributes": [
                   "AccessControl"
@@ -20414,7 +19291,7 @@
               {
                 "kind": "Function",
                 "name": "default",
-                "printedName": "default(sdkToken:enableLog:)",
+                "printedName": "default(orgId:sdkToken:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -20430,15 +19307,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "hasDefaultArg": true,
-                    "usr": "s:Sb"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:7MistSDK0A0C13ConfigurationV7default8sdkToken9enableLogAESS_SbtFZ",
-                "mangledName": "$s7MistSDK0A0C13ConfigurationV7default8sdkToken9enableLogAESS_SbtFZ",
+                "usr": "s:7MistSDK0A0C13ConfigurationV7default5orgId8sdkTokenAESS_SStFZ",
+                "mangledName": "$s7MistSDK0A0C13ConfigurationV7default5orgId8sdkTokenAESS_SStFZ",
                 "moduleName": "MistSDK",
                 "static": true,
                 "isFromExtension": true,
@@ -29538,21 +28414,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "MistSDK.MistPosition?",
+                    "printedName": "MistSDK.Mist.Position?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "MistPosition",
-                        "printedName": "MistSDK.MistPosition",
-                        "usr": "c:@M@MistSDK@objc(cs)MistPosition"
+                        "name": "Position",
+                        "printedName": "MistSDK.Mist.Position",
+                        "usr": "s:7MistSDK0A0C8PositionV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:7MistSDK0A0C4NodeV8positionAA0A8PositionCSgvp",
-                "mangledName": "$s7MistSDK0A0C4NodeV8positionAA0A8PositionCSgvp",
+                "usr": "s:7MistSDK0A0C4NodeV8positionAC8PositionVSgvp",
+                "mangledName": "$s7MistSDK0A0C4NodeV8positionAC8PositionVSgvp",
                 "moduleName": "MistSDK",
                 "declAttributes": [
                   "HasInitialValue",
@@ -29569,21 +28445,21 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "MistSDK.MistPosition?",
+                        "printedName": "MistSDK.Mist.Position?",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "MistPosition",
-                            "printedName": "MistSDK.MistPosition",
-                            "usr": "c:@M@MistSDK@objc(cs)MistPosition"
+                            "name": "Position",
+                            "printedName": "MistSDK.Mist.Position",
+                            "usr": "s:7MistSDK0A0C8PositionV"
                           }
                         ],
                         "usr": "s:Sq"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:7MistSDK0A0C4NodeV8positionAA0A8PositionCSgvg",
-                    "mangledName": "$s7MistSDK0A0C4NodeV8positionAA0A8PositionCSgvg",
+                    "usr": "s:7MistSDK0A0C4NodeV8positionAC8PositionVSgvg",
+                    "mangledName": "$s7MistSDK0A0C4NodeV8positionAC8PositionVSgvg",
                     "moduleName": "MistSDK",
                     "implicit": true,
                     "accessorKind": "get"
@@ -29601,21 +28477,21 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "MistSDK.MistPosition?",
+                        "printedName": "MistSDK.Mist.Position?",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "MistPosition",
-                            "printedName": "MistSDK.MistPosition",
-                            "usr": "c:@M@MistSDK@objc(cs)MistPosition"
+                            "name": "Position",
+                            "printedName": "MistSDK.Mist.Position",
+                            "usr": "s:7MistSDK0A0C8PositionV"
                           }
                         ],
                         "usr": "s:Sq"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:7MistSDK0A0C4NodeV8positionAA0A8PositionCSgvs",
-                    "mangledName": "$s7MistSDK0A0C4NodeV8positionAA0A8PositionCSgvs",
+                    "usr": "s:7MistSDK0A0C4NodeV8positionAC8PositionVSgvs",
+                    "mangledName": "$s7MistSDK0A0C4NodeV8positionAC8PositionVSgvs",
                     "moduleName": "MistSDK",
                     "implicit": true,
                     "accessorKind": "set"
@@ -29632,8 +28508,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:7MistSDK0A0C4NodeV8positionAA0A8PositionCSgvM",
-                    "mangledName": "$s7MistSDK0A0C4NodeV8positionAA0A8PositionCSgvM",
+                    "usr": "s:7MistSDK0A0C4NodeV8positionAC8PositionVSgvM",
+                    "mangledName": "$s7MistSDK0A0C4NodeV8positionAC8PositionVSgvM",
                     "moduleName": "MistSDK",
                     "implicit": true,
                     "accessorKind": "_modify"
@@ -32079,14 +30955,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "MistPosition",
-                    "printedName": "MistSDK.MistPosition",
-                    "usr": "c:@M@MistSDK@objc(cs)MistPosition"
+                    "name": "Position",
+                    "printedName": "MistSDK.Mist.Position",
+                    "usr": "s:7MistSDK0A0C8PositionV"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:7MistSDK0A0C5PointV10toPositionAA0aE0Cvp",
-                "mangledName": "$s7MistSDK0A0C5PointV10toPositionAA0aE0Cvp",
+                "usr": "s:7MistSDK0A0C5PointV10toPositionAC0E0Vvp",
+                "mangledName": "$s7MistSDK0A0C5PointV10toPositionAC0E0Vvp",
                 "moduleName": "MistSDK",
                 "isFromExtension": true,
                 "accessors": [
@@ -32097,14 +30973,14 @@
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "MistPosition",
-                        "printedName": "MistSDK.MistPosition",
-                        "usr": "c:@M@MistSDK@objc(cs)MistPosition"
+                        "name": "Position",
+                        "printedName": "MistSDK.Mist.Position",
+                        "usr": "s:7MistSDK0A0C8PositionV"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:7MistSDK0A0C5PointV10toPositionAA0aE0Cvg",
-                    "mangledName": "$s7MistSDK0A0C5PointV10toPositionAA0aE0Cvg",
+                    "usr": "s:7MistSDK0A0C5PointV10toPositionAC0E0Vvg",
+                    "mangledName": "$s7MistSDK0A0C5PointV10toPositionAC0E0Vvg",
                     "moduleName": "MistSDK",
                     "isFromExtension": true,
                     "accessorKind": "get"
@@ -34145,14 +33021,14 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/EPLocationService.swift",
       "kind": "IntegerLiteral",
-      "offset": 625,
+      "offset": 626,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/EPLocationService.swift",
       "kind": "BooleanLiteral",
-      "offset": 664,
+      "offset": 665,
       "length": 5,
       "value": "false"
     },
@@ -34390,14 +33266,14 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Req\/EPResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3765,
+      "offset": 3766,
       "length": 14,
       "value": "\"zones-events\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Req\/EPResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3811,
+      "offset": 3812,
       "length": 15,
       "value": "\"zone-event-vb\""
     },
@@ -34458,6 +33334,27 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/VirtualBeacon.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3849,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/VirtualBeacon.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3864,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/VirtualBeacon.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3879,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Repositories\/RealWebSocketRepository.swift",
       "kind": "StringLiteral",
       "offset": 435,
@@ -34488,49 +33385,49 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "IntegerLiteral",
-      "offset": 858,
+      "offset": 859,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "IntegerLiteral",
-      "offset": 936,
+      "offset": 937,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "Array",
-      "offset": 1008,
+      "offset": 1009,
       "length": 34,
       "value": "[1, 1, 2, 3, 5, 8, 13, 21, 34, 55]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "StringLiteral",
-      "offset": 1113,
+      "offset": 1114,
       "length": 30,
       "value": "\"com.mist.sdk.centrnalService\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1643,
+      "offset": 1644,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1688,
+      "offset": 1689,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 10370,
+      "offset": 10372,
       "length": 5,
       "value": "false"
     },
@@ -35398,98 +34295,119 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3341,
+      "offset": 3494,
       "length": 14,
       "value": "\"feature_wide\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3388,
+      "offset": 3541,
       "length": 19,
       "value": "\"PRODUCTION_AWS_AU\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3437,
+      "offset": 3595,
+      "length": 29,
+      "value": "\"PRODUCTION_GCP_SAUDI_ARABIA\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 3654,
       "length": 23,
       "value": "\"PRODUCTION_GCP_CANADA\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3490,
+      "offset": 3707,
       "length": 15,
       "value": "\"CANARY_AWS_US\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3531,
+      "offset": 3748,
       "length": 19,
       "value": "\"PRODUCTION_AWS_EU\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3700,
+      "offset": 3917,
       "length": 16,
       "value": "\"PRODUCTION_GCP\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3747,
+      "offset": 3964,
       "length": 13,
       "value": "\"STAGING_GCP\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3788,
+      "offset": 4006,
+      "length": 22,
+      "value": "\"PRODUCTION_GCP_INDIA\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 4057,
+      "length": 22,
+      "value": "\"PRODUCTION_GCP_JAPAN\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 4107,
       "length": 21,
       "value": "\"PRODUCTION_AWS_EAST\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3843,
+      "offset": 4162,
       "length": 16,
       "value": "\"PRODUCTION_AWS\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3890,
+      "offset": 4209,
       "length": 13,
       "value": "\"STAGING_AWS\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3929,
+      "offset": 4248,
       "length": 19,
       "value": "\"PRODUCTION_GCP_UK\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3982,
+      "offset": 4301,
       "length": 28,
       "value": "\"PRODUCTION_GCP_US_CENTRAL1\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4037,
+      "offset": 4356,
       "length": 20,
       "value": "\"PRODUCTION_AWS_UAE\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 4189,
+      "offset": 4508,
       "length": 1,
       "value": "1"
     },
@@ -41187,14 +40105,14 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/WayFinding\/WPNode.swift",
       "kind": "Dictionary",
-      "offset": 369,
+      "offset": 370,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/WayFinding\/WPNode.swift",
       "kind": "Array",
-      "offset": 406,
+      "offset": 407,
       "length": 2,
       "value": "[]"
     },
@@ -41320,14 +40238,14 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/EPService.swift",
       "kind": "BooleanLiteral",
-      "offset": 966,
+      "offset": 967,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/EPService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1060,
+      "offset": 1061,
       "length": 5,
       "value": "false"
     },
@@ -41607,65 +40525,58 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Configs\/MistConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 557,
+      "offset": 621,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Configs\/MistConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 607,
+      "offset": 671,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Configs\/MistConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 932,
+      "offset": 1027,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Configs\/MistConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 955,
+      "offset": 1050,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Configs\/MistConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 977,
+      "offset": 1072,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Configs\/MistConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 1002,
+      "offset": 1097,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Configs\/MistConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 1025,
+      "offset": 1120,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Configs\/MistConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 1051,
+      "offset": 1146,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Configs\/MistConfiguration.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1162,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Repositories\/WebSocketRepository.swift",
@@ -43084,14 +41995,28 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/IndoorLocationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1464,
+      "offset": 396,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/IndoorLocationManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 539,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/IndoorLocationManager.swift",
       "kind": "StringLiteral",
-      "offset": 15355,
+      "offset": 598,
+      "length": 28,
+      "value": "\"com.mist.sdk.bleCheckQueue\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/IndoorLocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14631,
       "length": 2,
       "value": "\"\""
     },
@@ -43567,77 +42492,77 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "StringLiteral",
-      "offset": 1341,
+      "offset": 1390,
       "length": 21,
       "value": "\"mist.sdk.bleService\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1511,
+      "offset": 1608,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1589,
+      "offset": 1686,
       "length": 2,
       "value": "-5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1643,
+      "offset": 1740,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1827,
+      "offset": 1924,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "StringLiteral",
-      "offset": 1966,
+      "offset": 2063,
       "length": 6,
       "value": "\"FEAA\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "IntegerLiteral",
-      "offset": 2102,
+      "offset": 2199,
       "length": 4,
       "value": "-105"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "IntegerLiteral",
-      "offset": 2141,
+      "offset": 2238,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "StringLiteral",
-      "offset": 2212,
+      "offset": 2309,
       "length": 36,
       "value": "\"com.mist.sdk.bleScanSchedulerQueue\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2345,
+      "offset": 2442,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/BLEService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2384,
+      "offset": 2481,
       "length": 5,
       "value": "false"
     },
@@ -43770,7 +42695,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 1696,
+      "offset": 1982,
       "length": 18,
       "value": "\"https:\/\/test.com\""
     },
@@ -44337,7 +43262,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Repositories\/EPDataCache.swift",
       "kind": "IntegerLiteral",
-      "offset": 1182,
+      "offset": 1183,
       "length": 1,
       "value": "0"
     },

@@ -8,5 +8,6 @@
 import Foundation
 
 struct MistSDK {
-    static let token = "<mobile sdk token>"
+    static let token = "" //<mobile sdk token>
+    static let orgId = "" // org_id
 }

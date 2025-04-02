@@ -19,7 +19,6 @@ protocol MistServiceDelegate: AnyObject {
     func didFailed(with error: String?)
 }
 
-
 class RealMistService: MistService {
     weak var delegate: MistServiceDelegate?
 
@@ -27,9 +26,9 @@ class RealMistService: MistService {
     private let sdkConfig: Mist.Configuration
     private var currentMap: Mist.Map?
 
-    init(token: String, delegate: MistServiceDelegate) {
+    init(orgId: String, token: String, delegate: MistServiceDelegate) {
         self.delegate = delegate
-        self.sdkConfig = .default(sdkToken: token, enableLog: true)
+        self.sdkConfig = .default(orgId: orgId, sdkToken: token)
     }
     
     func start() {
@@ -41,9 +40,9 @@ class RealMistService: MistService {
     }
 }
 
-// MARK: - MistIndoorLocationDelegate (New Integartion Flow)
+// MARK: - IndoorLocationDelegate
 
-extension RealMistService: MistIndoorLocationDelegate {
+extension RealMistService: IndoorLocationDelegate {
     
     func didReceive(event: Mist.Event) {
         switch event {

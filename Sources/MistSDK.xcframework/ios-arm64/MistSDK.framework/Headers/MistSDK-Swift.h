@@ -303,14 +303,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSString;
-
-SWIFT_PROTOCOL("_TtP7MistSDK25ClientInformationDelegate_")
-@protocol ClientInformationDelegate
-- (void)onSuccess:(NSString * _Nonnull)clientName;
-- (void)onError:(NSError * _Nonnull)errorType andMessage:(NSString * _Nonnull)errorMessage;
-@end
-
 @class MapTransition;
 @class DR;
 
@@ -372,44 +364,20 @@ SWIFT_CLASS("_TtC7MistSDK8GeoRefXY")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class MistMap;
-@class MistPoint;
-
-SWIFT_PROTOCOL("_TtP7MistSDK22IndoorLocationDelegate_")
-@protocol IndoorLocationDelegate
-- (void)didUpdateMap:(MistMap * _Null_unspecified)map;
-- (void)didUpdateRelativeLocation:(MistPoint * _Null_unspecified)relativeLocation;
-@optional
-- (void)didReceivedOrgInfoWithTokenName:(NSString * _Null_unspecified)tokenName andOrgID:(NSString * _Null_unspecified)orgID;
-- (void)didErrorOccurWithType:(NSError * _Nonnull)errorType andMessage:(NSString * _Null_unspecified)errorMessage;
-@end
-
-@protocol VirtualBeaconsDelegate;
-@protocol ZonesDelegate;
-@protocol MapsListDelegate;
 
 SWIFT_CLASS("_TtC7MistSDK21IndoorLocationManager")
 @interface IndoorLocationManager : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IndoorLocationManager * _Nonnull shared;)
 + (IndoorLocationManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, weak) id <IndoorLocationDelegate> _Nullable indoorLocationDelegate;
-@property (nonatomic, weak) id <VirtualBeaconsDelegate> _Nullable virtualBeaconsDelegate;
-@property (nonatomic, weak) id <ZonesDelegate> _Nullable zonesDelegate;
-@property (nonatomic, weak) id <MapsListDelegate> _Nullable mapsListDelegate;
-@property (nonatomic, weak) id <ClientInformationDelegate> _Nullable clientInformationDelegate;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
+@class NSString;
 
 @interface IndoorLocationManager (SWIFT_EXTENSION(MistSDK))
-+ (IndoorLocationManager * _Nonnull)sharedInstance:(NSString * _Nonnull)token SWIFT_WARN_UNUSED_RESULT;
-+ (NSString * _Nonnull)getMistUUID SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("Use clientUUID instead");
-- (void)startWithIndoorLocationDelegate:(id <IndoorLocationDelegate> _Nonnull)delegate;
 - (void)stop;
-- (void)saveClientInformation:(NSString * _Nonnull)clientName withDelegate:(id <ClientInformationDelegate> _Nonnull)withDelegate;
-- (void)getClientInformationWith:(id <ClientInformationDelegate> _Nonnull)delegate;
 - (void)saveClientWithName:(NSString * _Nonnull)name;
 /// To Get the Client Information subscribe to  didReceive(event: Mist.event) callback and use - case onReceivedClientInfo(let client):
 - (void)getClientInformation;
@@ -455,12 +423,6 @@ SWIFT_CLASS("_TtC7MistSDK13MapTransition")
 @interface MapTransition : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_PROTOCOL("_TtP7MistSDK16MapsListDelegate_")
-@protocol MapsListDelegate
-- (void)didReceiveAllMaps:(NSArray<MistMap *> * _Nonnull)maps;
 @end
 
 @class TransformParams;
@@ -672,14 +634,6 @@ SWIFT_CLASS("_TtC7MistSDK15VBeaconPosition")
 @end
 
 
-SWIFT_PROTOCOL("_TtP7MistSDK22VirtualBeaconsDelegate_")
-@protocol VirtualBeaconsDelegate
-- (void)didRangeVirtualBeacon:(MistVirtualBeacon * _Nonnull)mistVirtualBeacon;
-@optional
-- (void)didUpdateVirtualBeaconList:(NSArray<MistVirtualBeacon *> * _Nonnull)mistVirtualBeacons;
-@end
-
-
 SWIFT_CLASS("_TtC7MistSDK10Wayfinding")
 @interface Wayfinding : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nullable _default;
@@ -687,14 +641,6 @@ SWIFT_CLASS("_TtC7MistSDK10Wayfinding")
 @property (nonatomic, readonly, strong) Micello * _Nullable micello;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_PROTOCOL("_TtP7MistSDK13ZonesDelegate_")
-@protocol ZonesDelegate
-@optional
-- (void)didEnterZone:(MistZone * _Nonnull)mistZone;
-- (void)didExitZone:(MistZone * _Nonnull)mistZone;
 @end
 
 #endif
