@@ -95,6 +95,11 @@ extension MistSDK.Mist {
   @objc final public let intendedCoverageAreas: [[Swift.String : Swift.String]]
   @objc deinit
 }
+extension MistSDK.Mist.Map {
+  public var toMistMap: MistSDK.MistMap {
+    get
+  }
+}
 @objc @_hasMissingDesignatedInitializers @objcMembers public class MistPath : ObjectiveC.NSObject {
   @objc final public let id: Swift.String
   @objc final public let name: Swift.String
@@ -102,22 +107,42 @@ extension MistSDK.Mist {
   @objc final public let nodes: [MistSDK.MistNodes]?
   @objc deinit
 }
+extension MistSDK.Mist.Path {
+  public var toPath: MistSDK.MistPath {
+    get
+  }
+}
 @objc @_hasMissingDesignatedInitializers @objcMembers public class MistNodes : ObjectiveC.NSObject {
   @objc final public let name: Swift.String
   @objc final public let position: MistSDK.MistPosition
   @objc final public let edges: [Swift.String : Swift.String]
   @objc deinit
 }
+extension MistSDK.Mist.Nodes {
+  public var toMistNode: MistSDK.MistNodes {
+    get
+  }
+}
 @objc @_hasMissingDesignatedInitializers @objcMembers public class MistPosition : ObjectiveC.NSObject {
   @objc final public let x: Swift.Double
   @objc final public let y: Swift.Double
   @objc deinit
+}
+extension MistSDK.Mist.Position {
+  public var toMistPosition: MistSDK.MistPosition {
+    get
+  }
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class Wayfinding : ObjectiveC.NSObject {
   @objc final public let _default: Swift.String?
   @objc final public let jibestream: MistSDK.Jibestream?
   @objc final public let micello: MistSDK.Micello?
   @objc deinit
+}
+extension MistSDK.Mist.Wayfinding {
+  public var toMistWayfinding: MistSDK.Wayfinding {
+    get
+  }
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class Jibestream : ObjectiveC.NSObject {
   @objc final public let venueId: Swift.String
@@ -129,6 +154,11 @@ extension MistSDK.Mist {
   @objc final public let endpointUrl: Swift.String
   @objc final public let mmpp: Swift.Double
   @objc deinit
+}
+extension MistSDK.Mist.Jibestream {
+  public var toMistJibestream: MistSDK.Jibestream {
+    get
+  }
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class Micello : ObjectiveC.NSObject {
   @objc final public let accountKey: Swift.String
@@ -146,6 +176,11 @@ extension MistSDK.Mist {
   @objc public var transformParams: MistSDK.TransformParams?
   @objc deinit
 }
+extension MistSDK.Mist.Micello {
+  public var toMistMicello: MistSDK.Micello {
+    get
+  }
+}
 @objc @_hasMissingDesignatedInitializers @objcMembers public class TransformParams : ObjectiveC.NSObject {
   @objc final public let cid: Swift.Int
   @objc final public let did: Swift.Int
@@ -154,30 +189,60 @@ extension MistSDK.Mist {
   @objc final public let mercToNat: [Swift.Double]
   @objc deinit
 }
+extension MistSDK.Mist.TransformParams {
+  public var toMistTransformParams: MistSDK.TransformParams {
+    get
+  }
+}
 @objc @_hasMissingDesignatedInitializers @objcMembers public class LatlngBr : ObjectiveC.NSObject {
   @objc final public let lat: Swift.Double
   @objc final public let lng: Swift.Double
   @objc deinit
+}
+extension MistSDK.Mist.LatlngBr {
+  public var toMistLatlngBr: MistSDK.LatlngBr {
+    get
+  }
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class LatlngTl : ObjectiveC.NSObject {
   @objc final public let lat: Swift.Double
   @objc final public let lng: Swift.Double
   @objc deinit
 }
+extension MistSDK.Mist.LatlngTl {
+  public var toMistLatlngTl: MistSDK.LatlngTl {
+    get
+  }
+}
 @objc @_hasMissingDesignatedInitializers @objcMembers public class DRInternal : ObjectiveC.NSObject {
   @objc final public let config: MistSDK.Config?
   @objc deinit
+}
+extension MistSDK.Mist.DRInternal {
+  public var toMistDRInternal: MistSDK.DRInternal {
+    get
+  }
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class Config : ObjectiveC.NSObject {
   @objc public var mapTransition: MistSDK.MapTransition?
   @objc public var dr: MistSDK.DR?
   @objc deinit
 }
+extension MistSDK.Mist.Config {
+  public var toMistConfig: MistSDK.Config {
+    get
+  }
+}
 @objc @_hasMissingDesignatedInitializers @objcMembers public class MapTransition : ObjectiveC.NSObject {
   final public let active: Swift.Bool?
   final public let tsMaxNames: Swift.Double?
   final public let mapHysteresis: Swift.Double?
   @objc deinit
+}
+extension MistSDK.Mist.MapTransition {
+  public var toMistMapTransition: MistSDK.MapTransition {
+    get
+  }
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class DR : ObjectiveC.NSObject {
   final public let pfJumpDist: Swift.Double?
@@ -203,6 +268,11 @@ extension MistSDK.Mist {
   final public let maxNudge: Swift.Int64?
   @objc deinit
 }
+extension MistSDK.Mist.DR {
+  public var toMistDR: MistSDK.DR {
+    get
+  }
+}
 @objc @_hasMissingDesignatedInitializers @objcMembers public class GeoRefParamsV2 : ObjectiveC.NSObject {
   final public let active: Swift.Bool?
   @objc final public let p1: MistSDK.GeoRefPoint?
@@ -210,20 +280,40 @@ extension MistSDK.Mist {
   @objc final public let p3: MistSDK.GeoRefPoint?
   @objc deinit
 }
+extension MistSDK.Mist.GeoRefParamsV2 {
+  public var toMistGeoRefParamsV2: MistSDK.GeoRefParamsV2 {
+    get
+  }
+}
 @objc @_hasMissingDesignatedInitializers @objcMembers public class GeoRefPoint : ObjectiveC.NSObject {
   @objc final public let mistXY: MistSDK.GeoRefXY?
   @objc final public let latLon: MistSDK.GeoRefLatLon?
   @objc deinit
+}
+extension MistSDK.Mist.GeoRefPoint {
+  public var toMistGeoRefPoint: MistSDK.GeoRefPoint {
+    get
+  }
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class GeoRefXY : ObjectiveC.NSObject {
   final public let x: Swift.Double?
   final public let y: Swift.Double?
   @objc deinit
 }
+extension MistSDK.Mist.GeoRefXY {
+  public var toMistGeoRefXY: MistSDK.GeoRefXY {
+    get
+  }
+}
 @objc @_hasMissingDesignatedInitializers @objcMembers public class GeoRefLatLon : ObjectiveC.NSObject {
   final public let x: Swift.Double?
   final public let y: Swift.Double?
   @objc deinit
+}
+extension MistSDK.Mist.GeoRefLatLon {
+  public var toMistGeoRefLatLon: MistSDK.GeoRefLatLon {
+    get
+  }
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class MistPoint : ObjectiveC.NSObject {
   @objc final public let map: MistSDK.MistMap
@@ -238,12 +328,22 @@ extension MistSDK.Mist {
   @objc public init(x: Swift.Double, y: Swift.Double)
   @objc deinit
 }
+extension MistSDK.Mist.Point {
+  public var toMistPoint: MistSDK.MistPoint {
+    get
+  }
+}
 @objc @_hasMissingDesignatedInitializers @objcMembers public class VBeaconPosition : ObjectiveC.NSObject, Swift.Decodable {
   @objc final public let x: Swift.Double
   @objc final public let y: Swift.Double
   @objc final public let z: Swift.Double
   @objc deinit
   required public init(from decoder: any Swift.Decoder) throws
+}
+extension MistSDK.BeaconPosition {
+  public var toVBeaconPosition: MistSDK.VBeaconPosition {
+    get
+  }
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class MistVirtualBeacon : ObjectiveC.NSObject {
   @objc final public let orgId: Swift.String?
@@ -265,6 +365,11 @@ extension MistSDK.Mist {
   @objc public var additionalInfo: MistSDK.VBAdditionalInfo?
   @objc deinit
 }
+extension MistSDK.Mist.VirtualBeacon {
+  public var toMistVirtualBeacon: MistSDK.MistVirtualBeacon {
+    get
+  }
+}
 @objc @_hasMissingDesignatedInitializers @objcMembers public class VBAdditionalInfo : ObjectiveC.NSObject {
   @objc final public let userId: Swift.String
   @objc final public let clientType: Swift.String
@@ -283,6 +388,11 @@ extension MistSDK.Mist {
   @objc final public let recipient: Swift.String
   @objc final public let recipientId: Swift.String
   @objc deinit
+}
+extension MistSDK.Mist.AdditionalInfo {
+  public var toMistAdditionalInfo: MistSDK.VBAdditionalInfo {
+    get
+  }
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class MistZone : ObjectiveC.NSObject {
   @objc final public let name: Swift.String?
@@ -308,11 +418,21 @@ extension MistSDK.Mist {
   final public let duration: Swift.Int64?
   @objc deinit
 }
+extension MistSDK.Mist.Zone {
+  public var toMistZone: MistSDK.MistZone {
+    get
+  }
+}
 @objc @_hasMissingDesignatedInitializers @objcMembers public class MistZonePosition : ObjectiveC.NSObject {
   final public let x: Swift.Double?
   final public let y: Swift.Double?
   final public let z: Swift.Double?
   @objc deinit
+}
+extension MistSDK.ZonePosition {
+  public var toZonePosition: MistSDK.MistZonePosition {
+    get
+  }
 }
 public typealias ErrorType = Swift.Error
 public protocol IndoorLocationDelegate : AnyObject {
@@ -333,6 +453,7 @@ extension MistSDK.Mist {
   }
 }
 public enum MistError : Swift.Error {
+  case invalidOrgId
   case invalidSDKToken
   case sdkNotStarted
   case notConnected

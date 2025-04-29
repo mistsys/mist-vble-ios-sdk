@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "Constants.h"
+#import "MistService.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIView *mapContainer;
@@ -29,7 +30,7 @@
 
 - (void)setup {
     _blueDot = [self createBlueDot];
-    self.mistService = [[MistService alloc] initWithToken: SDK_TOKEN];
+    self.mistService = [[MistService alloc] initWithToken:SDK_TOKEN orgId:ORG_ID ];
     self.mistService.delegate = self;
  }
 
@@ -111,6 +112,10 @@
     // Calculate the Scale Factor
     _scaleX = floorMapView.bounds.size.width / image.size.width;
     _scaleY = floorMapView.bounds.size.height / image.size.height;
+}
+
+- (void)didFailWithError:(NSString *)error {
+    NSLog(@"MistService Error: %@", error);
 }
 
 @end

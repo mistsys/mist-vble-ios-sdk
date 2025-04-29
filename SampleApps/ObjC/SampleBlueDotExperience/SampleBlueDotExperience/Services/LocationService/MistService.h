@@ -6,8 +6,10 @@
 //
 
 @import Foundation;
-@import MistSDK;
 @import UIKit;
+
+@protocol MistServiceDelegate;
+@class MistMap;
 
 typedef void (^ImageDownloadCompletion)(UIImage * _Nullable image, NSError * _Nullable error);
 
@@ -16,21 +18,21 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)didUpdateMap:(NSURL *)mapURL;
 - (void)didUpdateLocation:(CGPoint)location;
+- (void)didFailWithError:(NSString *)error;
 
 @end
 
-@interface MistService: NSObject<IndoorLocationDelegate>
-@property (nonatomic, weak) id <MistServiceDelegate> delegate;
-@property (nonatomic, strong) MistMap *currentMap;
-@property (nonatomic, assign) Boolean isMistRunning;
+@interface MistService : NSObject
 
-- (instancetype)initWithToken:(NSString *)token;
+@property (nonatomic, assign) id<MistServiceDelegate> delegate;
+@property (nonatomic, assign) BOOL isMistSDKStarted;
+@property (nonatomic, strong, readonly, nullable) MistMap *currentMap;
+
+- (instancetype)initWithToken:(NSString *)token orgId:(NSString *)orgId;
 - (void)start;
 - (void)stop;
 - (void)downloadImageWithURL:(NSURL *)url completion:(ImageDownloadCompletion)completion;
 
 @end
-
-
 
 NS_ASSUME_NONNULL_END

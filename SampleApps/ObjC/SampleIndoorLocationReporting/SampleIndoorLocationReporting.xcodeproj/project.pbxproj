@@ -14,8 +14,9 @@
 		59326E052AF942E7001AB605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59326E042AF942E7001AB605 /* Assets.xcassets */; };
 		59326E082AF942E7001AB605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59326E062AF942E7001AB605 /* LaunchScreen.storyboard */; };
 		59326E0B2AF942E7001AB605 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59326E0A2AF942E7001AB605 /* main.m */; };
+		A40E6F442D9CEA970056D44E /* MistSDKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40E6F432D9CEA8F0056D44E /* MistSDKManager.swift */; };
 		A46872342B19665B00AA1EA7 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = A46872332B19665B00AA1EA7 /* Constants.m */; };
-		A4740E2F2B20743600C60B3A /* MistSDK in Frameworks */ = {isa = PBXBuildFile; productRef = A4740E2E2B20743600C60B3A /* MistSDK */; };
+		A4A485062DA53F5E0077BBCB /* MistSDK in Frameworks */ = {isa = PBXBuildFile; productRef = A4A485052DA53F5E0077BBCB /* MistSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +32,11 @@
 		59326E072AF942E7001AB605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59326E092AF942E7001AB605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59326E0A2AF942E7001AB605 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A40E6F432D9CEA8F0056D44E /* MistSDKManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistSDKManager.swift; sourceTree = "<group>"; };
 		A468722C2B19604200AA1EA7 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		A46872332B19665B00AA1EA7 /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		A4A484FE2DA53EAE0077BBCB /* MistDR.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MistDR.xcframework; path = "../../../../../../../Downloads/MistSDK (2)/MistDR.xcframework"; sourceTree = "<group>"; };
+		A4A484FF2DA53EAE0077BBCB /* MistSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MistSDK.xcframework; path = "../../../../../../../Downloads/MistSDK (2)/MistSDK.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4740E2F2B20743600C60B3A /* MistSDK in Frameworks */,
+				A4A485062DA53F5E0077BBCB /* MistSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +56,8 @@
 			children = (
 				59326DF72AF942E1001AB605 /* SampleIndoorLocationReporting */,
 				59326DF62AF942E1001AB605 /* Products */,
+				9FB3E322E320239C1889890A /* Pods */,
+				A4A484FD2DA53EAE0077BBCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +72,7 @@
 		59326DF72AF942E1001AB605 /* SampleIndoorLocationReporting */ = {
 			isa = PBXGroup;
 			children = (
+				A40E6F3E2D9CEA4B0056D44E /* Services */,
 				A41A51852B1812FF00E2ED42 /* System */,
 				A468722B2B19600B00AA1EA7 /* Utilities */,
 				A41A51862B18139400E2ED42 /* UI */,
@@ -73,6 +80,21 @@
 				59326E0A2AF942E7001AB605 /* main.m */,
 			);
 			path = SampleIndoorLocationReporting;
+			sourceTree = "<group>";
+		};
+		9FB3E322E320239C1889890A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A40E6F3E2D9CEA4B0056D44E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A40E6F432D9CEA8F0056D44E /* MistSDKManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		A41A51852B1812FF00E2ED42 /* System */ = {
@@ -115,6 +137,15 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		A4A484FD2DA53EAE0077BBCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4A484FE2DA53EAE0077BBCB /* MistDR.xcframework */,
+				A4A484FF2DA53EAE0077BBCB /* MistSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,7 +163,7 @@
 			);
 			name = SampleIndoorLocationReporting;
 			packageProductDependencies = (
-				A4740E2E2B20743600C60B3A /* MistSDK */,
+				A4A485052DA53F5E0077BBCB /* MistSDK */,
 			);
 			productName = SampleIndoorLocationReporting;
 			productReference = 59326DF52AF942E1001AB605 /* SampleIndoorLocationReporting.app */;
@@ -149,6 +180,7 @@
 				TargetAttributes = {
 					59326DF42AF942E1001AB605 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1630;
 					};
 				};
 			};
@@ -162,7 +194,7 @@
 			);
 			mainGroup = 59326DEC2AF942E1001AB605;
 			packageReferences = (
-				A4740E2D2B20743600C60B3A /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */,
+				A4A485042DA53F5E0077BBCB /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */,
 			);
 			productRefGroup = 59326DF62AF942E1001AB605 /* Products */;
 			projectDirPath = "";
@@ -193,6 +225,7 @@
 			files = (
 				A46872342B19665B00AA1EA7 /* Constants.m in Sources */,
 				59326E002AF942E1001AB605 /* ViewController.m in Sources */,
+				A40E6F442D9CEA970056D44E /* MistSDKManager.swift in Sources */,
 				59326DFA2AF942E1001AB605 /* AppDelegate.m in Sources */,
 				59326E0B2AF942E7001AB605 /* main.m in Sources */,
 				59326DFD2AF942E1001AB605 /* SceneDelegate.m in Sources */,
@@ -256,6 +289,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -279,6 +313,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "SampleIndoorLocationReporting-Swift.h";
 			};
 			name = Debug;
 		};
@@ -317,6 +352,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -333,6 +369,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "SampleIndoorLocationReporting-Swift.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -342,6 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S6W43QBW7N;
@@ -365,6 +403,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -374,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S6W43QBW7N;
@@ -397,6 +441,10 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -425,20 +473,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A4740E2D2B20743600C60B3A /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */ = {
+		A4A485042DA53F5E0077BBCB /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mistsys/mist-vble-ios-sdk.git";
+			repositoryURL = "https://github.com/mistsys/mist-vble-ios-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
+				minimumVersion = 4.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A4740E2E2B20743600C60B3A /* MistSDK */ = {
+		A4A485052DA53F5E0077BBCB /* MistSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A4740E2D2B20743600C60B3A /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */;
+			package = A4A485042DA53F5E0077BBCB /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */;
 			productName = MistSDK;
 		};
 /* End XCSwiftPackageProductDependency section */

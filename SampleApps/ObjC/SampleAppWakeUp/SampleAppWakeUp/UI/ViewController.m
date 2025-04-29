@@ -28,7 +28,7 @@
  }
 
 - (void)setup {
-    self.mistService = [[MistService alloc] initWithToken: SDK_TOKEN];
+    self.mistService = [[MistService alloc] initWithToken:SDK_TOKEN orgId:ORG_ID ];
     self.mistService.delegate = self;
     self.wakeupService = [[WakeupService alloc] init];
     self.wakeupService.delegate = self;
@@ -61,12 +61,16 @@
     
     [Notification scheduleLocalNotificationWithTitle:@"Hello!!!" subTitle:region body:@"Welcome!! You have entered the Beacon range"];
     
-    if (_mistService.isMistRunning == NO) {
+    if (_mistService.isMistSDKStarted == NO) {
         // Start Mist SDK
         [_mistService start];
         
         [Notification scheduleLocalNotificationWithTitle:@"Mist Service Started!" subTitle:@"" body: @"Mist Location Tracking Running..."];
     }
+}
+
+- (void)didFailWithError:(NSString *)error {
+    NSLog(@"MistService Error: %@", error);
 }
 
 @end

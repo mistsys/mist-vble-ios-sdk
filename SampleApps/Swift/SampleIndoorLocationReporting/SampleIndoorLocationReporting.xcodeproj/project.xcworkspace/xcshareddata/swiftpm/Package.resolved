@@ -1,0 +1,15 @@
+{
+  "originHash" : "553015e95b90834deb6989c1fa1e843dd83e33fc982b2a8474540269100a27d4",
+  "pins" : [
+    {
+      "identity" : "mist-vble-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mistsys/mist-vble-ios-sdk",
+      "state" : {
+        "revision" : "3bb7cb5e6bab7066270ffbbbee18aa5d1c283947",
+        "version" : "4.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

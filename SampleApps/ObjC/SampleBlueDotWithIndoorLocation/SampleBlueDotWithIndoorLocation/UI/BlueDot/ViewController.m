@@ -5,9 +5,11 @@
 //  Created by Gurunarayanan Muthurakku on 24/11/23.
 //
 
+@import MistSDK;
 #import "ViewController.h"
 #import "Constants.h"
 #import "Notification.h"
+#import "SampleBlueDotWithIndoorLocation-Swift.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UISwitch *wakeUpSwitch;
@@ -33,7 +35,7 @@
 
 - (void)setup {
     _blueDot = [self createBlueDot];
-    self.mistService = [[MistService alloc] initWithToken: SDK_TOKEN];
+    self.mistService = [[MistService alloc] initWithToken:SDK_TOKEN orgId:ORG_ID ];
     self.mistService.delegate = self;
     self.wakeupService = [[WakeupService alloc] init];
     self.wakeupService.delegate = self;
@@ -83,7 +85,7 @@
     
     [Notification scheduleLocalNotificationWithTitle:@"Hello!!!" subTitle:region body:@"Welcome!! You have entered the Beacon range"];
     
-    if (_mistService.isMistRunning == NO) {
+    if (_mistService.isMistSDKStarted == NO) {
         // Start Mist SDK
         [_mistService start];
         [_mistSdkSwitch setOn:YES];
@@ -155,4 +157,12 @@
     CGPoint clientLocation = CGPointMake(location.x / ppm, location.y / ppm);
     self.statusLabel.text = [NSString stringWithFormat:@"BlueDot Location on Map X= %.1f, Y= %.1f", clientLocation.x, clientLocation.y];
 }
+
+- (void)didFailWithError:(NSString *)error {
+    NSLog(@"MistService Error: %@", error);
+    dispatch_async(dispatch_get_main_queue(), ^{
+        self.statusLabel.text = [NSString stringWithFormat:@"Error: %@", error];
+    });
+}
+
 @end

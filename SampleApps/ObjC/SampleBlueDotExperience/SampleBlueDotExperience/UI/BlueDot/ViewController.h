@@ -6,7 +6,8 @@
 //
 
 @import UIKit;
-#import "MistService.h"
+
+@protocol MistServiceDelegate;
 
 @interface ViewController : UIViewController<MistServiceDelegate>
 

@@ -17,8 +17,9 @@
 		59D2AA6F2B1075F000168AE6 /* MistService.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D2AA6E2B1075F000168AE6 /* MistService.m */; };
 		59D2AA792B13206500168AE6 /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D2AA782B13206500168AE6 /* Notification.m */; };
 		A46872322B1965B100AA1EA7 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = A46872312B1965B100AA1EA7 /* Constants.m */; };
-		A4740E322B2075D500C60B3A /* MistSDK in Frameworks */ = {isa = PBXBuildFile; productRef = A4740E312B2075D500C60B3A /* MistSDK */; };
 		A47BAB702B207C2C0011020F /* WakeupService.m in Sources */ = {isa = PBXBuildFile; fileRef = A47BAB6F2B207C2C0011020F /* WakeupService.m */; };
+		A4A4850F2DA53FB90077BBCB /* MistSDK in Frameworks */ = {isa = PBXBuildFile; productRef = A4A4850E2DA53FB90077BBCB /* MistSDK */; };
+		A4E2587F2D9B9996009F802F /* MistSDKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E2587E2D9B998F009F802F /* MistSDKManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,9 @@
 		A46872312B1965B100AA1EA7 /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		A47BAB6E2B207C2C0011020F /* WakeupService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WakeupService.h; path = SampleBlueDotWithIndoorLocation/Services/WakeupService/WakeupService.h; sourceTree = SOURCE_ROOT; };
 		A47BAB6F2B207C2C0011020F /* WakeupService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WakeupService.m; path = SampleBlueDotWithIndoorLocation/Services/WakeupService/WakeupService.m; sourceTree = SOURCE_ROOT; };
+		A4A484F72DA53CA30077BBCB /* MistSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MistSDK.xcframework; path = "../../../../../../../Downloads/MistSDK (2)/MistSDK.xcframework"; sourceTree = "<group>"; };
+		A4A484F82DA53CA30077BBCB /* MistDR.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MistDR.xcframework; path = "../../../../../../../Downloads/MistSDK (2)/MistDR.xcframework"; sourceTree = "<group>"; };
+		A4E2587E2D9B998F009F802F /* MistSDKManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistSDKManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4740E322B2075D500C60B3A /* MistSDK in Frameworks */,
+				A4A4850F2DA53FB90077BBCB /* MistSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +66,8 @@
 				59D2AA352B1072F400168AE6 /* SampleBlueDotWithIndoorLocation */,
 				59D2AA482B1072F700168AE6 /* main.m */,
 				59D2AA342B1072F400168AE6 /* Products */,
+				D327DBC556440192ED33F7A7 /* Pods */,
+				A40AA0C32D9D88C200C28760 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +104,20 @@
 		59D2AA712B10845A00168AE6 /* LocationService */ = {
 			isa = PBXGroup;
 			children = (
+				A4E2587E2D9B998F009F802F /* MistSDKManager.swift */,
 				59D2AA6D2B1075F000168AE6 /* MistService.h */,
 				59D2AA6E2B1075F000168AE6 /* MistService.m */,
 			);
 			path = LocationService;
+			sourceTree = "<group>";
+		};
+		A40AA0C32D9D88C200C28760 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4A484F82DA53CA30077BBCB /* MistDR.xcframework */,
+				A4A484F72DA53CA30077BBCB /* MistSDK.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A41A51802B17CC2400E2ED42 /* System */ = {
@@ -170,6 +186,13 @@
 			path = WakeupService;
 			sourceTree = "<group>";
 		};
+		D327DBC556440192ED33F7A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,7 +210,7 @@
 			);
 			name = SampleBlueDotWithIndoorLocation;
 			packageProductDependencies = (
-				A4740E312B2075D500C60B3A /* MistSDK */,
+				A4A4850E2DA53FB90077BBCB /* MistSDK */,
 			);
 			productName = SampleBlueDotWithIndoorLocation;
 			productReference = 59D2AA332B1072F400168AE6 /* SampleBlueDotWithIndoorLocation.app */;
@@ -204,6 +227,7 @@
 				TargetAttributes = {
 					59D2AA322B1072F400168AE6 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1620;
 					};
 				};
 			};
@@ -217,7 +241,7 @@
 			);
 			mainGroup = 59D2AA2A2B1072F400168AE6;
 			packageReferences = (
-				A4740E302B2075D500C60B3A /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */,
+				A4A4850D2DA53FB90077BBCB /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */,
 			);
 			productRefGroup = 59D2AA342B1072F400168AE6 /* Products */;
 			projectDirPath = "";
@@ -248,6 +272,7 @@
 			files = (
 				A47BAB702B207C2C0011020F /* WakeupService.m in Sources */,
 				59D2AA6F2B1075F000168AE6 /* MistService.m in Sources */,
+				A4E2587F2D9B9996009F802F /* MistSDKManager.swift in Sources */,
 				59D2AA792B13206500168AE6 /* Notification.m in Sources */,
 				59D2AA3E2B1072F400168AE6 /* ViewController.m in Sources */,
 				A46872322B1965B100AA1EA7 /* Constants.m in Sources */,
@@ -392,8 +417,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = S6W43QBW7N;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -415,6 +442,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -424,8 +454,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = S6W43QBW7N;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -447,6 +479,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -475,20 +509,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A4740E302B2075D500C60B3A /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */ = {
+		A4A4850D2DA53FB90077BBCB /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mistsys/mist-vble-ios-sdk.git";
+			repositoryURL = "https://github.com/mistsys/mist-vble-ios-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
+				minimumVersion = 4.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A4740E312B2075D500C60B3A /* MistSDK */ = {
+		A4A4850E2DA53FB90077BBCB /* MistSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A4740E302B2075D500C60B3A /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */;
+			package = A4A4850D2DA53FB90077BBCB /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */;
 			productName = MistSDK;
 		};
 /* End XCSwiftPackageProductDependency section */

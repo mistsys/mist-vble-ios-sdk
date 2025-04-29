@@ -9,6 +9,6 @@ target 'SampleAppWakeUp' do
   use_frameworks!
 
   # Pods for SampleAppWakeUp
-pod 'MistSDK', '3.0.0'                    
+pod 'MistSDK', '4.0.1'                    
 
 end

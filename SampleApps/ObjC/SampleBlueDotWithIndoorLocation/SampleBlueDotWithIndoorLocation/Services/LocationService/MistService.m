@@ -5,89 +5,79 @@
 //  Created by Gurunarayanan Muthurakku on 24/11/23.
 //
 
+@import Foundation;
+@import MistSDK;
 #import "MistService.h"
+#import "SampleBlueDotWithIndoorLocation-Swift.h"
 
-@interface MistService ()
-
-@property (nonatomic, weak) IndoorLocationManager *mistManager;
-
+@interface MistService () <MistSDKManagerDelegate>
+@property (nonatomic, strong, readwrite, nullable) MistMap *currentMap;
+@property (nonatomic, strong) MistSDKManager *sdkManager;
 @end
 
 @implementation MistService
 
-- (instancetype)initWithToken:(NSString *)token {
+- (instancetype)initWithToken:(NSString *)token orgId:(NSString *)orgId {
     self = [super init];
     if (self) {
-        _mistManager = [IndoorLocationManager sharedInstance:token];
+        _sdkManager = [[MistSDKManager alloc] initWithToken:token orgId:orgId];
+        _sdkManager.delegate = self;
     }
     return self;
 }
 
 - (void)start {
-    [self.mistManager startWithIndoorLocationDelegate: self];
-    self.isMistRunning = YES;
+    [self.sdkManager start];
+    self.isMistSDKStarted = YES;
 }
 
 - (void)stop {
-    [self.mistManager stop];
-    self.isMistRunning = NO;
-}
-
-- (void)didUpdateRelativeLocation:(MistPoint *)relativeLocation {
-    if (!self.currentMap) {
-        return;
-    }
-    NSLog(@">>> didUpdateRelativeLocation Original x = %f y = %f", relativeLocation.x, relativeLocation.y);
-    NSLog(@">>> didUpdateRelativeLocation PPM Value = %f", self.currentMap.ppm);
-    CGPoint location = CGPointMake(relativeLocation.x * self.currentMap.ppm, relativeLocation.y * self.currentMap.ppm);
-    NSLog(@">>> didUpdateRelativeLocation with PPM x = %f y = %f", location.x, location.y);
-    [self.delegate didUpdateLocation:location];
-}
-
-- (void)didUpdateMap:(MistMap *)map { 
-    self.currentMap = map;
-    NSString *mapPath = map.url;
-    NSURL *mapURL = [NSURL URLWithString:mapPath];
-    if (!mapURL) {
-        return;
-    }
-    [self.delegate didUpdateMap:mapURL];
-    NSLog(@">>> didUpdate MistMap mapName=%@", map.name.description);
-}
-
-// Old SDK  <= 2.0.8
-//- (void)didErrorOccurWithErrorType:(ErrorType)errorType andMessage:(NSString *)errorMessage {
-//    NSLog(@">>> didErrorOccur errorType = %ld errorMessage = %@", (long)errorType, errorMessage.description);
-//}
-
-// New SDK >= 3.0.0
-- (void)didErrorOccurWithType:(NSError*)errorType andMessage:(NSString*)errorMessage {
-    NSLog(@">>> didErrorOccur errorType = %@ errorMessage = %@", errorType, errorMessage.description);
+    [self.sdkManager stop];
+    self.isMistSDKStarted = NO;
 }
 
 - (void)downloadImageWithURL:(NSURL *)url completion:(ImageDownloadCompletion)completion {
     NSURLSession *session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
-    
+
     NSURLSessionDataTask *dataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         if (error) {
-            NSLog(@"Error: Unable to download map image with url %@", url.absoluteString);
             completion(nil, error);
             return;
         }
-        
+
         if (!data) {
-            NSLog(@"Error: Map image data is nil");
             NSError *unknownError = [NSError errorWithDomain:@"ImageErrorDomain" code:-1 userInfo:@{NSLocalizedDescriptionKey: @"Unknown image error"}];
             completion(nil, unknownError);
             return;
         }
-        
+
         UIImage *image = [UIImage imageWithData:data];
         completion(image, nil);
     }];
-    
+
     [dataTask resume];
+}
+
+// MARK: - MistSDKManagerDelegate
+
+- (void)didUpdateMap:(MistMap *)map {
+    self.currentMap = map;
+    NSURL *url = [NSURL URLWithString:map.url];
+    [self.delegate didUpdateMap:url];
+}
+
+- (void)didUpdateLocation:(CGPoint)location {
+    if (self.currentMap) {
+        CGFloat scaledX = location.x / self.currentMap.ppm;
+        CGFloat scaledY = location.y / self.currentMap.ppm;
+        CGPoint clientLocation = CGPointMake(scaledX, scaledY);
+        [self.delegate didUpdateLocation:clientLocation];
+    }
+}
+
+- (void)didFailWithError:(NSString *)error {
+    [self.delegate didFailWithError:error];
 }
 
 @end

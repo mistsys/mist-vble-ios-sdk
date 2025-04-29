@@ -6,9 +6,7 @@
 //
 
 @import UIKit;
-@import MistSDK;
 
 @interface ViewController : UIViewController
 
 @end
-

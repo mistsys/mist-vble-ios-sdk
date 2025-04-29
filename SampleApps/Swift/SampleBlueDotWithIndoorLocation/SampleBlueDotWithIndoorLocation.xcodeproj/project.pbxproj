@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24BF466C29C347AD00408903 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF466B29C347AD00408903 /* Constants.swift */; };
+		24BF466E29C347C000408903 /* CGPoint+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF466D29C347C000408903 /* CGPoint+Extention.swift */; };
+		24BF467029C3481F00408903 /* HUDProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF466F29C3481F00408903 /* HUDProgress.swift */; };
+		24BF467629C3497100408903 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF467529C3497100408903 /* Notification.swift */; };
+		24BF467829C3499400408903 /* BeaconRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF467729C3499400408903 /* BeaconRegion.swift */; };
+		24BF467A29C34A0000408903 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF467929C34A0000408903 /* String.swift */; };
+		24BF467C29C34A2300408903 /* MistService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF467B29C34A2300408903 /* MistService.swift */; };
+		24BF467E29C34A5300408903 /* WakeupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF467D29C34A5300408903 /* WakeupService.swift */; };
+		24BF468029C34B0800408903 /* MapDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF467F29C34B0800408903 /* MapDownloader.swift */; };
+		24BF468229C34BA100408903 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF468129C34BA100408903 /* ViewModel.swift */; };
+		24BF468529C480FB00408903 /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF468429C480FB00408903 /* Scale.swift */; };
+		24C018B72983E74B0073A891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C018B62983E74B0073A891 /* AppDelegate.swift */; };
+		24C018B92983E74B0073A891 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C018B82983E74B0073A891 /* SceneDelegate.swift */; };
+		24C018BB2983E74B0073A891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C018BA2983E74B0073A891 /* ViewController.swift */; };
+		24C018BE2983E74B0073A891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C018BC2983E74B0073A891 /* Main.storyboard */; };
+		24C018C02983E74C0073A891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C018BF2983E74C0073A891 /* Assets.xcassets */; };
+		24C018C32983E74C0073A891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C018C12983E74C0073A891 /* LaunchScreen.storyboard */; };
+		A4FABADF2DA4AB610065B3E9 /* MistSDK in Frameworks */ = {isa = PBXBuildFile; productRef = A4FABADE2DA4AB610065B3E9 /* MistSDK */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24BF466B29C347AD00408903 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		24BF466D29C347C000408903 /* CGPoint+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extention.swift"; sourceTree = "<group>"; };
+		24BF466F29C3481F00408903 /* HUDProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDProgress.swift; sourceTree = "<group>"; };
+		24BF467529C3497100408903 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		24BF467729C3499400408903 /* BeaconRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconRegion.swift; sourceTree = "<group>"; };
+		24BF467929C34A0000408903 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		24BF467B29C34A2300408903 /* MistService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistService.swift; sourceTree = "<group>"; };
+		24BF467D29C34A5300408903 /* WakeupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeupService.swift; sourceTree = "<group>"; };
+		24BF467F29C34B0800408903 /* MapDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDownloader.swift; sourceTree = "<group>"; };
+		24BF468129C34BA100408903 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		24BF468429C480FB00408903 /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
+		24C018B32983E74B0073A891 /* SampleBlueDotWithIndoorLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleBlueDotWithIndoorLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C018B62983E74B0073A891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24C018B82983E74B0073A891 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		24C018BA2983E74B0073A891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24C018BD2983E74B0073A891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24C018BF2983E74C0073A891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24C018C22983E74C0073A891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24C018C42983E74C0073A891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24C018B02983E74B0073A891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FABADF2DA4AB610065B3E9 /* MistSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24BF466529C3470C00408903 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				24C018B62983E74B0073A891 /* AppDelegate.swift */,
+				24C018B82983E74B0073A891 /* SceneDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		24BF466629C3472400408903 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				24BF466729C3472A00408903 /* BlueDot */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		24BF466729C3472A00408903 /* BlueDot */ = {
+			isa = PBXGroup;
+			children = (
+				24C018BA2983E74B0073A891 /* ViewController.swift */,
+				24BF468129C34BA100408903 /* ViewModel.swift */,
+			);
+			path = BlueDot;
+			sourceTree = "<group>";
+		};
+		24BF466829C3473E00408903 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24C018BC2983E74B0073A891 /* Main.storyboard */,
+				24C018BF2983E74C0073A891 /* Assets.xcassets */,
+				24C018C12983E74C0073A891 /* LaunchScreen.storyboard */,
+				24C018C42983E74C0073A891 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		24BF466929C3474A00408903 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				24BF467B29C34A2300408903 /* MistService.swift */,
+				24BF467D29C34A5300408903 /* WakeupService.swift */,
+				24BF467F29C34B0800408903 /* MapDownloader.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		24BF466A29C3475A00408903 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				24BF466B29C347AD00408903 /* Constants.swift */,
+				24BF466D29C347C000408903 /* CGPoint+Extention.swift */,
+				24BF466F29C3481F00408903 /* HUDProgress.swift */,
+				24BF467529C3497100408903 /* Notification.swift */,
+				24BF467729C3499400408903 /* BeaconRegion.swift */,
+				24BF467929C34A0000408903 /* String.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		24BF468329C480EE00408903 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				24BF468429C480FB00408903 /* Scale.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		24C018AA2983E74B0073A891 = {
+			isa = PBXGroup;
+			children = (
+				24C018B52983E74B0073A891 /* SampleBlueDotWithIndoorLocation */,
+				24C018B42983E74B0073A891 /* Products */,
+				5F862A9CE13C9B4491A75D68 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		24C018B42983E74B0073A891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24C018B32983E74B0073A891 /* SampleBlueDotWithIndoorLocation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24C018B52983E74B0073A891 /* SampleBlueDotWithIndoorLocation */ = {
+			isa = PBXGroup;
+			children = (
+				24BF466529C3470C00408903 /* System */,
+				24BF468329C480EE00408903 /* Models */,
+				24BF466A29C3475A00408903 /* Utilities */,
+				24BF466929C3474A00408903 /* Services */,
+				24BF466629C3472400408903 /* UI */,
+				24BF466829C3473E00408903 /* Resources */,
+			);
+			path = SampleBlueDotWithIndoorLocation;
+			sourceTree = "<group>";
+		};
+		5F862A9CE13C9B4491A75D68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24C018B22983E74B0073A891 /* SampleBlueDotWithIndoorLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C018C72983E74C0073A891 /* Build configuration list for PBXNativeTarget "SampleBlueDotWithIndoorLocation" */;
+			buildPhases = (
+				24C018AF2983E74B0073A891 /* Sources */,
+				24C018B02983E74B0073A891 /* Frameworks */,
+				24C018B12983E74B0073A891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleBlueDotWithIndoorLocation;
+			productName = SampleBlueDotWithIndoorLocation;
+			productReference = 24C018B32983E74B0073A891 /* SampleBlueDotWithIndoorLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24C018AB2983E74B0073A891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					24C018B22983E74B0073A891 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 24C018AE2983E74B0073A891 /* Build configuration list for PBXProject "SampleBlueDotWithIndoorLocation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24C018AA2983E74B0073A891;
+			packageReferences = (
+				A4FABADD2DA4AB610065B3E9 /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */,
+			);
+			productRefGroup = 24C018B42983E74B0073A891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24C018B22983E74B0073A891 /* SampleBlueDotWithIndoorLocation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24C018B12983E74B0073A891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C018C32983E74C0073A891 /* LaunchScreen.storyboard in Resources */,
+				24C018C02983E74C0073A891 /* Assets.xcassets in Resources */,
+				24C018BE2983E74B0073A891 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C018AF2983E74B0073A891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BF467029C3481F00408903 /* HUDProgress.swift in Sources */,
+				24BF467E29C34A5300408903 /* WakeupService.swift in Sources */,
+				24BF467829C3499400408903 /* BeaconRegion.swift in Sources */,
+				24BF468029C34B0800408903 /* MapDownloader.swift in Sources */,
+				24BF468529C480FB00408903 /* Scale.swift in Sources */,
+				24C018BB2983E74B0073A891 /* ViewController.swift in Sources */,
+				24BF467A29C34A0000408903 /* String.swift in Sources */,
+				24BF468229C34BA100408903 /* ViewModel.swift in Sources */,
+				24BF467C29C34A2300408903 /* MistService.swift in Sources */,
+				24BF466E29C347C000408903 /* CGPoint+Extention.swift in Sources */,
+				24BF467629C3497100408903 /* Notification.swift in Sources */,
+				24C018B72983E74B0073A891 /* AppDelegate.swift in Sources */,
+				24C018B92983E74B0073A891 /* SceneDelegate.swift in Sources */,
+				24BF466C29C347AD00408903 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24C018BC2983E74B0073A891 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C018BD2983E74B0073A891 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24C018C12983E74C0073A891 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C018C22983E74C0073A891 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24C018C52983E74C0073A891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24C018C62983E74C0073A891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24C018C82983E74C0073A891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleBlueDotWithIndoorLocation/Resources/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Access required to scan near by Mist AP Beacon";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.SampleBlueDotWithIndoorLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24C018C92983E74C0073A891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleBlueDotWithIndoorLocation/Resources/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Access required to scan near by Mist AP Beacon";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.SampleBlueDotWithIndoorLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24C018AE2983E74B0073A891 /* Build configuration list for PBXProject "SampleBlueDotWithIndoorLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C018C52983E74C0073A891 /* Debug */,
+				24C018C62983E74C0073A891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C018C72983E74C0073A891 /* Build configuration list for PBXNativeTarget "SampleBlueDotWithIndoorLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C018C82983E74C0073A891 /* Debug */,
+				24C018C92983E74C0073A891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A4FABADD2DA4AB610065B3E9 /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mistsys/mist-vble-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A4FABADE2DA4AB610065B3E9 /* MistSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4FABADD2DA4AB610065B3E9 /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */;
+			productName = MistSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 24C018AB2983E74B0073A891 /* Project object */;
+}

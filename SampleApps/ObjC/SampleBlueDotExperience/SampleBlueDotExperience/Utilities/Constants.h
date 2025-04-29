@@ -6,4 +6,4 @@
 //
 
 extern NSString *SDK_TOKEN;
-
+extern NSString *ORG_ID;

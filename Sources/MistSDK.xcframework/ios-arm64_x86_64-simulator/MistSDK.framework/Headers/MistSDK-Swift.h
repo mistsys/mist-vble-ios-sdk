@@ -449,7 +449,6 @@ SWIFT_CLASS("_TtC7MistSDK7Micello")
 @class MistPath;
 @class Wayfinding;
 
-/// Support backword comptabilty to Objective C
 SWIFT_CLASS("_TtC7MistSDK7MistMap")
 @interface MistMap : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull id;
@@ -1102,7 +1101,6 @@ SWIFT_CLASS("_TtC7MistSDK7Micello")
 @class MistPath;
 @class Wayfinding;
 
-/// Support backword comptabilty to Objective C
 SWIFT_CLASS("_TtC7MistSDK7MistMap")
 @interface MistMap : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull id;

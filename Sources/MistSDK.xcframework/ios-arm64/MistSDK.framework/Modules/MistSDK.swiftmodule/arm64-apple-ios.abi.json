@@ -173,104 +173,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "MistSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CommonCrypto",
-        "printedName": "CommonCrypto",
-        "declKind": "Import",
-        "moduleName": "MistSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "MistDR",
-        "printedName": "MistDR",
-        "declKind": "Import",
-        "moduleName": "MistSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "MistSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MistSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "MistSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MistSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MistSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MistSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MistSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MistSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "MistMap",
         "printedName": "MistMap",
@@ -14049,6 +13951,104 @@
       },
       {
         "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "MistSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MistDR",
+        "printedName": "MistDR",
+        "declKind": "Import",
+        "moduleName": "MistSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "MistSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MistSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "MistSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MistSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MistSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MistSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MistSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MistSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "MistSDK"
+      },
+      {
+        "kind": "Import",
         "name": "MistDR",
         "printedName": "MistDR",
         "declKind": "Import",
@@ -14193,6 +14193,43 @@
         "name": "MistError",
         "printedName": "MistError",
         "children": [
+          {
+            "kind": "Var",
+            "name": "invalidOrgId",
+            "printedName": "invalidOrgId",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MistSDK.MistError.Type) -> MistSDK.MistError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MistError",
+                    "printedName": "MistSDK.MistError",
+                    "usr": "s:7MistSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MistSDK.MistError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MistError",
+                        "printedName": "MistSDK.MistError",
+                        "usr": "s:7MistSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7MistSDK0A5ErrorO12invalidOrgIdyA2CmF",
+            "mangledName": "$s7MistSDK0A5ErrorO12invalidOrgIdyA2CmF",
+            "moduleName": "MistSDK"
+          },
           {
             "kind": "Var",
             "name": "invalidSDKToken",
@@ -15438,6 +15475,48 @@
             "implicit": true,
             "throwing": true,
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "toVBeaconPosition",
+            "printedName": "toVBeaconPosition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VBeaconPosition",
+                "printedName": "MistSDK.VBeaconPosition",
+                "usr": "c:@M@MistSDK@objc(cs)VBeaconPosition"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7MistSDK14BeaconPositionV09toVBeaconD0AA0fD0Cvp",
+            "mangledName": "$s7MistSDK14BeaconPositionV09toVBeaconD0AA0fD0Cvp",
+            "moduleName": "MistSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VBeaconPosition",
+                    "printedName": "MistSDK.VBeaconPosition",
+                    "usr": "c:@M@MistSDK@objc(cs)VBeaconPosition"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7MistSDK14BeaconPositionV09toVBeaconD0AA0fD0Cvg",
+                "mangledName": "$s7MistSDK14BeaconPositionV09toVBeaconD0AA0fD0Cvg",
+                "moduleName": "MistSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -17426,6 +17505,48 @@
                     "accessorKind": "get"
                   }
                 ]
+              },
+              {
+                "kind": "Var",
+                "name": "toMistVirtualBeacon",
+                "printedName": "toMistVirtualBeacon",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MistVirtualBeacon",
+                    "printedName": "MistSDK.MistVirtualBeacon",
+                    "usr": "c:@M@MistSDK@objc(cs)MistVirtualBeacon"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C13VirtualBeaconV02toacD0AA0acD0Cvp",
+                "mangledName": "$s7MistSDK0A0C13VirtualBeaconV02toacD0AA0acD0Cvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MistVirtualBeacon",
+                        "printedName": "MistSDK.MistVirtualBeacon",
+                        "usr": "c:@M@MistSDK@objc(cs)MistVirtualBeacon"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C13VirtualBeaconV02toacD0AA0acD0Cvg",
+                    "mangledName": "$s7MistSDK0A0C13VirtualBeaconV02toacD0AA0acD0Cvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -18428,6 +18549,48 @@
                     "mangledName": "$s7MistSDK0A0C14AdditionalInfoV11recipientIdSSSgvg",
                     "moduleName": "MistSDK",
                     "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "toMistAdditionalInfo",
+                "printedName": "toMistAdditionalInfo",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VBAdditionalInfo",
+                    "printedName": "MistSDK.VBAdditionalInfo",
+                    "usr": "c:@M@MistSDK@objc(cs)VBAdditionalInfo"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C14AdditionalInfoV02toacD0AA012VBAdditionalD0Cvp",
+                "mangledName": "$s7MistSDK0A0C14AdditionalInfoV02toacD0AA012VBAdditionalD0Cvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VBAdditionalInfo",
+                        "printedName": "MistSDK.VBAdditionalInfo",
+                        "usr": "c:@M@MistSDK@objc(cs)VBAdditionalInfo"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C14AdditionalInfoV02toacD0AA012VBAdditionalD0Cvg",
+                    "mangledName": "$s7MistSDK0A0C14AdditionalInfoV02toacD0AA012VBAdditionalD0Cvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
                     "accessorKind": "get"
                   }
                 ]
@@ -21725,6 +21888,48 @@
                 "implicit": true,
                 "isFromExtension": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "toMistMap",
+                "printedName": "toMistMap",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MistMap",
+                    "printedName": "MistSDK.MistMap",
+                    "usr": "c:@M@MistSDK@objc(cs)MistMap"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C3MapV02toaC0AA0aC0Cvp",
+                "mangledName": "$s7MistSDK0A0C3MapV02toaC0AA0aC0Cvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MistMap",
+                        "printedName": "MistSDK.MistMap",
+                        "usr": "c:@M@MistSDK@objc(cs)MistMap"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C3MapV02toaC0AA0aC0Cvg",
+                    "mangledName": "$s7MistSDK0A0C3MapV02toaC0AA0aC0Cvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -22091,6 +22296,48 @@
                 "static": true,
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "toPath",
+                "printedName": "toPath",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MistPath",
+                    "printedName": "MistSDK.MistPath",
+                    "usr": "c:@M@MistSDK@objc(cs)MistPath"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C4PathV02toC0AA0aC0Cvp",
+                "mangledName": "$s7MistSDK0A0C4PathV02toC0AA0aC0Cvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MistPath",
+                        "printedName": "MistSDK.MistPath",
+                        "usr": "c:@M@MistSDK@objc(cs)MistPath"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C4PathV02toC0AA0aC0Cvg",
+                    "mangledName": "$s7MistSDK0A0C4PathV02toC0AA0aC0Cvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -22399,6 +22646,48 @@
                 "static": true,
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "toMistNode",
+                "printedName": "toMistNode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MistNodes",
+                    "printedName": "MistSDK.MistNodes",
+                    "usr": "c:@M@MistSDK@objc(cs)MistNodes"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C5NodesV02toA4NodeAA0aC0Cvp",
+                "mangledName": "$s7MistSDK0A0C5NodesV02toA4NodeAA0aC0Cvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MistNodes",
+                        "printedName": "MistSDK.MistNodes",
+                        "usr": "c:@M@MistSDK@objc(cs)MistNodes"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C5NodesV02toA4NodeAA0aC0Cvg",
+                    "mangledName": "$s7MistSDK0A0C5NodesV02toA4NodeAA0aC0Cvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -22619,6 +22908,48 @@
                 "static": true,
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "toMistPosition",
+                "printedName": "toMistPosition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MistPosition",
+                    "printedName": "MistSDK.MistPosition",
+                    "usr": "c:@M@MistSDK@objc(cs)MistPosition"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C8PositionV02toaC0AA0aC0Cvp",
+                "mangledName": "$s7MistSDK0A0C8PositionV02toaC0AA0aC0Cvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MistPosition",
+                        "printedName": "MistSDK.MistPosition",
+                        "usr": "c:@M@MistSDK@objc(cs)MistPosition"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C8PositionV02toaC0AA0aC0Cvg",
+                    "mangledName": "$s7MistSDK0A0C8PositionV02toaC0AA0aC0Cvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -22899,6 +23230,48 @@
                 "static": true,
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "toMistWayfinding",
+                "printedName": "toMistWayfinding",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Wayfinding",
+                    "printedName": "MistSDK.Wayfinding",
+                    "usr": "c:@M@MistSDK@objc(cs)Wayfinding"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C10WayfindingV02toaC0AaDCvp",
+                "mangledName": "$s7MistSDK0A0C10WayfindingV02toaC0AaDCvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Wayfinding",
+                        "printedName": "MistSDK.Wayfinding",
+                        "usr": "c:@M@MistSDK@objc(cs)Wayfinding"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C10WayfindingV02toaC0AaDCvg",
+                    "mangledName": "$s7MistSDK0A0C10WayfindingV02toaC0AaDCvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -23481,6 +23854,48 @@
                 "static": true,
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "toMistJibestream",
+                "printedName": "toMistJibestream",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Jibestream",
+                    "printedName": "MistSDK.Jibestream",
+                    "usr": "c:@M@MistSDK@objc(cs)Jibestream"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C10JibestreamV02toaC0AaDCvp",
+                "mangledName": "$s7MistSDK0A0C10JibestreamV02toaC0AaDCvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Jibestream",
+                        "printedName": "MistSDK.Jibestream",
+                        "usr": "c:@M@MistSDK@objc(cs)Jibestream"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C10JibestreamV02toaC0AaDCvg",
+                    "mangledName": "$s7MistSDK0A0C10JibestreamV02toaC0AaDCvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -24361,6 +24776,48 @@
                 "static": true,
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "toMistMicello",
+                "printedName": "toMistMicello",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Micello",
+                    "printedName": "MistSDK.Micello",
+                    "usr": "c:@M@MistSDK@objc(cs)Micello"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C7MicelloV02toaC0AaDCvp",
+                "mangledName": "$s7MistSDK0A0C7MicelloV02toaC0AaDCvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Micello",
+                        "printedName": "MistSDK.Micello",
+                        "usr": "c:@M@MistSDK@objc(cs)Micello"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C7MicelloV02toaC0AaDCvg",
+                    "mangledName": "$s7MistSDK0A0C7MicelloV02toaC0AaDCvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -24793,6 +25250,48 @@
                 "static": true,
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "toMistTransformParams",
+                "printedName": "toMistTransformParams",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransformParams",
+                    "printedName": "MistSDK.TransformParams",
+                    "usr": "c:@M@MistSDK@objc(cs)TransformParams"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C15TransformParamsV02toacD0AaDCvp",
+                "mangledName": "$s7MistSDK0A0C15TransformParamsV02toacD0AaDCvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransformParams",
+                        "printedName": "MistSDK.TransformParams",
+                        "usr": "c:@M@MistSDK@objc(cs)TransformParams"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C15TransformParamsV02toacD0AaDCvg",
+                    "mangledName": "$s7MistSDK0A0C15TransformParamsV02toacD0AaDCvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -25013,6 +25512,48 @@
                 "static": true,
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "toMistLatlngBr",
+                "printedName": "toMistLatlngBr",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LatlngBr",
+                    "printedName": "MistSDK.LatlngBr",
+                    "usr": "c:@M@MistSDK@objc(cs)LatlngBr"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C8LatlngBrV02toacD0AaDCvp",
+                "mangledName": "$s7MistSDK0A0C8LatlngBrV02toacD0AaDCvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LatlngBr",
+                        "printedName": "MistSDK.LatlngBr",
+                        "usr": "c:@M@MistSDK@objc(cs)LatlngBr"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C8LatlngBrV02toacD0AaDCvg",
+                    "mangledName": "$s7MistSDK0A0C8LatlngBrV02toacD0AaDCvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -25233,6 +25774,48 @@
                 "static": true,
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "toMistLatlngTl",
+                "printedName": "toMistLatlngTl",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LatlngTl",
+                    "printedName": "MistSDK.LatlngTl",
+                    "usr": "c:@M@MistSDK@objc(cs)LatlngTl"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C8LatlngTlV02toacD0AaDCvp",
+                "mangledName": "$s7MistSDK0A0C8LatlngTlV02toacD0AaDCvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LatlngTl",
+                        "printedName": "MistSDK.LatlngTl",
+                        "usr": "c:@M@MistSDK@objc(cs)LatlngTl"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C8LatlngTlV02toacD0AaDCvg",
+                    "mangledName": "$s7MistSDK0A0C8LatlngTlV02toacD0AaDCvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -25393,6 +25976,48 @@
                 "static": true,
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "toMistDRInternal",
+                "printedName": "toMistDRInternal",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DRInternal",
+                    "printedName": "MistSDK.DRInternal",
+                    "usr": "c:@M@MistSDK@objc(cs)DRInternal"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C10DRInternalV02toaC0AaDCvp",
+                "mangledName": "$s7MistSDK0A0C10DRInternalV02toaC0AaDCvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DRInternal",
+                        "printedName": "MistSDK.DRInternal",
+                        "usr": "c:@M@MistSDK@objc(cs)DRInternal"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C10DRInternalV02toaC0AaDCvg",
+                    "mangledName": "$s7MistSDK0A0C10DRInternalV02toaC0AaDCvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -25613,6 +26238,48 @@
                 "static": true,
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "toMistConfig",
+                "printedName": "toMistConfig",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Config",
+                    "printedName": "MistSDK.Config",
+                    "usr": "c:@M@MistSDK@objc(cs)Config"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C6ConfigV02toaC0AaDCvp",
+                "mangledName": "$s7MistSDK0A0C6ConfigV02toaC0AaDCvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Config",
+                        "printedName": "MistSDK.Config",
+                        "usr": "c:@M@MistSDK@objc(cs)Config"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C6ConfigV02toaC0AaDCvg",
+                    "mangledName": "$s7MistSDK0A0C6ConfigV02toaC0AaDCvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -25893,6 +26560,48 @@
                 "static": true,
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "toMistMapTransition",
+                "printedName": "toMistMapTransition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MapTransition",
+                    "printedName": "MistSDK.MapTransition",
+                    "usr": "c:@M@MistSDK@objc(cs)MapTransition"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C13MapTransitionV02toacD0AaDCvp",
+                "mangledName": "$s7MistSDK0A0C13MapTransitionV02toacD0AaDCvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MapTransition",
+                        "printedName": "MistSDK.MapTransition",
+                        "usr": "c:@M@MistSDK@objc(cs)MapTransition"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C13MapTransitionV02toacD0AaDCvg",
+                    "mangledName": "$s7MistSDK0A0C13MapTransitionV02toacD0AaDCvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -27253,6 +27962,48 @@
                 "static": true,
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "toMistDR",
+                "printedName": "toMistDR",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DR",
+                    "printedName": "MistSDK.DR",
+                    "usr": "c:@M@MistSDK@objc(cs)DR"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C2DRV02toaC0AaDCvp",
+                "mangledName": "$s7MistSDK0A0C2DRV02toaC0AaDCvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DR",
+                        "printedName": "MistSDK.DR",
+                        "usr": "c:@M@MistSDK@objc(cs)DR"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C2DRV02toaC0AaDCvg",
+                    "mangledName": "$s7MistSDK0A0C2DRV02toaC0AaDCvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -27593,6 +28344,48 @@
                 "static": true,
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "toMistGeoRefParamsV2",
+                "printedName": "toMistGeoRefParamsV2",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GeoRefParamsV2",
+                    "printedName": "MistSDK.GeoRefParamsV2",
+                    "usr": "c:@M@MistSDK@objc(cs)GeoRefParamsV2"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C14GeoRefParamsV2V02toacdeF0AaDCvp",
+                "mangledName": "$s7MistSDK0A0C14GeoRefParamsV2V02toacdeF0AaDCvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GeoRefParamsV2",
+                        "printedName": "MistSDK.GeoRefParamsV2",
+                        "usr": "c:@M@MistSDK@objc(cs)GeoRefParamsV2"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C14GeoRefParamsV2V02toacdeF0AaDCvg",
+                    "mangledName": "$s7MistSDK0A0C14GeoRefParamsV2V02toacdeF0AaDCvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -27813,6 +28606,48 @@
                 "static": true,
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "toMistGeoRefPoint",
+                "printedName": "toMistGeoRefPoint",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GeoRefPoint",
+                    "printedName": "MistSDK.GeoRefPoint",
+                    "usr": "c:@M@MistSDK@objc(cs)GeoRefPoint"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C11GeoRefPointV02toacdE0AaDCvp",
+                "mangledName": "$s7MistSDK0A0C11GeoRefPointV02toacdE0AaDCvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GeoRefPoint",
+                        "printedName": "MistSDK.GeoRefPoint",
+                        "usr": "c:@M@MistSDK@objc(cs)GeoRefPoint"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C11GeoRefPointV02toacdE0AaDCvg",
+                    "mangledName": "$s7MistSDK0A0C11GeoRefPointV02toacdE0AaDCvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -28033,6 +28868,48 @@
                 "static": true,
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "toMistGeoRefXY",
+                "printedName": "toMistGeoRefXY",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GeoRefXY",
+                    "printedName": "MistSDK.GeoRefXY",
+                    "usr": "c:@M@MistSDK@objc(cs)GeoRefXY"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C8GeoRefXYV02toacdE0AaDCvp",
+                "mangledName": "$s7MistSDK0A0C8GeoRefXYV02toacdE0AaDCvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GeoRefXY",
+                        "printedName": "MistSDK.GeoRefXY",
+                        "usr": "c:@M@MistSDK@objc(cs)GeoRefXY"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C8GeoRefXYV02toacdE0AaDCvg",
+                    "mangledName": "$s7MistSDK0A0C8GeoRefXYV02toacdE0AaDCvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -28253,6 +29130,48 @@
                 "static": true,
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "toMistGeoRefLatLon",
+                "printedName": "toMistGeoRefLatLon",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GeoRefLatLon",
+                    "printedName": "MistSDK.GeoRefLatLon",
+                    "usr": "c:@M@MistSDK@objc(cs)GeoRefLatLon"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C12GeoRefLatLonV02toacdeF0AaDCvp",
+                "mangledName": "$s7MistSDK0A0C12GeoRefLatLonV02toacdeF0AaDCvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GeoRefLatLon",
+                        "printedName": "MistSDK.GeoRefLatLon",
+                        "usr": "c:@M@MistSDK@objc(cs)GeoRefLatLon"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C12GeoRefLatLonV02toacdeF0AaDCvg",
+                    "mangledName": "$s7MistSDK0A0C12GeoRefLatLonV02toacdeF0AaDCvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -29959,6 +30878,48 @@
                 ],
                 "isFromExtension": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "toMistZone",
+                "printedName": "toMistZone",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MistZone",
+                    "printedName": "MistSDK.MistZone",
+                    "usr": "c:@M@MistSDK@objc(cs)MistZone"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C4ZoneV02toaC0AA0aC0Cvp",
+                "mangledName": "$s7MistSDK0A0C4ZoneV02toaC0AA0aC0Cvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MistZone",
+                        "printedName": "MistSDK.MistZone",
+                        "usr": "c:@M@MistSDK@objc(cs)MistZone"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C4ZoneV02toaC0AA0aC0Cvg",
+                    "mangledName": "$s7MistSDK0A0C4ZoneV02toaC0AA0aC0Cvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -30986,6 +31947,48 @@
                     "accessorKind": "get"
                   }
                 ]
+              },
+              {
+                "kind": "Var",
+                "name": "toMistPoint",
+                "printedName": "toMistPoint",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MistPoint",
+                    "printedName": "MistSDK.MistPoint",
+                    "usr": "c:@M@MistSDK@objc(cs)MistPoint"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C5PointV02toaC0AA0aC0Cvp",
+                "mangledName": "$s7MistSDK0A0C5PointV02toaC0AA0aC0Cvp",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MistPoint",
+                        "printedName": "MistSDK.MistPoint",
+                        "usr": "c:@M@MistSDK@objc(cs)MistPoint"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C5PointV02toaC0AA0aC0Cvg",
+                    "mangledName": "$s7MistSDK0A0C5PointV02toaC0AA0aC0Cvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -31389,6 +32392,48 @@
             "static": true,
             "implicit": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "toZonePosition",
+            "printedName": "toZonePosition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MistZonePosition",
+                "printedName": "MistSDK.MistZonePosition",
+                "usr": "c:@M@MistSDK@objc(cs)MistZonePosition"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7MistSDK12ZonePositionV02tocD0AA0acD0Cvp",
+            "mangledName": "$s7MistSDK12ZonePositionV02tocD0AA0acD0Cvp",
+            "moduleName": "MistSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MistZonePosition",
+                    "printedName": "MistSDK.MistZonePosition",
+                    "usr": "c:@M@MistSDK@objc(cs)MistZonePosition"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7MistSDK12ZonePositionV02tocD0AA0acD0Cvg",
+                "mangledName": "$s7MistSDK12ZonePositionV02tocD0AA0acD0Cvg",
+                "moduleName": "MistSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -33355,6 +34400,426 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 1251,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 1270,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 1291,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 1311,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 1330,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1349,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1374,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1395,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1414,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1434,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1451,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1471,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1492,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1516,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1541,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 1558,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 1585,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1858,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1885,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "Array",
+      "offset": 1933,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 4568,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 4587,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 4612,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "Array",
+      "offset": 4637,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 5194,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "Dictionary",
+      "offset": 5266,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5752,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5767,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 6895,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 6915,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6933,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 6955,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 6982,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 7007,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 7033,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7052,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 8283,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 8303,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8328,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 8351,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 8371,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 8400,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 8418,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 8436,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 8454,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 8477,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 8501,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "StringLiteral",
+      "offset": 8525,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9892,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9906,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9920,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "Array",
+      "offset": 9945,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "Array",
+      "offset": 9971,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10594,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10611,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10945,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10962,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19013,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19028,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19043,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Repositories\/RealWebSocketRepository.swift",
       "kind": "StringLiteral",
       "offset": 435,
@@ -33413,21 +34878,21 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1644,
+      "offset": 1698,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1689,
+      "offset": 1743,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 10372,
+      "offset": 10478,
       "length": 5,
       "value": "false"
     },
@@ -33556,426 +35021,6 @@
       "offset": 8028,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 1300,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 1319,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 1340,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 1360,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 1379,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1398,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1423,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1444,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1463,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1483,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1500,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1520,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1541,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1565,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1590,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 1607,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 1634,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1907,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1934,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "Array",
-      "offset": 1982,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 4610,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 4629,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 4654,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "Array",
-      "offset": 4679,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 5229,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "Dictionary",
-      "offset": 5301,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5780,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5795,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 6910,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 6930,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6948,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 6970,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 6997,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 7022,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 7048,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7067,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 8291,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 8311,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8336,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 8359,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 8379,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 8408,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 8426,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 8444,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 8462,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 8485,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 8509,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "StringLiteral",
-      "offset": 8533,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9893,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9907,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9921,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "Array",
-      "offset": 9946,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "Array",
-      "offset": 9972,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10588,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10605,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10932,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10949,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18930,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18945,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/Support.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18960,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/ConnectivityService.swift",
@@ -42016,7 +43061,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/IndoorLocationManager.swift",
       "kind": "StringLiteral",
-      "offset": 14631,
+      "offset": 15446,
       "length": 2,
       "value": "\"\""
     },
