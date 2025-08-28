@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MistSDK-Swift.h</key>
 		<data>
-		mEjj8HR9xwOA/6emOX+19fYT7L4=
+		qXzL/w3UoFnUKOSGICAuDa3LjhA=
 		</data>
 		<key>Headers/MistSDK.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WZGLPW68Qv6jHvpBfefGA8KBAMQ=
+		NHqk3x0XJ0fz/+946vIulnDNLb4=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		BEV8dbpcK+O8Mv6nFsZyZIbbl5k=
+		iJhn3yXehc9wk+hoNurbhfEf5Zc=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		IZcpYEhwOEDlN8ProyNQw0U1kTw=
+		RKI8Rgunciiey+adqUstCjExRb8=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		1nkYIquIxjJqh40f0knyrtVlrtg=
+		S3bSv3sl0uHY3qxjhl+uWVigs88=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		IZcpYEhwOEDlN8ProyNQw0U1kTw=
+		RKI8Rgunciiey+adqUstCjExRb8=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ysRee2j3lTXc6W5bGMczRXQI5Cw=
+		u354Hrolomr5p3PdRbrV4xxSiTU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,6 +63,14 @@
 		<key>prod_aws_eu.der</key>
 		<data>
 		JI7D9QCLsTdFOroE+Ab4Kawcb7w=
+		</data>
+		<key>prod_aws_ex1.der</key>
+		<data>
+		PZcaRYVPx9Fzpp9Krzb6gKDLU7o=
+		</data>
+		<key>prod_aws_ex2.der</key>
+		<data>
+		8jWDWq6FyAesalM1N1HCiPuH0po=
 		</data>
 		<key>prod_aws_gov_federal.der</key>
 		<data>
@@ -104,6 +112,10 @@
 		<data>
 		NvABOr6WHW6jhJ02+qskxzAU770=
 		</data>
+		<key>staging_aws_ex.der</key>
+		<data>
+		WX89tkVC4wq2eNvOJBOy6gOXHn4=
+		</data>
 		<key>staging_aws_gov_federal.der</key>
 		<data>
 		hB8YfA1AA1G5uh7zmwXsWf0vNkA=
@@ -119,7 +131,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U0VE59Zadn0ZE9wGYmhs/EKC0MaZNBXGUKqSpFAH370=
+			ke2JRSDZ7eM111o13BuSm4DJmMUspU0SQjoIMY8r6U0=
 			</data>
 		</dict>
 		<key>Headers/MistSDK.h</key>
@@ -133,35 +145,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IvNQIWJ7dfGtIZmWvrjiGBQbAJrg2HRHv+ylgwwYkdI=
+			no8BiLxEnCQ9i4Uz1aXSi8IUFZXq+ntZXXyQQZj1HNc=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ae4wy/dy3zCbMQXA5vjs4Eij56uMYfyQtaYlRE6ijxI=
+			n8358GplRLSX+QFnevIHmgrw50g6LJJbdvEHEL/jwvg=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			swc8qpiGJru5VQqCdoIe/AQNpEtWQgF65pteR9gXz4M=
+			L4eTr+4X1MvdUnzLbVAN1La2W/Yi/kNVHbkGgogLdxE=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ae4wy/dy3zCbMQXA5vjs4Eij56uMYfyQtaYlRE6ijxI=
+			n8358GplRLSX+QFnevIHmgrw50g6LJJbdvEHEL/jwvg=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3NUyfkwy0ly6iqTMLDZ973qbWIHignw6Q29jtiKhqrE=
+			tGslKU5MnNzZgbshfn8uuIxsQhdASUZ3MhkL+UMyhCo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -211,6 +223,20 @@
 			<key>hash2</key>
 			<data>
 			wqHlRvwHZWeoIMFI4MvklRkIlquXgLBvj2po6ZuZsvA=
+			</data>
+		</dict>
+		<key>prod_aws_ex1.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1O7cuusIhNhoZrX1upEfvTlzXZG3kZLN8nGwN6vk3S0=
+			</data>
+		</dict>
+		<key>prod_aws_ex2.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			alTTLo7K+kt+tDlA7Mxt3kHwnLNHmdlHKR6Uf/0azi8=
 			</data>
 		</dict>
 		<key>prod_aws_gov_federal.der</key>
@@ -281,6 +307,13 @@
 			<key>hash2</key>
 			<data>
 			9EBE6JcQ2lFhDFkW0KmopbfUFy/QsCcntVdCNyibboI=
+			</data>
+		</dict>
+		<key>staging_aws_ex.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			afjckKu7oiqPcmpVhjXCOiBrCFGSvPboAKPEDxvLZoU=
 			</data>
 		</dict>
 		<key>staging_aws_gov_federal.der</key>

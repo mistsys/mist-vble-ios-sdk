@@ -383,6 +383,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IndoorLocati
 - (void)getClientInformation;
 /// Get clientUUID
 @property (nonatomic, readonly, copy) NSString * _Nonnull clientUUID;
+/// Refresh Maps, Devices and Virtual Beacons
+- (void)refresh;
 @end
 
 

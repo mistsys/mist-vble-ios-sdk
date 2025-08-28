@@ -15,10 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SRSecurityPolicy : NSObject
 
-@property (nonatomic, readonly) NSData *clientCertData;
-@property (nonatomic) NSData *serverCertData;
-
-
 /**
  A default `SRSecurityPolicy` implementation specifies socket security and
  validates the certificate chain.
@@ -48,8 +44,6 @@ NS_ASSUME_NONNULL_BEGIN
     DEPRECATED_MSG_ATTRIBUTE("Disabling certificate chain validation is unsafe. "
                              "Please use a proper Certificate Authority to issue your TLS certificates.")
     NS_DESIGNATED_INITIALIZER;
-
-- (instancetype)initWithCertificate:(NSData*)certData NS_DESIGNATED_INITIALIZER;
 
 /**
  Updates all the security options for input and output streams, for example you

@@ -522,6 +522,7 @@ extension MistSDK.IndoorLocationManager {
   @objc final public var clientUUID: Swift.String {
     @objc get
   }
+  @objc final public func refresh()
 }
 extension MistSDK.Mist {
   public struct Map : Swift.Decodable {
