@@ -33569,6 +33569,41 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -33610,41 +33645,6 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
           }
         ]
       },
@@ -35363,119 +35363,126 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3494,
+      "offset": 3545,
       "length": 14,
       "value": "\"feature_wide\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3541,
+      "offset": 3592,
       "length": 19,
       "value": "\"PRODUCTION_AWS_AU\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3595,
+      "offset": 3646,
       "length": 29,
       "value": "\"PRODUCTION_GCP_SAUDI_ARABIA\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3654,
+      "offset": 3705,
       "length": 23,
       "value": "\"PRODUCTION_GCP_CANADA\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3707,
+      "offset": 3758,
       "length": 15,
       "value": "\"CANARY_AWS_US\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3748,
+      "offset": 3799,
       "length": 19,
       "value": "\"PRODUCTION_AWS_EU\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3917,
+      "offset": 3968,
       "length": 16,
       "value": "\"PRODUCTION_GCP\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3964,
+      "offset": 4015,
       "length": 13,
       "value": "\"STAGING_GCP\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4006,
+      "offset": 4057,
       "length": 22,
       "value": "\"PRODUCTION_GCP_INDIA\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4057,
+      "offset": 4108,
       "length": 22,
       "value": "\"PRODUCTION_GCP_JAPAN\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4107,
+      "offset": 4158,
       "length": 21,
       "value": "\"PRODUCTION_AWS_EAST\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4162,
+      "offset": 4219,
+      "length": 24,
+      "value": "\"STAGING_AWS_TRUE_NORTH\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 4277,
       "length": 16,
       "value": "\"PRODUCTION_AWS\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4209,
+      "offset": 4324,
       "length": 13,
       "value": "\"STAGING_AWS\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4248,
+      "offset": 4363,
       "length": 19,
       "value": "\"PRODUCTION_GCP_UK\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4301,
+      "offset": 4416,
       "length": 28,
       "value": "\"PRODUCTION_GCP_US_CENTRAL1\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4356,
+      "offset": 4471,
       "length": 20,
       "value": "\"PRODUCTION_AWS_UAE\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/KillSwitchConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 4508,
+      "offset": 4623,
       "length": 1,
       "value": "1"
     },
@@ -43770,7 +43777,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 1982,
+      "offset": 2088,
       "length": 18,
       "value": "\"https:\/\/test.com\""
     },
