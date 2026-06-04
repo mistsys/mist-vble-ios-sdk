@@ -369,13 +369,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IndoorLocati
 
 @class NSString;
 @interface IndoorLocationManager (SWIFT_EXTENSION(MistSDK))
+/// Used to stop Mist Indoor Location SDK and all its underlying services.
 - (void)stop;
+/// Set Client name
 - (void)saveClientWithName:(NSString * _Nonnull)name;
-/// To Get the Client Information subscribe to  didReceive(event: Mist.event) callback and use - case onReceivedClientInfo(let client):
+/// Get Client Information.
+/// Subscribe to didReceive(event: Mist.event) callback and use - case onReceivedClientInfo(let client):
 - (void)getClientInformation;
-/// Get clientUUID
+/// Client UUID
 @property (nonatomic, readonly, copy) NSString * _Nonnull clientUUID;
-/// Refresh Maps, Devices and Virtual Beacons
+/// Refresh location elements like Maps, Devices and Virtual Beacons.
 - (void)refresh;
 @end
 
@@ -994,13 +997,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IndoorLocati
 
 @class NSString;
 @interface IndoorLocationManager (SWIFT_EXTENSION(MistSDK))
+/// Used to stop Mist Indoor Location SDK and all its underlying services.
 - (void)stop;
+/// Set Client name
 - (void)saveClientWithName:(NSString * _Nonnull)name;
-/// To Get the Client Information subscribe to  didReceive(event: Mist.event) callback and use - case onReceivedClientInfo(let client):
+/// Get Client Information.
+/// Subscribe to didReceive(event: Mist.event) callback and use - case onReceivedClientInfo(let client):
 - (void)getClientInformation;
-/// Get clientUUID
+/// Client UUID
 @property (nonatomic, readonly, copy) NSString * _Nonnull clientUUID;
-/// Refresh Maps, Devices and Virtual Beacons
+/// Refresh location elements like Maps, Devices and Virtual Beacons.
 - (void)refresh;
 @end
 

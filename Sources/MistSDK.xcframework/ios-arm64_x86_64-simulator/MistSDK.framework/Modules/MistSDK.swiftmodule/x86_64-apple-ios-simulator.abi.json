@@ -15822,6 +15822,7 @@
             "moduleName": "MistSDK",
             "declAttributes": [
               "Final",
+              "RawDocComment",
               "ObjC"
             ],
             "isFromExtension": true,
@@ -15895,6 +15896,7 @@
             "moduleName": "MistSDK",
             "declAttributes": [
               "Final",
+              "RawDocComment",
               "ObjC"
             ],
             "isFromExtension": true,
@@ -22873,6 +22875,82 @@
                     "accessorKind": "get"
                   }
                 ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(x:y:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Position",
+                    "printedName": "MistSDK.Mist.Position",
+                    "usr": "s:7MistSDK0A0C8PositionV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:7MistSDK0A0C8PositionV1x1yAESdSg_AHtcfc",
+                "mangledName": "$s7MistSDK0A0C8PositionV1x1yAESdSg_AHtcfc",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "toPixel",
+                "printedName": "toPixel(with:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Position",
+                    "printedName": "MistSDK.Mist.Position",
+                    "usr": "s:7MistSDK0A0C8PositionV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7MistSDK0A0C8PositionV7toPixel4withAESd_tF",
+                "mangledName": "$s7MistSDK0A0C8PositionV7toPixel4withAESd_tF",
+                "moduleName": "MistSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
               },
               {
                 "kind": "Constructor",
@@ -31973,6 +32051,45 @@
               },
               {
                 "kind": "Var",
+                "name": "toPixelPosition",
+                "printedName": "toPixelPosition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Position",
+                    "printedName": "MistSDK.Mist.Position",
+                    "usr": "s:7MistSDK0A0C8PositionV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7MistSDK0A0C5PointV15toPixelPositionAC0F0Vvp",
+                "mangledName": "$s7MistSDK0A0C5PointV15toPixelPositionAC0F0Vvp",
+                "moduleName": "MistSDK",
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Position",
+                        "printedName": "MistSDK.Mist.Position",
+                        "usr": "s:7MistSDK0A0C8PositionV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7MistSDK0A0C5PointV15toPixelPositionAC0F0Vvg",
+                    "mangledName": "$s7MistSDK0A0C5PointV15toPixelPositionAC0F0Vvg",
+                    "moduleName": "MistSDK",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "toMistPoint",
                 "printedName": "toMistPoint",
                 "children": [
@@ -34089,14 +34206,14 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/EPLocationService.swift",
       "kind": "IntegerLiteral",
-      "offset": 626,
+      "offset": 664,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/EPLocationService.swift",
       "kind": "BooleanLiteral",
-      "offset": 665,
+      "offset": 703,
       "length": 5,
       "value": "false"
     },
@@ -41257,21 +41374,21 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/WayFinding\/WayFinder.swift",
       "kind": "Dictionary",
-      "offset": 223,
+      "offset": 229,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/WayFinding\/WayFinder.swift",
       "kind": "StringLiteral",
-      "offset": 444,
+      "offset": 449,
       "length": 11,
       "value": "\"StartNode\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/WayFinding\/WayFinder.swift",
       "kind": "StringLiteral",
-      "offset": 483,
+      "offset": 488,
       "length": 17,
       "value": "\"DestinationNode\""
     },
@@ -43098,7 +43215,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/IndoorLocationManager.swift",
       "kind": "StringLiteral",
-      "offset": 15446,
+      "offset": 15964,
       "length": 2,
       "value": "\"\""
     },
@@ -43238,336 +43355,336 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 3179,
+      "offset": 3494,
       "length": 9,
       "value": "\"default\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 3219,
+      "offset": 3534,
       "length": 12,
       "value": "\"jibestream\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 3259,
+      "offset": 3574,
       "length": 9,
       "value": "\"micello\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 3705,
+      "offset": 4020,
       "length": 10,
       "value": "\"venue_id\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 3741,
+      "offset": 4056,
       "length": 8,
       "value": "\"map_id\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 3799,
+      "offset": 4114,
       "length": 11,
       "value": "\"client_id\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 3843,
+      "offset": 4158,
       "length": 15,
       "value": "\"client_secret\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 3889,
+      "offset": 4204,
       "length": 13,
       "value": "\"customer_id\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 3934,
+      "offset": 4249,
       "length": 14,
       "value": "\"endpoint_url\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 6061,
+      "offset": 6376,
       "length": 13,
       "value": "\"account_key\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 6100,
+      "offset": 6415,
       "length": 8,
       "value": "\"map_id\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 6139,
+      "offset": 6454,
       "length": 13,
       "value": "\"scale_ratio\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 6182,
+      "offset": 6497,
       "length": 12,
       "value": "\"drawing_id\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 6220,
+      "offset": 6535,
       "length": 8,
       "value": "\"geo_id\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 6263,
+      "offset": 6578,
       "length": 18,
       "value": "\"default_level_id\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 6373,
+      "offset": 6688,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 6414,
+      "offset": 6729,
       "length": 12,
       "value": "\"zoom_level\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 6456,
+      "offset": 6771,
       "length": 12,
       "value": "\"enable_POI\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 6504,
+      "offset": 6819,
       "length": 18,
       "value": "\"transform_params\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 7232,
+      "offset": 7547,
       "length": 8,
       "value": "\"Config\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 7473,
+      "offset": 7788,
       "length": 15,
       "value": "\"MapTransition\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 7511,
+      "offset": 7826,
       "length": 4,
       "value": "\"DR\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 7776,
+      "offset": 8091,
       "length": 8,
       "value": "\"Active\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 7815,
+      "offset": 8130,
       "length": 14,
       "value": "\"TS_MAX_NAMES\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 7863,
+      "offset": 8178,
       "length": 16,
       "value": "\"MAP_HYSTERESIS\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 8966,
+      "offset": 9281,
       "length": 14,
       "value": "\"PF_JUMP_DIST\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 9018,
+      "offset": 9333,
       "length": 19,
       "value": "\"MapTransitionHold\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 9068,
+      "offset": 9383,
       "length": 13,
       "value": "\"MAX_LATENCY\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 9117,
+      "offset": 9432,
       "length": 19,
       "value": "\"MAX_SNAP_DISTANCE\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 9181,
+      "offset": 9496,
       "length": 26,
       "value": "\"SpeedCorrectionTimescale\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 9233,
+      "offset": 9548,
       "length": 7,
       "value": "\"SPEED\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 9269,
+      "offset": 9584,
       "length": 11,
       "value": "\"JUMP_HYST\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 9327,
+      "offset": 9642,
       "length": 28,
       "value": "\"HeadingCorrectionTimescale\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 9390,
+      "offset": 9705,
       "length": 17,
       "value": "\"COMPASS_CUTOVER\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 9451,
+      "offset": 9766,
       "length": 27,
       "value": "\"SECONDS_EXPIRE_EPRESPONSE\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 9519,
+      "offset": 9834,
       "length": 22,
       "value": "\"GyroCompassTimescale\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 9590,
+      "offset": 9905,
       "length": 33,
       "value": "\"Android_MOTION_FILTER_THRESHOLD\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 9668,
+      "offset": 9983,
       "length": 29,
       "value": "\"IOS_MOTION_FILTER_THRESHOLD\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 9735,
+      "offset": 10050,
       "length": 21,
       "value": "\"TIMESCALE_TOWARD_PF\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 9804,
+      "offset": 10119,
       "length": 29,
       "value": "\"LocationCorrectionTimescale\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 9860,
+      "offset": 10175,
       "length": 8,
       "value": "\"Active\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 9908,
+      "offset": 10223,
       "length": 23,
       "value": "\"TIMESCALE_TOWARD_SNAP\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 9970,
+      "offset": 10285,
       "length": 20,
       "value": "\"HeadMismatchLength\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 10022,
+      "offset": 10337,
       "length": 13,
       "value": "\"NsnapAngles\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 10069,
+      "offset": 10384,
       "length": 18,
       "value": "\"FLAG_RAW_TO_SNAP\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 10116,
+      "offset": 10431,
       "length": 10,
       "value": "\"MAXNUDGE\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 10572,
+      "offset": 10887,
       "length": 9,
       "value": "\"mist_xy\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Map.swift",
       "kind": "StringLiteral",
-      "offset": 10608,
+      "offset": 10923,
       "length": 9,
       "value": "\"lat_lon\""
     },
@@ -44043,7 +44160,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/Location\/WayFinding\/WPGraph.swift",
       "kind": "Array",
-      "offset": 222,
+      "offset": 273,
       "length": 2,
       "value": "[]"
     },

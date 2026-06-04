@@ -574,6 +574,8 @@ extension MistSDK.Mist {
   public struct Position : Swift.Decodable, Swift.Equatable {
     public let x: Swift.Double?
     public let y: Swift.Double?
+    public init(x: Swift.Double?, y: Swift.Double?)
+    public func toPixel(with ppm: Swift.Double) -> MistSDK.Mist.Position
     public static func == (a: MistSDK.Mist.Position, b: MistSDK.Mist.Position) -> Swift.Bool
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -807,6 +809,9 @@ extension MistSDK.Mist {
 }
 extension MistSDK.Mist.Point {
   public var toPosition: MistSDK.Mist.Position {
+    get
+  }
+  public var toPixelPosition: MistSDK.Mist.Position {
     get
   }
 }
