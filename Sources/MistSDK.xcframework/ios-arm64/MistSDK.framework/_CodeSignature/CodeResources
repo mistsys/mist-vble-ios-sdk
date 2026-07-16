@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MistSDK-Swift.h</key>
 		<data>
-		dhxd5iPKr7cUKjtEwf8/lZrPHQw=
+		sfOzdMFGmLP8KiRmb9lEmnrYhFg=
 		</data>
 		<key>Headers/MistSDK.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VXDlEwVA1APwotuUKaxjlgbaU2o=
+		JAyetA1VnOiFCtplgBHP+3pVw90=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		bMdL+SSUY1cuYupl3KOfXI8btmE=
+		dOf4IdnBQVwS3Vo95IKE5Oj/lKg=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		NJal1X0HPHV5uvgr6WD8W7sPbTg=
+		/tZStKhHW0DNqIxSuC45QM+To/w=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Kq2V5vrmITH6hMN7DsO1nPUEi3Y=
+		y0ZXM6r9iN5s2exJoPE3PAFhcNk=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		NJal1X0HPHV5uvgr6WD8W7sPbTg=
+		/tZStKhHW0DNqIxSuC45QM+To/w=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		1JoFMVgW7H7PAsIa/2zraTiUd9w=
+		SR0KQ45dh+o+CoOePZFdZF0RwUc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		Xkio4eD1BFFzWKoOcYUNWxZtsT0=
+		z/NYbsf4i2gGh7s/8qeiT3tyT9M=
 		</data>
 		<key>killswitch.json</key>
 		<data>
@@ -135,7 +135,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LhUtagozSuPNqOIJQ13Kuz4ZbmzPHqgE2Wp7jGjBRBI=
+			gkumlnZVSMVjfaycv7X0XsPZflUHqazyWgZXxXdEltM=
 			</data>
 		</dict>
 		<key>Headers/MistSDK.h</key>
@@ -149,42 +149,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dW20FbPM1OrVI0Ak4z4v7g/m6puR3k9jSqg4qEjUeuk=
+			5Abue4a3gceDCZLagHcSARDUmA4mQ9jL/IU9/72wafI=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GSt+SS5S81QjJKTRWgUj5MBz2TZmbFOyxCQEhy7dtiA=
+			8avraYSeC3XttdaCO+BmdJpsHQUsmluBANP8JcjFhMI=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R3h9pWblI6pqYWHlzEvrs3D1vvA9gYD56DrBwIHt8XU=
+			fXb/hh8lIq+V2KMrKdo3dcr+qavZOpZsbLuX8qHQtfY=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GSt+SS5S81QjJKTRWgUj5MBz2TZmbFOyxCQEhy7dtiA=
+			8avraYSeC3XttdaCO+BmdJpsHQUsmluBANP8JcjFhMI=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s55EAiphxltfYGznUWbfGev+HEAb1Dlc2I6TW/CZZ1U=
+			yT9xYiSD+8QxYdRIoq/mSly7dz+/yjPdrIygvI1H+KU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T1Gvo9cVoRMejcf741+XuHt03fFhbhBWrtYzcSniXIg=
+			zwU2NadbpcmigXx/e0FjcZCnm+FuaZv4V04wxH38uVo=
 			</data>
 		</dict>
 		<key>killswitch.json</key>

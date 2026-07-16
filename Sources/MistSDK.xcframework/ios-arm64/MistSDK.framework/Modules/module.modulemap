@@ -7,5 +7,4 @@ framework module MistSDK {
 
 module MistSDK.Swift {
   header "MistSDK-Swift.h"
-  requires objc
 }
