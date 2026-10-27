@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                  = "MistSDK"
-    s.version               = "4.3.0"
+    s.version               = "4.3.1"
     s.summary               = "Mist Indoor Location SDK for iOS"
     s.homepage              = "https://github.com/mistsys/mist-vble-ios-sdk"
     s.license               = { :type => 'Copyright', :file => 'LICENSE' }
