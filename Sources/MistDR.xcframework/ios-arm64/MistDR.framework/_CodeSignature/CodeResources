@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/MistDR.h</key>
 		<data>
-		vOBQNZiGuhULsyxlXNxb1fc4KwE=
+		4CPTKiEbWGxnw9mRUu1M9SgLHFc=
 		</data>
 		<key>Headers/Reachability.h</key>
 		<data>
@@ -24,13 +24,9 @@
 		<data>
 		7mRZgXiypCwMvkM/iasJyAVvsr4=
 		</data>
-		<key>Headers/WSHelper.h</key>
-		<data>
-		hw/ohKWJKNg/g7c7kjwwYa7lxsQ=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		pSY/dPtyydh6d7pr2PI+t9HIJuY=
+		vajhY4IqrG/r+Co5a1OJFplNOas=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +46,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7eoFKUmZlBJjPDQOddRN9OKdOfVtygoUEshBNboW2YE=
+			1kaRo+9mRGsWI+iwuZVwx72Rpa6fLNp8tc3XaTkStnI=
 			</data>
 		</dict>
 		<key>Headers/Reachability.h</key>
@@ -72,13 +68,6 @@
 			<key>hash2</key>
 			<data>
 			3blntvPyvk5jr593wR72hNiuG7iUbUtY3uFZ5dKDCME=
-			</data>
-		</dict>
-		<key>Headers/WSHelper.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hKulNdyftdsH69cJYwSkoLqnOWbSkNeoLo+dtTWH6x8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

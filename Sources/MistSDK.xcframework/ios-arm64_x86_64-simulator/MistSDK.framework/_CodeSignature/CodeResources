@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MistSDK-Swift.h</key>
 		<data>
-		Gf054WU6R4kRFvH36e0OxML0dg8=
+		J79Y+5FeaqwtjhZenXBDY4IxS4g=
 		</data>
 		<key>Headers/MistSDK.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HkntBbyIkU7uQCi1j0rlHMdt9yY=
+		T3VSv8JLRXD5bfN/mXv/8N4Ti8Y=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		dOf4IdnBQVwS3Vo95IKE5Oj/lKg=
+		c42BWus+dfzRupMQPZAyVFhTmyE=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		83QMOcEN615O2gNs/2WsHHiuF28=
+		EI0BdD6Dp2/DlgowUupZNkgv8DQ=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		6s6hVFHe0Q6Oavlv39dZUfFjRsc=
+		3yFgjeQ5+lEIOi+8OQSiBruBGBw=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		83QMOcEN615O2gNs/2WsHHiuF28=
+		EI0BdD6Dp2/DlgowUupZNkgv8DQ=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		G3HFFRsqhSF5KzxqUN7t2pXl1mA=
+		snUIOtz97xF4WPEzxwk/g+kH1i8=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dOf4IdnBQVwS3Vo95IKE5Oj/lKg=
+		c42BWus+dfzRupMQPZAyVFhTmyE=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		DMkN27kYo7z4FXibj5gyUj/g6QY=
+		Fsc6ILX54+e8sfyknYBu9izlSsI=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		CjqJ+XZ61LmCjwDfJXXVWe2hiHo=
+		W1z8yiHXu+jBjYuW2LgPLoaKQJU=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		DMkN27kYo7z4FXibj5gyUj/g6QY=
+		Fsc6ILX54+e8sfyknYBu9izlSsI=
 		</data>
 		<key>Modules/MistSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NILadjhmsbyBKvaONNe4wNmL+BY=
+		BFkfaRDSahmWIFKQRzIxeM7wR7U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -155,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KA1xGRIJ6LBS9WZDIEa08twjwzHSpNknZLQ212TjdDc=
+			k5Y5P0HR5dzmJ6u7DocNeSa3lCQ+nA23xIujHVWXnhI=
 			</data>
 		</dict>
 		<key>Headers/MistSDK.h</key>
@@ -169,70 +169,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Abue4a3gceDCZLagHcSARDUmA4mQ9jL/IU9/72wafI=
+			971BSrp/TF1grcpLH3Pn8G3ISILx2GKE6QbRalmx18Y=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4DHvWB9CItUkkykV4Z3R8K5h0Bj9rdJEArfc/fCbC4s=
+			AnmPRCOo8a6l/T+2JknoyPtTHOODGdBnk1MbN0uAahs=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I9yD7DmBJP5QAZqgeeeXk/WHzEQxT4qubP/lMMz2t5g=
+			7B0FLh9pUNTyW/X4pQrW7C4DMtXGSLBWqN1EYijw2gM=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4DHvWB9CItUkkykV4Z3R8K5h0Bj9rdJEArfc/fCbC4s=
+			AnmPRCOo8a6l/T+2JknoyPtTHOODGdBnk1MbN0uAahs=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V6p/yFjH+7CoxSGrvRMbwhAhc5q12NJ21mWG45gc7X0=
+			SBTqVlTN75S1JdhwZNCN3Vk3D2iGFXSG9HEAvfZKiN4=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Abue4a3gceDCZLagHcSARDUmA4mQ9jL/IU9/72wafI=
+			971BSrp/TF1grcpLH3Pn8G3ISILx2GKE6QbRalmx18Y=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PrY+KF1IStOUNLOYU4vO5iefSfxxIdsIQ2lVRDBu05o=
+			em2JVz6ttnuYemoQhJMjcmsW2W7fWhd87VWTYBzBWnc=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uxJlVQQiVtEJ3ezXWLLHuj5hcwLfKB//PDvfjdIpbNo=
+			dEh5fXpGvTAwKxUN8IH7LiNKxVqph6/zNkVagbUzyY8=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PrY+KF1IStOUNLOYU4vO5iefSfxxIdsIQ2lVRDBu05o=
+			em2JVz6ttnuYemoQhJMjcmsW2W7fWhd87VWTYBzBWnc=
 			</data>
 		</dict>
 		<key>Modules/MistSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t592lXOjpUbwq5Q6mapyxQboT/AvszGExjyMnrS6vJo=
+			p3Yxy+DPgi4zHaE/W2A52mk0gZnaRpmqS0N/hFMWXeI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -14972,6 +14972,23 @@
       },
       {
         "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "MistSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MistSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -16226,13 +16243,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "MistDR",
-        "printedName": "MistDR",
-        "declKind": "Import",
-        "moduleName": "MistSDK"
       },
       {
         "kind": "Import",
@@ -32209,6 +32219,13 @@
       },
       {
         "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "MistSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -32219,10 +32236,13 @@
       },
       {
         "kind": "Import",
-        "name": "MistDR",
-        "printedName": "MistDR",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "MistSDK"
+        "moduleName": "MistSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -32766,6 +32786,13 @@
             ],
             "usr": "s:16CoreTransferable0B0P",
             "mangledName": "$s16CoreTransferable0B0P"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVAttachmentValueRepresentable",
+            "printedName": "CVAttachmentValueRepresentable",
+            "usr": "s:9CoreVideo30CVAttachmentValueRepresentableP",
+            "mangledName": "$s9CoreVideo30CVAttachmentValueRepresentableP"
           },
           {
             "kind": "Conformance",
@@ -33362,6 +33389,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "CVAttachmentValueRepresentable",
+            "printedName": "CVAttachmentValueRepresentable",
+            "usr": "s:9CoreVideo30CVAttachmentValueRepresentableP",
+            "mangledName": "$s9CoreVideo30CVAttachmentValueRepresentableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ContiguousBytes",
             "printedName": "ContiguousBytes",
             "usr": "s:10Foundation15ContiguousBytesP",
@@ -33867,6 +33901,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "CVAttachmentValueRepresentable",
+            "printedName": "CVAttachmentValueRepresentable",
+            "usr": "s:9CoreVideo30CVAttachmentValueRepresentableP",
+            "mangledName": "$s9CoreVideo30CVAttachmentValueRepresentableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "BitwiseCopyable",
             "printedName": "BitwiseCopyable",
             "usr": "s:s15BitwiseCopyableP",
@@ -33878,6 +33919,13 @@
             "printedName": "CVarArg",
             "usr": "s:s7CVarArgP",
             "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ConvertibleToBytes",
+            "printedName": "ConvertibleToBytes",
+            "usr": "s:s18ConvertibleToBytesP",
+            "mangledName": "$ss18ConvertibleToBytesP"
           },
           {
             "kind": "Conformance",
@@ -34036,6 +34084,13 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CVAttachmentValueRepresentable",
+            "printedName": "CVAttachmentValueRepresentable",
+            "usr": "s:9CoreVideo30CVAttachmentValueRepresentableP",
+            "mangledName": "$s9CoreVideo30CVAttachmentValueRepresentableP"
+          },
           {
             "kind": "Conformance",
             "name": "ReferenceConvertible",
@@ -34307,14 +34362,14 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/EPLocationService.swift",
       "kind": "IntegerLiteral",
-      "offset": 711,
-      "length": 2,
-      "value": "-1"
+      "offset": 760,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/EPLocationService.swift",
       "kind": "BooleanLiteral",
-      "offset": 750,
+      "offset": 798,
       "length": 5,
       "value": "false"
     },
@@ -35133,7 +35188,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/CentralService.swift",
       "kind": "BooleanLiteral",
-      "offset": 10555,
+      "offset": 10633,
       "length": 5,
       "value": "false"
     },
@@ -35777,70 +35832,70 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/EPRestService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1108,
-      "length": 2,
-      "value": "-1"
+      "offset": 1162,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/EPRestService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1196,
+      "offset": 1265,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/EPRestService.swift",
-      "kind": "StringLiteral",
-      "offset": 1257,
-      "length": 39,
-      "value": "\"com.mist.sdk.epRestService.stateQueue\""
+      "kind": "IntegerLiteral",
+      "offset": 1304,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/EPRestService.swift",
       "kind": "StringLiteral",
-      "offset": 1412,
+      "offset": 1399,
       "length": 13,
       "value": "\"site-search\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/EPRestService.swift",
       "kind": "StringLiteral",
-      "offset": 1446,
+      "offset": 1433,
       "length": 6,
       "value": "\"maps\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/EPRestService.swift",
       "kind": "StringLiteral",
-      "offset": 1476,
+      "offset": 1463,
       "length": 9,
       "value": "\"devices\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/EPRestService.swift",
       "kind": "StringLiteral",
-      "offset": 1510,
+      "offset": 1497,
       "length": 10,
       "value": "\"vbeacons\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/EPRestService.swift",
       "kind": "StringLiteral",
-      "offset": 1547,
+      "offset": 1534,
       "length": 6,
       "value": "\"self\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/EPRestService.swift",
       "kind": "StringLiteral",
-      "offset": 1582,
+      "offset": 1569,
       "length": 13,
       "value": "\"update-self\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Services\/EPRestService.swift",
       "kind": "BooleanLiteral",
-      "offset": 10403,
+      "offset": 10759,
       "length": 5,
       "value": "false"
     },
@@ -36452,608 +36507,6 @@
       "offset": 1190,
       "length": 20,
       "value": "\"unauthenticated EP\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 264,
-      "length": 11,
-      "value": "\"simulator\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 332,
-      "length": 8,
-      "value": "\"iPad 2\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 376,
-      "length": 8,
-      "value": "\"iPad 3\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 420,
-      "length": 8,
-      "value": "\"iPad 4\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 464,
-      "length": 11,
-      "value": "\"iPad Air \""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 511,
-      "length": 12,
-      "value": "\"iPad Air 2\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 559,
-      "length": 12,
-      "value": "\"iPad Air 3\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 607,
-      "length": 12,
-      "value": "\"iPad Air 4\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 655,
-      "length": 12,
-      "value": "\"iPad Air 5\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 703,
-      "length": 8,
-      "value": "\"iPad 5\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 759,
-      "length": 8,
-      "value": "\"iPad 6\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 815,
-      "length": 8,
-      "value": "\"iPad 7\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 871,
-      "length": 8,
-      "value": "\"iPad 8\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 927,
-      "length": 8,
-      "value": "\"iPad 9\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 983,
-      "length": 9,
-      "value": "\"iPad 10\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1066,
-      "length": 11,
-      "value": "\"iPad Mini\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1113,
-      "length": 13,
-      "value": "\"iPad Mini 2\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1162,
-      "length": 13,
-      "value": "\"iPad Mini 3\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1211,
-      "length": 13,
-      "value": "\"iPad Mini 4\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1260,
-      "length": 13,
-      "value": "\"iPad Mini 5\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1309,
-      "length": 13,
-      "value": "\"iPad Mini 6\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1383,
-      "length": 16,
-      "value": "\"iPad Pro 9.7\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1435,
-      "length": 17,
-      "value": "\"iPad Pro 10.5\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1488,
-      "length": 15,
-      "value": "\"iPad Pro 11\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1539,
-      "length": 23,
-      "value": "\"iPad Pro 11\" 2nd gen\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1598,
-      "length": 23,
-      "value": "\"iPad Pro 11\" 3rd gen\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1657,
-      "length": 17,
-      "value": "\"iPad Pro 12.9\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1710,
-      "length": 19,
-      "value": "\"iPad Pro 2 12.9\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1765,
-      "length": 19,
-      "value": "\"iPad Pro 3 12.9\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1820,
-      "length": 19,
-      "value": "\"iPad Pro 4 12.9\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1875,
-      "length": 19,
-      "value": "\"iPad Pro 5 12.9\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1953,
-      "length": 10,
-      "value": "\"iPhone 4\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1999,
-      "length": 11,
-      "value": "\"iPhone 4S\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2046,
-      "length": 10,
-      "value": "\"iPhone 5\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2092,
-      "length": 11,
-      "value": "\"iPhone 5S\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2139,
-      "length": 11,
-      "value": "\"iPhone 5C\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2186,
-      "length": 10,
-      "value": "\"iPhone 6\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2232,
-      "length": 15,
-      "value": "\"iPhone 6 Plus\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2283,
-      "length": 11,
-      "value": "\"iPhone 6S\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2330,
-      "length": 16,
-      "value": "\"iPhone 6S Plus\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2382,
-      "length": 11,
-      "value": "\"iPhone SE\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2429,
-      "length": 10,
-      "value": "\"iPhone 7\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2475,
-      "length": 15,
-      "value": "\"iPhone 7 Plus\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2526,
-      "length": 10,
-      "value": "\"iPhone 8\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2572,
-      "length": 15,
-      "value": "\"iPhone 8 Plus\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2623,
-      "length": 10,
-      "value": "\"iPhone X\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2669,
-      "length": 11,
-      "value": "\"iPhone XS\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2716,
-      "length": 15,
-      "value": "\"iPhone XS Max\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2767,
-      "length": 11,
-      "value": "\"iPhone XR\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2814,
-      "length": 11,
-      "value": "\"iPhone 11\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2861,
-      "length": 15,
-      "value": "\"iPhone 11 Pro\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2912,
-      "length": 19,
-      "value": "\"iPhone 11 Pro Max\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 2967,
-      "length": 19,
-      "value": "\"iPhone SE 2nd gen\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3022,
-      "length": 16,
-      "value": "\"iPhone 12 Mini\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3074,
-      "length": 11,
-      "value": "\"iPhone 12\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3121,
-      "length": 15,
-      "value": "\"iPhone 12 Pro\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3172,
-      "length": 19,
-      "value": "\"iPhone 12 Pro Max\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3227,
-      "length": 16,
-      "value": "\"iPhone 13 Mini\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3279,
-      "length": 11,
-      "value": "\"iPhone 13\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3326,
-      "length": 15,
-      "value": "\"iPhone 13 Pro\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3377,
-      "length": 19,
-      "value": "\"iPhone 13 Pro Max\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3432,
-      "length": 19,
-      "value": "\"iPhone SE 3nd gen\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3487,
-      "length": 11,
-      "value": "\"iPhone 14\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3534,
-      "length": 16,
-      "value": "\"iPhone 14 Plus\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3586,
-      "length": 15,
-      "value": "\"iPhone 14 Pro\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3637,
-      "length": 19,
-      "value": "\"iPhone 14 Pro Max\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3692,
-      "length": 11,
-      "value": "\"iPhone 15\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3739,
-      "length": 16,
-      "value": "\"iPhone 15 Plus\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3791,
-      "length": 15,
-      "value": "\"iPhone 15 Pro\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3842,
-      "length": 19,
-      "value": "\"iPhone 15 Pro Max\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3927,
-      "length": 18,
-      "value": "\"Apple Watch 1gen\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3982,
-      "length": 22,
-      "value": "\"Apple Watch Series 1\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 4041,
-      "length": 22,
-      "value": "\"Apple Watch Series 2\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 4100,
-      "length": 22,
-      "value": "\"Apple Watch Series 3\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 4159,
-      "length": 22,
-      "value": "\"Apple Watch Series 4\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 4218,
-      "length": 22,
-      "value": "\"Apple Watch Series 5\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 4277,
-      "length": 29,
-      "value": "\"Apple Watch Special Edition\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 4343,
-      "length": 22,
-      "value": "\"Apple Watch Series 6\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 4402,
-      "length": 22,
-      "value": "\"Apple Watch Series 7\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 4485,
-      "length": 15,
-      "value": "\"Apple TV 1gen\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 4536,
-      "length": 15,
-      "value": "\"Apple TV 2gen\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 4587,
-      "length": 15,
-      "value": "\"Apple TV 3gen\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 4638,
-      "length": 15,
-      "value": "\"Apple TV 4gen\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 4689,
-      "length": 13,
-      "value": "\"Apple TV 4K\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 4738,
-      "length": 18,
-      "value": "\"Apple TV 4K 2gen\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/DeviceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 4793,
-      "length": 16,
-      "value": "\"?unrecognized?\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Utilities\/URLRequestElement.swift",
@@ -37821,7 +37274,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/IndoorLocationManager.swift",
       "kind": "StringLiteral",
-      "offset": 16047,
+      "offset": 17763,
       "length": 2,
       "value": "\"\""
     },
@@ -38500,7 +37953,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Configs\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 2088,
+      "offset": 2087,
       "length": 18,
       "value": "\"https:\/\/test.com\""
     },
@@ -38626,23 +38079,23 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Request\/WSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 589,
+      "offset": 597,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Request\/WSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 606,
+      "offset": 620,
       "length": 1,
-      "value": "0"
+      "value": "2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Request\/WSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 622,
+      "offset": 645,
       "length": 1,
-      "value": "2"
+      "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/EP\/Rest\/Site.swift",
@@ -38773,14 +38226,14 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/WSResponse.swift",
       "kind": "StringLiteral",
-      "offset": 338,
+      "offset": 324,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Models\/WebSocket\/Response\/WSResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 356,
+      "offset": 342,
       "length": 1,
       "value": "0"
     },
@@ -39130,21 +38583,21 @@
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Repositories\/UserDefaultsRepository.swift",
       "kind": "StringLiteral",
-      "offset": 1471,
+      "offset": 1507,
       "length": 18,
       "value": "\"com.mist.MistSDK\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Repositories\/UserDefaultsRepository.swift",
       "kind": "StringLiteral",
-      "offset": 1512,
+      "offset": 1548,
       "length": 18,
       "value": "\"mist.client_uuid\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/MistSDK\/MistSDK\/Repositories\/UserDefaultsRepository.swift",
       "kind": "StringLiteral",
-      "offset": 1558,
+      "offset": 1594,
       "length": 23,
       "value": "\"mist.ks.configuration\""
     }

@@ -18,5 +18,4 @@ FOUNDATION_EXPORT const unsigned char MistDRVersionString[];
 #import <MistDR/DrLib.h>
 #import <MistDR/SRWebSocket.h>
 #import <MistDR/SRSecurityPolicy.h>
-#import <MistDR/WSHelper.h>
 #import <MistDR/Reachability.h>
