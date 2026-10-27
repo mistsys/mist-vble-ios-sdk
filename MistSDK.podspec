@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
     s.source                = { :git => "https://github.com/mistsys/mist-vble-ios-sdk.git", :tag => '4.3.0' }
     s.vendored_frameworks   = "Sources/*.xcframework"
     s.swift_version         = '5.7'
-    s.ios.deployment_target = '14.0'
+    s.ios.deployment_target = '15.6'
     s.requires_arc          = true
 end
